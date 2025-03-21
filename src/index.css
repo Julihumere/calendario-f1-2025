@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@fontsource/bebas-neue";
+
+@theme {
+  --color-primary: #fe0000;
+  --color-secondary: #e3291f;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+}

@@ -1,0 +1,933 @@
+[
+  {
+    "id": 1,
+    "name": "Gran Premio de Australia",
+    "image": "/tracks/Australia.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-03-14",
+        "time": "00:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-03-14",
+        "time": "04:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-03-15",
+        "time": "01:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-03-15",
+        "time": "05:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-03-16",
+        "time": "01:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 2,
+    "initDay": "2025-03-21",
+    "weekend": ["2025-03-21", "2025-03-22", "2025-03-23"],
+    "hashtag": "#ChineseGP",
+    "name": "Gran Premio de China",
+    "image": "/tracks/China.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-03-21",
+        "time": "00:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2025-03-21",
+        "time": "04:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2025-03-22",
+        "time": "00:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2025-03-22",
+        "time": "04:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-03-23",
+        "time": "04:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 3,
+    "initDay": "2025-04-04",
+    "name": "Gran Premio de Japón",
+    "weekend": ["2025-04-04", "2025-04-05", "2025-04-06"],
+    "hashtag": "#JapaneseGP",
+    "image": "/tracks/Japan.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-04-04",
+        "time": "00:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-04-04",
+        "time": "04:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-04-05",
+        "time": "01:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-04-05",
+        "time": "05:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-04-06",
+        "time": "02:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 4,
+    "name": "Gran Premio de Baréin",
+    "weekend": ["2025-04-11", "2025-04-12", "2025-04-13"],
+    "hashtag": "#BahrainGP",
+    "image": "/tracks/Bahrein.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-04-11",
+        "time": "08:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-04-11",
+        "time": "12:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-04-12",
+        "time": "09:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-04-12",
+        "time": "13:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-04-13",
+        "time": "12:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 5,
+    "name": "Gran Premio de Arabia Saudita",
+    "weekend": ["2025-04-18", "2025-04-19", "2025-04-20"],
+    "hashtag": "#SaudiArabiaGP",
+    "image": "/tracks/SaudiArabia.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-04-18",
+        "time": "10:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-04-18",
+        "time": "14:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-04-19",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-04-19",
+        "time": "15:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-04-20",
+        "time": "14:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 6,
+    "name": "Gran Premio de Miami",
+    "image": "/tracks/Miami.webp",
+    "weekend": ["2025-05-02", "2025-05-03", "2025-05-04"],
+    "hashtag": "#MiamiGP",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-05-02",
+        "time": "13:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2025-05-02",
+        "time": "17:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2025-05-03",
+        "time": "13:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2025-05-03",
+        "time": "17:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-05-04",
+        "time": "17:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 7,
+    "name": "Gran Premio de Emilia-Romaña",
+    "weekend": ["2025-05-16", "2025-05-17", "2025-05-18"],
+    "hashtag": "#EmiliaRomagnaGP",
+    "image": "/tracks/EmiliaRomagna.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-05-16",
+        "time": "06:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-05-16",
+        "time": "10:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-05-17",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-05-17",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-05-18",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 8,
+    "name": "Gran Premio de Mónaco",
+    "weekend": ["2025-05-23", "2025-05-24", "2025-05-25"],
+    "hashtag": "#MonacoGP",
+    "image": "/tracks/Monaco.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-05-23",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-05-23",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-05-24",
+        "time": "08:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-05-24",
+        "time": "12:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-05-25",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 9,
+    "name": "Gran Premio de España",
+    "weekend": ["2025-05-30", "2025-05-31", "2025-06-01"],
+    "hashtag": "#SpanishGP",
+    "image": "/tracks/Spain.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-05-30",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-05-30",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-05-31",
+        "time": "08:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-05-31",
+        "time": "12:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-06-01",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 10,
+    "name": "Gran Premio de Canadá",
+    "weekend": ["2025-06-13", "2025-06-14", "2025-06-15"],
+    "hashtag": "#CanadianGP",
+    "image": "/tracks/Canada.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-06-13",
+        "time": "12:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-06-13",
+        "time": "16:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-06-14",
+        "time": "12:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-06-14",
+        "time": "16:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-06-15",
+        "time": "15:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 11,
+    "name": "Gran Premio de Austria",
+    "weekend": ["2025-06-27", "2025-06-28", "2025-06-29"],
+    "hashtag": "#AustrianGP",
+    "image": "/tracks/Austria.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-06-27",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2025-06-27",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2025-06-28",
+        "time": "07:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2025-06-28",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-06-29",
+        "time": "10:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 12,
+    "name": "Gran Premio de Gran Bretaña",
+    "weekend": ["2025-07-04", "2025-07-05", "2025-07-06"],
+    "hashtag": "#BritishGP",
+    "image": "/tracks/GreatBritain.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-07-04",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-07-04",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-07-05",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-07-05",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-07-06",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 13,
+    "name": "Gran Premio de Bélgica",
+    "weekend": ["2025-07-25", "2025-07-26", "2025-07-27"],
+    "hashtag": "#BelgianGP",
+    "image": "/tracks/Belgium.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-07-25",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-07-25",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-07-26",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-07-26",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-07-27",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 14,
+    "name": "Gran Premio de Hungría",
+    "weekend": ["2025-08-01", "2025-08-02", "2025-08-03"],
+    "hashtag": "#HungarianGP",
+    "image": "/tracks/Hungary.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-08-01",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-08-01",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-08-02",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-08-02",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-08-03",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 15,
+    "name": "Gran Premio de los Países Bajos",
+    "weekend": ["2025-08-29", "2025-08-30", "2025-08-31"],
+    "hashtag": "#DutchGP",
+    "image": "/tracks/Netherlands.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-08-29",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-08-29",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-08-30",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-08-30",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-08-31",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 16,
+    "name": "Gran Premio de Italia",
+    "weekend": ["2025-09-05", "2025-09-06", "2025-09-07"],
+    "hashtag": "#ItalianGP",
+    "image": "/tracks/Italy.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-09-05",
+        "time": "07:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-09-05",
+        "time": "11:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-09-06",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-09-06",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-09-07",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 17,
+    "name": "Gran Premio de Azerbaiyán",
+    "weekend": ["2025-09-19", "2025-09-20", "2025-09-21"],
+    "hashtag": "#AzerbaijanGP",
+    "image": "/tracks/Azerbaijan.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-09-19",
+        "time": "05:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-09-19",
+        "time": "09:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-09-20",
+        "time": "06:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-09-20",
+        "time": "10:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-09-21",
+        "time": "09:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 18,
+    "name": "Gran Premio de Singapur",
+    "weekend": ["2025-10-03", "2025-10-04", "2025-10-05"],
+    "hashtag": "#SingaporeGP",
+    "image": "/tracks/Singapore.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-10-03",
+        "time": "05:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-10-03",
+        "time": "09:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-10-04",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-10-04",
+        "time": "10:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-10-05",
+        "time": "09:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 19,
+    "name": "Gran Premio de Estados Unidos",
+    "weekend": ["2025-10-17", "2025-10-18", "2025-10-19"],
+    "hashtag": "#USAGP",
+    "image": "/tracks/USA.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-10-17",
+        "time": "14:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-10-17",
+        "time": "18:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 2",
+        "date": "2025-10-18",
+        "time": "14:30"
+      },
+      {
+        "name": "Carrera Sprint",
+        "date": "2025-10-18",
+        "time": "18:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-10-19",
+        "time": "16:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 20,
+    "name": "Gran Premio de la Ciudad de México",
+    "weekend": ["2025-10-24", "2025-10-25", "2025-10-26"],
+    "hashtag": "#MexicoGP",
+    "image": "/tracks/Mexico.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-10-24",
+        "time": "14:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-10-24",
+        "time": "18:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-10-25",
+        "time": "14:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-10-25",
+        "time": "18:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-10-26",
+        "time": "16:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 21,
+    "name": "Gran Premio de São Paulo",
+    "weekend": ["2025-11-07", "2025-11-08", "2025-11-09"],
+    "hashtag": "#BrazilGP",
+    "image": "/tracks/Brazil.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-11-07",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-11-07",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 2",
+        "date": "2025-11-08",
+        "time": "11:30"
+      },
+      {
+        "name": "Carrera Sprint",
+        "date": "2025-11-08",
+        "time": "15:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-11-09",
+        "time": "14:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 22,
+    "name": "Gran Premio de Las Vegas",
+    "weekend": ["2025-11-20", "2025-11-21", "2025-11-22"],
+    "hashtag": "#LasVegasGP",
+    "image": "/tracks/LasVegas.webp",
+    "thursday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-11-20",
+        "time": "23:30"
+      }
+    ],
+    "friday": [
+      {
+        "name": "Práctica 2",
+        "date": "2025-11-21",
+        "time": "03:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-11-21",
+        "time": "07:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-11-22",
+        "time": "06:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 23,
+    "name": "Gran Premio de Catar",
+    "weekend": ["2025-11-28", "2025-11-29", "2025-11-30"],
+    "hashtag": "#QatarGP",
+    "image": "/tracks/Qatar.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-11-28",
+        "time": "09:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-11-28",
+        "time": "13:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 2",
+        "date": "2025-11-29",
+        "time": "09:30"
+      },
+      {
+        "name": "Carrera Sprint",
+        "date": "2025-11-29",
+        "time": "13:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-11-30",
+        "time": "12:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 24,
+    "name": "Gran Premio de Abu Dabi",
+    "weekend": ["2025-12-05", "2025-12-06", "2025-12-07"],
+    "hashtag": "#AbuDhabiGP",
+    "image": "/tracks/AbuDhabi.webp",
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2025-12-05",
+        "time": "06:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2025-12-05",
+        "time": "10:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2025-12-06",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2025-12-06",
+        "time": "10:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-12-07",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  }
+]
