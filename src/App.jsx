@@ -1,6 +1,6 @@
 import "./App.css";
 import data from "./json/data.json";
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaLink } from "react-icons/fa";
 
 function App() {
   const today = new Date();
@@ -115,7 +115,7 @@ function App() {
             <h1 className="text-2xl">Creado por Julio Humere</h1>
             <div className="flex">
               <FaLinkedin
-                className="text-4xl mx-2 cursor-pointer"
+                className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300"
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/in/juli-humere/",
@@ -125,10 +125,21 @@ function App() {
                 }
               />
               <FaGithub
-                className="text-4xl mx-2 cursor-pointer"
+                className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300"
                 onClick={() =>
                   window.open(
                     "https://github.com/Julihumere",
+                    "_blank",
+                    "noopener noreferrer"
+                  )
+                }
+              />
+
+              <FaLink
+                className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300"
+                onClick={() =>
+                  window.open(
+                    "https://portfolio-julio-humere.vercel.app/",
                     "_blank",
                     "noopener noreferrer"
                   )
