@@ -2,6 +2,10 @@
   {
     "id": 1,
     "name": "Gran Premio de Australia",
+    "weekend": ["2025-03-14", "2025-03-15", "2025-03-16"],
+    "hashtag": "#AustralianGP",
+    "initDay": "2025-03-14",
+    "track2D": "/tracks-2d/Australia.avif",
     "image": "/tracks/Australia.webp",
     "friday": [
       {
@@ -38,10 +42,11 @@
   },
   {
     "id": 2,
-    "initDay": "2025-03-21",
+    "name": "Gran Premio de China",
     "weekend": ["2025-03-21", "2025-03-22", "2025-03-23"],
     "hashtag": "#ChineseGP",
-    "name": "Gran Premio de China",
+    "initDay": "2025-03-21",
+    "track2D": "/tracks-2d/China.png",
     "image": "/tracks/China.webp",
     "friday": [
       {
@@ -78,10 +83,11 @@
   },
   {
     "id": 3,
-    "initDay": "2025-04-04",
     "name": "Gran Premio de Japón",
     "weekend": ["2025-04-04", "2025-04-05", "2025-04-06"],
     "hashtag": "#JapaneseGP",
+    "initDay": "2025-04-04",
+    "track2D": "/tracks-2d/Japan.avif",
     "image": "/tracks/Japan.webp",
     "friday": [
       {
@@ -121,6 +127,8 @@
     "name": "Gran Premio de Baréin",
     "weekend": ["2025-04-11", "2025-04-12", "2025-04-13"],
     "hashtag": "#BahrainGP",
+    "initDay": "2025-04-11",
+    "track2D": "/tracks-2d/Bahrain.avif",
     "image": "/tracks/Bahrein.webp",
     "friday": [
       {
@@ -160,6 +168,8 @@
     "name": "Gran Premio de Arabia Saudita",
     "weekend": ["2025-04-18", "2025-04-19", "2025-04-20"],
     "hashtag": "#SaudiArabiaGP",
+    "initDay": "2025-04-18",
+    "track2D": "/tracks-2d/SaudiArabia.avif",
     "image": "/tracks/SaudiArabia.webp",
     "friday": [
       {
@@ -200,6 +210,8 @@
     "image": "/tracks/Miami.webp",
     "weekend": ["2025-05-02", "2025-05-03", "2025-05-04"],
     "hashtag": "#MiamiGP",
+    "initDay": "2025-05-02",
+    "track2D": "/tracks-2d/Miami.avif",
     "friday": [
       {
         "name": "Práctica 1",
@@ -238,6 +250,8 @@
     "name": "Gran Premio de Emilia-Romaña",
     "weekend": ["2025-05-16", "2025-05-17", "2025-05-18"],
     "hashtag": "#EmiliaRomagnaGP",
+    "initDay": "2025-05-16",
+    "track2D": "/tracks-2d/Imola.avif",
     "image": "/tracks/EmiliaRomagna.webp",
     "friday": [
       {
@@ -277,6 +291,8 @@
     "name": "Gran Premio de Mónaco",
     "weekend": ["2025-05-23", "2025-05-24", "2025-05-25"],
     "hashtag": "#MonacoGP",
+    "initDay": "2025-05-23",
+    "track2D": "/tracks-2d/Monaco.avif",
     "image": "/tracks/Monaco.webp",
     "friday": [
       {
@@ -316,6 +332,8 @@
     "name": "Gran Premio de España",
     "weekend": ["2025-05-30", "2025-05-31", "2025-06-01"],
     "hashtag": "#SpanishGP",
+    "initDay": "2025-05-30",
+    "track2D": "/tracks-2d/Espana.avif",
     "image": "/tracks/Spain.webp",
     "friday": [
       {
@@ -355,6 +373,8 @@
     "name": "Gran Premio de Canadá",
     "weekend": ["2025-06-13", "2025-06-14", "2025-06-15"],
     "hashtag": "#CanadianGP",
+    "initDay": "2025-06-13",
+    "track2D": "/tracks-2d/Canada.avif",
     "image": "/tracks/Canada.webp",
     "friday": [
       {
@@ -394,6 +414,8 @@
     "name": "Gran Premio de Austria",
     "weekend": ["2025-06-27", "2025-06-28", "2025-06-29"],
     "hashtag": "#AustrianGP",
+    "initDay": "2025-06-27",
+    "track2D": "/tracks-2d/Austria.avif",
     "image": "/tracks/Austria.webp",
     "friday": [
       {
@@ -433,6 +455,8 @@
     "name": "Gran Premio de Gran Bretaña",
     "weekend": ["2025-07-04", "2025-07-05", "2025-07-06"],
     "hashtag": "#BritishGP",
+    "initDay": "2025-07-04",
+    "track2D": "/tracks-2d/Silverstone.avif",
     "image": "/tracks/GreatBritain.webp",
     "friday": [
       {
@@ -472,6 +496,8 @@
     "name": "Gran Premio de Bélgica",
     "weekend": ["2025-07-25", "2025-07-26", "2025-07-27"],
     "hashtag": "#BelgianGP",
+    "initDay": "2025-07-25",
+    "track2D": "/tracks-2d/Belgica.png",
     "image": "/tracks/Belgium.webp",
     "friday": [
       {
@@ -511,6 +537,8 @@
     "name": "Gran Premio de Hungría",
     "weekend": ["2025-08-01", "2025-08-02", "2025-08-03"],
     "hashtag": "#HungarianGP",
+    "initDay": "2025-08-01",
+    "track2D": "/tracks-2d/Hungria.avif",
     "image": "/tracks/Hungary.webp",
     "friday": [
       {
@@ -550,6 +578,8 @@
     "name": "Gran Premio de los Países Bajos",
     "weekend": ["2025-08-29", "2025-08-30", "2025-08-31"],
     "hashtag": "#DutchGP",
+    "initDay": "2025-08-29",
+    "track2D": "/tracks-2d/Holanda.avif",
     "image": "/tracks/Netherlands.webp",
     "friday": [
       {
@@ -589,6 +619,8 @@
     "name": "Gran Premio de Italia",
     "weekend": ["2025-09-05", "2025-09-06", "2025-09-07"],
     "hashtag": "#ItalianGP",
+    "initDay": "2025-09-05",
+    "track2D": "/tracks-2d/Monza.avif",
     "image": "/tracks/Italy.webp",
     "friday": [
       {
@@ -628,6 +660,8 @@
     "name": "Gran Premio de Azerbaiyán",
     "weekend": ["2025-09-19", "2025-09-20", "2025-09-21"],
     "hashtag": "#AzerbaijanGP",
+    "initDay": "2025-09-19",
+    "track2D": "/tracks-2d/Baku.avif",
     "image": "/tracks/Azerbaijan.webp",
     "friday": [
       {
@@ -667,6 +701,8 @@
     "name": "Gran Premio de Singapur",
     "weekend": ["2025-10-03", "2025-10-04", "2025-10-05"],
     "hashtag": "#SingaporeGP",
+    "initDay": "2025-10-03",
+    "track2D": "/tracks-2d/Singapur.avif",
     "image": "/tracks/Singapore.webp",
     "friday": [
       {
@@ -706,6 +742,8 @@
     "name": "Gran Premio de Estados Unidos",
     "weekend": ["2025-10-17", "2025-10-18", "2025-10-19"],
     "hashtag": "#USAGP",
+    "initDay": "2025-10-17",
+    "track2D": "/tracks-2d/EEUU.avif",
     "image": "/tracks/USA.webp",
     "friday": [
       {
@@ -745,6 +783,8 @@
     "name": "Gran Premio de la Ciudad de México",
     "weekend": ["2025-10-24", "2025-10-25", "2025-10-26"],
     "hashtag": "#MexicoGP",
+    "initDay": "2025-10-24",
+    "track2D": "/tracks-2d/Mexico.avif",
     "image": "/tracks/Mexico.webp",
     "friday": [
       {
@@ -784,6 +824,8 @@
     "name": "Gran Premio de São Paulo",
     "weekend": ["2025-11-07", "2025-11-08", "2025-11-09"],
     "hashtag": "#BrazilGP",
+    "initDay": "2025-11-07",
+    "track2D": "/tracks-2d/Brasil.avif",
     "image": "/tracks/Brazil.webp",
     "friday": [
       {
@@ -823,6 +865,8 @@
     "name": "Gran Premio de Las Vegas",
     "weekend": ["2025-11-20", "2025-11-21", "2025-11-22"],
     "hashtag": "#LasVegasGP",
+    "initDay": "2025-11-20",
+    "track2D": "/tracks-2d/LasVegas.avif",
     "image": "/tracks/LasVegas.webp",
     "thursday": [
       {
@@ -857,6 +901,8 @@
     "name": "Gran Premio de Catar",
     "weekend": ["2025-11-28", "2025-11-29", "2025-11-30"],
     "hashtag": "#QatarGP",
+    "initDay": "2025-11-28",
+    "track2D": "/tracks-2d/Qatar.avif",
     "image": "/tracks/Qatar.webp",
     "friday": [
       {
@@ -896,6 +942,8 @@
     "name": "Gran Premio de Abu Dabi",
     "weekend": ["2025-12-05", "2025-12-06", "2025-12-07"],
     "hashtag": "#AbuDhabiGP",
+    "initDay": "2025-12-05",
+    "track2D": "/tracks-2d/AbuDhabi.avif",
     "image": "/tracks/AbuDhabi.webp",
     "friday": [
       {
