@@ -13,6 +13,7 @@
     "@fontsource/bebas-neue": "^5.2.5",
     "@tailwindcss/vite": "^4.0.15",
     "chromium-bidi": "^3.0.0",
+    "html2canvas": "^1.4.1",
     "playwright": "^1.51.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

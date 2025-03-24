@@ -13,10 +13,14 @@ import { FaShareAlt } from "react-icons/fa";
 import { clipboard } from "./utils/copyToClipboard";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 import { gpMapping } from "./constants";
+import Spinner from "./components/Spinner";
 
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
   const [active, setActive] = useState(0);
+  const [mounted, setMounted] = useState(false);
+  const [close, setClose] = useState(true);
+  const [showIcon, setShowIcon] = useState(true);
 
   useEffect(() => {
     const queryString = new URLSearchParams(window.location.search);
@@ -32,10 +36,24 @@ function App() {
   }, []);
 
   const changeWeekend = (id) => {
-    const weekend = data.find((weekend) => weekend.id === id);
+    setTimeout(() => {
+      const weekend = data.find((weekend) => weekend.id === id);
+      setThisWeekend(weekend);
+      setActive(id);
+    }, 2000);
+    setClose(true);
+    setMounted(false);
+    scrollToTop();
 
-    setThisWeekend(weekend);
-    setActive(id);
+    setTimeout(() => {
+      setShowIcon(true);
+    }, 1000);
+
+    setTimeout(() => {
+      setClose(false);
+      setMounted(true);
+      setShowIcon(false);
+    }, 2000);
   };
 
   const updateQueryString = (name) => {
@@ -70,66 +88,97 @@ function App() {
     });
   };
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulamos un retraso de carga (por ejemplo, 3 segundos)
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <main
-      className="flex flex-col justify-between w-full h-full bg-center bg-cover bg-no-repeat backdrop-blur-10 z-0"
-      style={{ backgroundImage: `url(${thisWeekend?.image})` }}
+    <Spinner
+      close={close}
+      mounted={mounted}
+      showIcon={showIcon}
+      setClose={setClose}
+      setMounted={setMounted}
+      setShowIcon={setShowIcon}
     >
-      <div className="absolute top-0 left-0 right-0 -bottom-60 backdrop-blur-xs"></div>
-      <div className="w-full flex items-center justify-end px-12 py-5 z-10">
-        <button
-          onClick={() => {
-            clipboard(window.location.href);
-            toastClipboard();
-            // navigator.share({
-            //   title: "F1 Weekends",
-            //   text: "Descubre los fines de semana de la F1",
-            //   url: window.location.href,
-            // });
-          }}
-          className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer"
-        >
-          <FaShareAlt size={24} color="white" />{" "}
-          <span className=" text-white text-lg text-center m-0">Compartir</span>
-        </button>
-      </div>
-      <div className="flex items-center justify-around h-[720px] w-full mt-10">
-        <div className="h-full w-[45%]">
-          <MasterCard thisWeekend={thisWeekend} />
-        </div>
-        <div className="h-full w-[45%]">
-          {thisWeekend && (
-            <CardInfo
-              info={thisWeekend?.infoTrack}
-              track2D={thisWeekend?.track2D}
-            />
-          )}
-        </div>
-      </div>
-      <Carousel
-        className="my-10"
-        itemsToShow={5}
-        enableAutoPlay={true}
-        pagination={false}
-        showArrows={false}
-        autoPlaySpeed={5000}
+      <main
+        className=" flex flex-col justify-between w-full h-auto bg-center bg-cover bg-no-repeat backdrop-blur-10 z-10"
+        style={{
+          backgroundImage: `url(${thisWeekend?.image})`,
+          display: loading ? "none" : "block",
+        }}
       >
-        {data.map((item) => (
-          <Cards
-            id={item.id}
-            name={item.name}
-            img={item.track2D}
-            weekend={item.weekend}
-            active={active}
-            changeWeekend={changeWeekend}
-            updateQueryString={updateQueryString}
-            country={item.infoTrack.location.split(", ")[1]}
-          />
-        ))}
-      </Carousel>
-      <Footer />
-      <ToastContainer />
-    </main>
+        <div className="absolute top-0 left-0 right-0 -bottom-75 backdrop-blur-xs pointer-events-none"></div>
+        <div className="w-full flex items-center justify-end px-12 py-5 relative z-10">
+          <button
+            onClick={() => {
+              clipboard(window.location.href);
+              toastClipboard();
+              // navigator.share({
+              //   title: "F1 Weekends",
+              //   text: "Descubre los fines de semana de la F1",
+              //   url: window.location.href,
+              // });
+            }}
+            className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer"
+          >
+            <FaShareAlt size={24} color="white" />{" "}
+            <span className=" text-white text-lg text-center m-0">
+              Compartir
+            </span>
+          </button>
+        </div>
+        <div className="flex items-center justify-around h-[720px] w-full mt-10">
+          <div className="h-full w-[45%]">
+            <MasterCard thisWeekend={thisWeekend} />
+          </div>
+          <div className="h-full w-[45%]">
+            {thisWeekend && (
+              <CardInfo
+                info={thisWeekend?.infoTrack}
+                track2D={thisWeekend?.track2D}
+              />
+            )}
+          </div>
+        </div>
+
+        <Carousel
+          className="my-10"
+          itemsToShow={5}
+          enableAutoPlay={true}
+          pagination={false}
+          showArrows={false}
+          autoPlaySpeed={5000}
+        >
+          {data.map((item) => (
+            <Cards
+              id={item.id}
+              name={item.name}
+              img={item.track2D}
+              weekend={item.weekend}
+              active={active}
+              changeWeekend={changeWeekend}
+              updateQueryString={updateQueryString}
+              country={item.infoTrack.location.split(", ")[1]}
+            />
+          ))}
+        </Carousel>
+        <Footer />
+        <ToastContainer />
+      </main>
+    </Spinner>
   );
 }
 
