@@ -8,6 +8,8 @@ export default function Cards({
   active,
   id,
   changeWeekend,
+  updateQueryString,
+  country,
 }) {
   return (
     <div className="w-full mx-8 h-80 relative flex flex-col items-center justify-between rounded-2xl max-[500px]:w-[90%]">
@@ -31,7 +33,10 @@ export default function Cards({
           {formaterDate(weekend)}
         </p>
         <button
-          onClick={() => changeWeekend(id)}
+          onClick={() => {
+            updateQueryString(country, id);
+            changeWeekend(id);
+          }}
           style={{ backgroundColor: active !== id ? "#101828" : "#FF0000" }}
           className="px-2 bg-[#101828] border-white border-2 text-lg text-white rounded-md cursor-pointer"
         >

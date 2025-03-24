@@ -1,9 +1,16 @@
 import data from "../json/data.json";
 
-export const getCurrentWeekend = () => {
-  const today = new Date().toISOString().split("T")[0]; // Obtiene la fecha actual en formato YYYY-MM-DD
+export const getCurrentWeekend = (id) => {
+  console.log("id", id);
 
-  const nextDate = data.find((item) => item.initDay > today);
+  if (id) {
+    const circuit = data.find((item) => item.id === Number(id));
+    return circuit;
+  } else {
+    const today = new Date().toISOString().split("T")[0]; // Obtiene la fecha actual en formato YYYY-MM-DD
 
-  return nextDate;
+    const nextDate = data.find((item) => item.initDay > today);
+
+    return nextDate;
+  }
 };

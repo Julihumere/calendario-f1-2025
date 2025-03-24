@@ -2,14 +2,7 @@ import React from "react";
 
 export default function MasterCard({ thisWeekend }) {
   let thursday = thisWeekend?.thursday ? thisWeekend?.thursday : [];
-  let friday = thisWeekend?.friday ? thisWeekend?.friday : [];
-  let saturday = thisWeekend?.saturday ? thisWeekend?.saturday : [];
   let sunday = thisWeekend?.sunday ? thisWeekend?.sunday : [];
-
-  console.log(thursday.length);
-  console.log(friday);
-  console.log(saturday);
-  console.log(sunday);
 
   return (
     <main>

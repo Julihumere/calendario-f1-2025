@@ -1,12 +1,41 @@
-# React + Vite
+# F1 2025 - Calendario y Horarios de Transmisión
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a la aplicación **F1 2025 - Calendario y Horarios**, donde podrás consultar el calendario de la temporada 2025 de la Fórmula 1 con los horarios de transmisión adaptados a Argentina. Además, podrás encontrar información detallada sobre cada circuito y, próximamente, los resultados actualizados del campeonato de pilotos y constructores.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📅 **Calendario completo de la temporada 2025**.
+- ⏰ **Horarios de transmisión para Argentina**.
+- 🏎️ **Detalles de cada circuito** (longitud, curvas, velocidad promedio, etc.).
+- 🏆 **Resultados del campeonato de pilotos y constructores** (próximamente).
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Si deseas ejecutar la aplicación en tu entorno local, sigue estos pasos:
+
+```sh
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/f1-2025-calendario.git
+
+# Entrar al directorio del proyecto
+cd f1-2025-calendario
+
+# Instalar dependencias
+npm install
+
+# Iniciar la aplicación
+npm start
+```
+
+## Uso
+
+1. Abre la aplicación y navega por el calendario de la F1 2025.
+2. Consulta los horarios de transmisión en Argentina para cada Gran Premio.
+3. Revisa la información detallada de cada circuito.
+4. Próximamente: Sigue la evolución del campeonato con los resultados actualizados.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes consultar más detalles en el archivo [LICENSE](LICENSE).
+
+Desarrollado con ❤️ por Julio Humere 🚀
