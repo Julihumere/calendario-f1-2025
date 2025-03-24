@@ -7,6 +7,15 @@
     "initDay": "2025-03-14",
     "track2D": "/tracks-2d/Australia.avif",
     "image": "/tracks/Australia.webp",
+    "infoTrack": {
+      "name": "Albert Park Circuit",
+      "location": "Melbourne, Australia",
+      "length": "5.303 km",
+      "laps": "58",
+      "distance": "307.574 km",
+      "curves": "16",
+      "lapRecord": "1:24.125 - Michael Schumacher (2004)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -48,6 +57,15 @@
     "initDay": "2025-03-21",
     "track2D": "/tracks-2d/China.png",
     "image": "/tracks/China.webp",
+    "infoTrack": {
+      "name": "Shanghai International Circuit",
+      "location": "Shanghai, China",
+      "length": "5.451 km",
+      "laps": "56",
+      "distance": "305.066 km",
+      "curves": "16",
+      "lapRecord": "1:32.238 - Michael Schumacher (2004)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -89,6 +107,15 @@
     "initDay": "2025-04-04",
     "track2D": "/tracks-2d/Japan.avif",
     "image": "/tracks/Japan.webp",
+    "infoTrack": {
+      "name": "Suzuka International Racing Course",
+      "location": "Suzuka, Japón",
+      "length": "5.807 km",
+      "laps": "53",
+      "distance": "307.471 km",
+      "curves": "18",
+      "lapRecord": "1:31.540 - Kimi Räikkönen (2005)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -130,6 +157,15 @@
     "initDay": "2025-04-11",
     "track2D": "/tracks-2d/Bahrain.avif",
     "image": "/tracks/Bahrein.webp",
+    "infoTrack": {
+      "name": "Bahrain International Circuit",
+      "location": "Sakhir, Baréin",
+      "length": "5.412 km",
+      "laps": "57",
+      "distance": "308.238 km",
+      "curves": "15",
+      "lapRecord": "1:27.866 - Michael Schumacher (2004)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -171,6 +207,15 @@
     "initDay": "2025-04-18",
     "track2D": "/tracks-2d/SaudiArabia.avif",
     "image": "/tracks/SaudiArabia.webp",
+    "infoTrack": {
+      "name": "Jeddah Street Circuit",
+      "location": "Jeddah, Arabia Saudita",
+      "length": "6.175 km",
+      "laps": "50",
+      "distance": "308.750 km",
+      "curves": "27",
+      "lapRecord": "1:27.511 - Lewis Hamilton (2021)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -212,6 +257,15 @@
     "hashtag": "#MiamiGP",
     "initDay": "2025-05-02",
     "track2D": "/tracks-2d/Miami.avif",
+    "infoTrack": {
+      "name": "Miami International Autodrome",
+      "location": "Miami, Estados Unidos",
+      "length": "5.41 km",
+      "laps": "58",
+      "distance": "313.58 km",
+      "curves": "19",
+      "lapRecord": "1:36.586 - Lewis Hamilton (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -252,7 +306,16 @@
     "hashtag": "#EmiliaRomagnaGP",
     "initDay": "2025-05-16",
     "track2D": "/tracks-2d/Imola.avif",
-    "image": "/tracks/EmiliaRomagna.webp",
+    "image": "/tracks/Imola.webp",
+    "infoTrack": {
+      "name": "Autodromo Enzo e Dino Ferrari",
+      "location": "Imola, Italia",
+      "length": "4.909 km",
+      "laps": "63",
+      "distance": "309.049 km",
+      "curves": "19",
+      "lapRecord": "1:15.484 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -294,6 +357,15 @@
     "initDay": "2025-05-23",
     "track2D": "/tracks-2d/Monaco.avif",
     "image": "/tracks/Monaco.webp",
+    "infoTrack": {
+      "name": "Circuit de Monaco",
+      "location": "Montecarlo, Mónaco",
+      "length": "3.337 km",
+      "laps": "78",
+      "distance": "260.286 km",
+      "curves": "19",
+      "lapRecord": "1:14.260 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -334,7 +406,16 @@
     "hashtag": "#SpanishGP",
     "initDay": "2025-05-30",
     "track2D": "/tracks-2d/Espana.avif",
-    "image": "/tracks/Spain.webp",
+    "image": "/tracks/Espana.webp",
+    "infoTrack": {
+      "name": "Circuit de Barcelona-Catalunya",
+      "location": "Montmeló, España",
+      "length": "4.675 km",
+      "laps": "66",
+      "distance": "308.424 km",
+      "curves": "16",
+      "lapRecord": "1:18.149 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -376,6 +457,15 @@
     "initDay": "2025-06-13",
     "track2D": "/tracks-2d/Canada.avif",
     "image": "/tracks/Canada.webp",
+    "infoTrack": {
+      "name": "Circuit Gilles Villeneuve",
+      "location": "Montreal, Canadá",
+      "length": "4.361 km",
+      "laps": "70",
+      "distance": "305.270 km",
+      "curves": "14",
+      "lapRecord": "1:13.078 - Rubens Barrichello (2004)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -417,6 +507,15 @@
     "initDay": "2025-06-27",
     "track2D": "/tracks-2d/Austria.avif",
     "image": "/tracks/Austria.webp",
+    "infoTrack": {
+      "name": "Red Bull Ring",
+      "location": "Spielberg, Austria",
+      "length": "4.318 km",
+      "laps": "71",
+      "distance": "306.452 km",
+      "curves": "10",
+      "lapRecord": "1:06.957 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -457,7 +556,16 @@
     "hashtag": "#BritishGP",
     "initDay": "2025-07-04",
     "track2D": "/tracks-2d/Silverstone.avif",
-    "image": "/tracks/GreatBritain.webp",
+    "image": "/tracks/Silverstone.webp",
+    "infoTrack": {
+      "name": "Silverstone Circuit",
+      "location": "Silverstone, Reino Unido",
+      "length": "5.891 km",
+      "laps": "52",
+      "distance": "306.198 km",
+      "curves": "18",
+      "lapRecord": "1:27.097 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -499,6 +607,15 @@
     "initDay": "2025-07-25",
     "track2D": "/tracks-2d/Belgica.png",
     "image": "/tracks/Belgium.webp",
+    "infoTrack": {
+      "name": "Circuit de Spa-Francorchamps",
+      "location": "Stavelot, Bélgica",
+      "length": "7.004 km",
+      "laps": "44",
+      "distance": "308.052 km",
+      "curves": "19",
+      "lapRecord": "1:46.286 - Valtteri Bottas (2018)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -540,6 +657,15 @@
     "initDay": "2025-08-01",
     "track2D": "/tracks-2d/Hungria.avif",
     "image": "/tracks/Hungary.webp",
+    "infoTrack": {
+      "name": "Hungaroring",
+      "location": "Mogyoród, Hungría",
+      "length": "4.381 km",
+      "laps": "70",
+      "distance": "306.630 km",
+      "curves": "14",
+      "lapRecord": "1:16.627 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -581,6 +707,15 @@
     "initDay": "2025-08-29",
     "track2D": "/tracks-2d/Holanda.avif",
     "image": "/tracks/Netherlands.webp",
+    "infoTrack": {
+      "name": "Circuit Zandvoort",
+      "location": "Zandvoort, Países Bajos",
+      "length": "4.259 km",
+      "laps": "72",
+      "distance": "306.648 km",
+      "curves": "14",
+      "lapRecord": "1:11.097 - Max Verstappen (2022)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -621,7 +756,16 @@
     "hashtag": "#ItalianGP",
     "initDay": "2025-09-05",
     "track2D": "/tracks-2d/Monza.avif",
-    "image": "/tracks/Italy.webp",
+    "image": "/tracks/Monza.webp",
+    "infoTrack": {
+      "name": "Autodromo Nazionale di Monza",
+      "location": "Monza, Italia",
+      "length": "5.793 km",
+      "laps": "53",
+      "distance": "306.720 km",
+      "curves": "11",
+      "lapRecord": "1:21.046 - Rubens Barrichello (2004)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -663,6 +807,15 @@
     "initDay": "2025-09-19",
     "track2D": "/tracks-2d/Baku.avif",
     "image": "/tracks/Azerbaijan.webp",
+    "infoTrack": {
+      "name": "Baku City Circuit",
+      "location": "Bakú, Azerbaiyán",
+      "length": "6.003 km",
+      "laps": "51",
+      "distance": "306.049 km",
+      "curves": "20",
+      "lapRecord": "1:43.009 - Charles Leclerc (2019)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -704,6 +857,15 @@
     "initDay": "2025-10-03",
     "track2D": "/tracks-2d/Singapur.avif",
     "image": "/tracks/Singapore.webp",
+    "infoTrack": {
+      "name": "Marina Bay Street Circuit",
+      "location": "Singapur, Singapur",
+      "length": "5.063 km",
+      "laps": "61",
+      "distance": "308.706 km",
+      "curves": "23",
+      "lapRecord": "1:41.905 - Lewis Hamilton (2018)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -745,6 +907,15 @@
     "initDay": "2025-10-17",
     "track2D": "/tracks-2d/EEUU.avif",
     "image": "/tracks/USA.webp",
+    "infoTrack": {
+      "name": "Circuit of the Americas",
+      "location": "Austin, Estados Unidos",
+      "length": "5.513 km",
+      "laps": "56",
+      "distance": "308.405 km",
+      "curves": "20",
+      "lapRecord": "1:32.029 - Lewis Hamilton (2018)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -786,6 +957,15 @@
     "initDay": "2025-10-24",
     "track2D": "/tracks-2d/Mexico.avif",
     "image": "/tracks/Mexico.webp",
+    "infoTrack": {
+      "name": "Autódromo Hermanos Rodríguez",
+      "location": "Ciudad de México, México",
+      "length": "4.304 km",
+      "laps": "71",
+      "distance": "305.354 km",
+      "curves": "17",
+      "lapRecord": "1:16.145 - Valtteri Bottas (2018)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -827,6 +1007,15 @@
     "initDay": "2025-11-07",
     "track2D": "/tracks-2d/Brasil.avif",
     "image": "/tracks/Brazil.webp",
+    "infoTrack": {
+      "name": "Autódromo José Carlos Pace",
+      "location": "São Paulo, Brasil",
+      "length": "4.309 km",
+      "laps": "71",
+      "distance": "305.939 km",
+      "curves": "15",
+      "lapRecord": "1:10.540 - Valtteri Bottas (2018)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -868,6 +1057,15 @@
     "initDay": "2025-11-20",
     "track2D": "/tracks-2d/LasVegas.avif",
     "image": "/tracks/LasVegas.webp",
+    "infoTrack": {
+      "name": "Las Vegas Street Circuit",
+      "location": "Las Vegas, Estados Unidos",
+      "length": "6.187 km",
+      "laps": "50",
+      "distance": "309.350 km",
+      "curves": "20",
+      "lapRecord": "1:27.511 - Lewis Hamilton (2021)"
+    },
     "thursday": [
       {
         "name": "Práctica 1",
@@ -904,6 +1102,15 @@
     "initDay": "2025-11-28",
     "track2D": "/tracks-2d/Qatar.avif",
     "image": "/tracks/Qatar.webp",
+    "infoTrack": {
+      "name": "Losail International Circuit",
+      "location": "Lusail, Catar",
+      "length": "5.380 km",
+      "laps": "57",
+      "distance": "306.660 km",
+      "curves": "16",
+      "lapRecord": "1:27.511 - Lewis Hamilton (2021)"
+    },
     "friday": [
       {
         "name": "Práctica 1",
@@ -945,6 +1152,15 @@
     "initDay": "2025-12-05",
     "track2D": "/tracks-2d/AbuDhabi.avif",
     "image": "/tracks/AbuDhabi.webp",
+    "infoTrack": {
+      "name": "Yas Marina Circuit",
+      "location": "Abu Dabi, Emiratos Árabes Unidos",
+      "length": "5.554 km",
+      "laps": "55",
+      "distance": "305.470 km",
+      "curves": "21",
+      "lapRecord": "1:36.231 - Lewis Hamilton (2019)"
+    },
     "friday": [
       {
         "name": "Práctica 1",

@@ -1,7 +1,14 @@
 import React from "react";
 import { formaterDate } from "../utils/formatterDate";
 
-export default function Cards({ name, img, weekend, active, id }) {
+export default function Cards({
+  name,
+  img,
+  weekend,
+  active,
+  id,
+  changeWeekend,
+}) {
   return (
     <div className="w-full mx-8 h-80 relative flex flex-col items-center justify-between rounded-2xl max-[500px]:w-[90%]">
       <div
@@ -16,16 +23,21 @@ export default function Cards({ name, img, weekend, active, id }) {
         alt={"Circuito de " + name}
         className="w-[90%] z-20 pointer-events-none"
       />
-      <p
-        style={{
-          backgroundColor: active !== id ? "#101828" : "#Fe0000",
-          borderBottomLeftRadius: "1rem",
-          borderBottomRightRadius: "1rem",
-        }}
-        className="w-full flex items-center justify-center text-center py-2 text-white text-2xl z-10"
+      <div
+        style={{ backgroundColor: active !== id ? "#101828" : "#FF0000" }}
+        className="w-full flex items-center justify-around bg-[#101828] rounded-b-[1rem] z-10"
       >
-        {active !== id ? formaterDate(weekend) : "Este fin de semana"}
-      </p>
+        <p className="text-center py-2 text-white text-2xl z-10">
+          {formaterDate(weekend)}
+        </p>
+        <button
+          onClick={() => changeWeekend(id)}
+          style={{ backgroundColor: active !== id ? "#101828" : "#FF0000" }}
+          className="px-2 bg-[#101828] border-white border-2 text-lg text-white rounded-md cursor-pointer"
+        >
+          Ver
+        </button>
+      </div>
     </div>
   );
 }
