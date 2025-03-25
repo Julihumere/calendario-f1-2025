@@ -41,7 +41,7 @@ function App() {
       const weekend = data.find((weekend) => weekend.id === id);
       setThisWeekend(weekend);
       setActive(id);
-    }, 1000);
+    }, 800);
     setClose(true);
     setMounted(false);
     scrollToTop();
