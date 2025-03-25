@@ -1,8 +1,6 @@
 import data from "../json/data.json";
 
 export const getCurrentWeekend = (id) => {
-  console.log("id", id);
-
   if (id) {
     const circuit = data.find((item) => item.id === Number(id));
     return circuit;

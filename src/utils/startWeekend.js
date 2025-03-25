@@ -1,12 +1,7 @@
 import data from "../json/data.json";
 
 export const startWeekend = (id) => {
-  console.log(id);
-
-  let dayStartWeekend = data.find((item) => item.id === id).initDay;
   let timeStartWeekend = data.find((item) => item.id === id);
-
-  console.log(dayStartWeekend, timeStartWeekend);
 
   let initDay;
   let initTime;

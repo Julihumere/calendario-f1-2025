@@ -43,8 +43,6 @@ export default function LeaderBoard() {
       (a, b) => b.totalPoints - a.totalPoints
     );
 
-    console.log(resultArray);
-
     setLeaderBoardTeams(resultArray);
   };
 
