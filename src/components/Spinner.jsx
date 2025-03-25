@@ -12,7 +12,7 @@ const Spinner = ({
   useEffect(() => {
     setTimeout(() => {
       setMounted(true);
-    }, 1000);
+    }, 2000);
 
     setTimeout(() => {
       setShowIcon(false);

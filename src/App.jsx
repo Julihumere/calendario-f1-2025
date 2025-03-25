@@ -27,6 +27,7 @@ function App() {
     const gpQuery = queryString.get("GP");
 
     const gp = gpMapping.find((gp) => gp.country === gpQuery);
+    console.log(gp);
 
     const thisWeekend = getCurrentWeekend(gp?.id);
     if (thisWeekend) {
@@ -40,7 +41,7 @@ function App() {
       const weekend = data.find((weekend) => weekend.id === id);
       setThisWeekend(weekend);
       setActive(id);
-    }, 2000);
+    }, 1000);
     setClose(true);
     setMounted(false);
     scrollToTop();
