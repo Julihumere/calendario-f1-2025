@@ -1,0 +1,162 @@
+[
+  {
+    "number": 1,
+    "nation": "/nationality/NED.avif",
+    "name": "Max Verstappen",
+    "points": 36,
+    "team": "Red Bull Racing Honda RBPT",
+    "cars": "/cars/red-bull-racing.avif"
+  },
+  {
+    "number": 30,
+    "nation": "/nationality/NZL.avif",
+    "name": "Liam Lawson",
+    "points": 0,
+    "team": "Red Bull Racing Honda RBPT",
+    "cars": "/cars/red-bull-racing.avif"
+  },
+  {
+    "number": 16,
+    "nation": "/nationality/MON.avif",
+    "name": "Charles Leclerc",
+    "points": 8,
+    "team": "Ferrari",
+    "cars": "/cars/ferrari.avif"
+  },
+  {
+    "number": 44,
+    "nation": "/nationality/UK.avif",
+    "name": "Lewis Hamilton",
+    "points": 9,
+    "team": "Ferrari",
+    "cars": "/cars/ferrari.avif"
+  },
+  {
+    "number": 63,
+    "nation": "/nationality/UK.avif",
+    "name": "George Russell",
+    "points": 35,
+    "team": "Mercedes",
+    "cars": "/cars/mercedes.avif"
+  },
+  {
+    "number": 12,
+    "nation": "/nationality/ITA.avif",
+    "name": "Andrea Kimi Antonelli",
+    "points": 22,
+    "team": "Mercedes",
+    "cars": "/cars/mercedes.avif"
+  },
+  {
+    "number": 4,
+    "nation": "/nationality/UK.avif",
+    "name": "Lando Norris",
+    "points": 44,
+    "team": "McLaren Mercedes",
+    "cars": "/cars/mclaren.avif"
+  },
+  {
+    "number": 81,
+    "nation": "/nationality/AUS.avif",
+    "name": "Oscar Piastri",
+    "points": 34,
+    "team": "McLaren Mercedes",
+    "cars": "/cars/mclaren.avif"
+  },
+  {
+    "number": 14,
+    "nation": "/nationality/ESP.avif",
+    "name": "Fernando Alonso",
+    "points": 0,
+    "team": "Aston Martin Aramco Mercedes",
+    "cars": "/cars/aston-martin.avif"
+  },
+  {
+    "number": 18,
+    "nation": "/nationality/CAN.avif",
+    "name": "Lance Stroll",
+    "points": 10,
+    "team": "Aston Martin Aramco Mercedes",
+    "cars": "/cars/aston-martin.avif"
+  },
+  {
+    "number": 10,
+    "nation": "/nationality/FRA.avif",
+    "name": "Pierre Gasly",
+    "points": 0,
+    "team": "Alpine Renault",
+    "cars": "/cars/alpine.avif"
+  },
+  {
+    "number": 7,
+    "nation": "/nationality/AUS.avif",
+    "name": "Jack Doohan",
+    "points": 0,
+    "team": "Alpine Renault",
+    "cars": "/cars/alpine.avif"
+  },
+  {
+    "number": 22,
+    "nation": "/nationality/JAP.avif",
+    "name": "Yuki Tsunoda",
+    "points": 3,
+    "team": "Racing Bulls Honda RBPT",
+    "cars": "/cars/racing-bulls.avif"
+  },
+  {
+    "number": 6,
+    "nation": "/nationality/FRA.avif",
+    "name": "Isack Hadjar",
+    "points": 0,
+    "team": "Racing Bulls Honda RBPT",
+    "cars": "/cars/racing-bulls.avif"
+  },
+  {
+    "number": 27,
+    "nation": "/nationality/GER.avif",
+    "name": "Nico Hulkenberg",
+    "points": 6,
+    "team": "Kick Sauber Ferrari",
+    "cars": "/cars/kick-sauber.avif"
+  },
+  {
+    "number": 5,
+    "nation": "/nationality/BRA.avif",
+    "name": "Gabriel Bortoleto",
+    "points": 0,
+    "team": "Kick Sauber Ferrari",
+    "cars": "/cars/kick-sauber.avif"
+  },
+  {
+    "number": 87,
+    "nation": "/nationality/UK.avif",
+    "name": "Oliver Bearman",
+    "points": 4,
+    "team": "Haas Ferrari",
+    "cars": "/cars/haas.avif"
+  },
+  {
+    "number": 31,
+    "nation": "/nationality/FRA.avif",
+    "name": "Esteban Ocon",
+    "points": 10,
+    "team": "Haas Ferrari",
+    "cars": "/cars/haas.avif"
+  },
+  {
+    "number": 23,
+    "nation": "/nationality/THA.avif",
+    "name": "Alex Albon",
+    "points": 16,
+    "team": "Williams Mercedes",
+    "cars": "/cars/williams.avif"
+  },
+  {
+    "number": 55,
+    "nation": "/nationality/ESP.avif",
+    "name": "Carlos Sainz",
+    "points": 1,
+    "team": "Williams Mercedes",
+    "cars": "/cars/williams.avif"
+  }
+]

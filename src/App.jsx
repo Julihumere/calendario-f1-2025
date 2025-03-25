@@ -16,6 +16,7 @@ import { gpMapping } from "./constants";
 import Spinner from "./components/Spinner";
 import { startWeekend } from "./utils/startWeekend";
 import Countdown from "./components/CountDown";
+import LeaderBoard from "./components/LeaderBoard";
 
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
@@ -168,6 +169,7 @@ function App() {
             />
           ))}
         </Carousel>
+        <LeaderBoard />
         <Footer />
         <ToastContainer />
       </main>
