@@ -33,7 +33,7 @@ const Spinner = ({
       {showIcon == true ? (
         <div className="absolute top-0 bottom-0 left-0 right-0 z-20">
           <img
-            src="/public/logo.webp"
+            src="/logo.webp"
             className={`absolute top-[43%] left-[46.5%] w-32 h-32 bg-white p-5 rounded-full z-20  ${
               showIcon
                 ? "transition-transform duration-1000 ease-in-out transform scale-100"
