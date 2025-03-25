@@ -11,6 +11,20 @@ export default function Cards({
   updateQueryString,
   country,
 }) {
+  const filterCountry = (country) => {
+    let countryName = country.split(", ")[1];
+
+    if (country == "Austin, Estados Unidos") {
+      return "Estados Unidos";
+    } else if (countryName === "Estados Unidos") {
+      return country.split(", ")[0];
+    } else if (countryName === "Italia") {
+      return country.split(", ")[0];
+    } else {
+      return countryName;
+    }
+  };
+
   return (
     <div className="w-full mx-8 h-80 relative flex flex-col items-center justify-between rounded-2xl max-[500px]:w-[90%]">
       <div
@@ -34,7 +48,7 @@ export default function Cards({
         </p>
         <button
           onClick={() => {
-            updateQueryString(country, id);
+            updateQueryString(filterCountry(country), id);
             changeWeekend(id);
           }}
           style={{ backgroundColor: active !== id ? "#101828" : "#FF0000" }}

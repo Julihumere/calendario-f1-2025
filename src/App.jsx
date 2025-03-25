@@ -14,6 +14,8 @@ import { clipboard } from "./utils/copyToClipboard";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 import { gpMapping } from "./constants";
 import Spinner from "./components/Spinner";
+import { startWeekend } from "./utils/startWeekend";
+import Countdown from "./components/CountDown";
 
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
@@ -21,15 +23,18 @@ function App() {
   const [mounted, setMounted] = useState(false);
   const [close, setClose] = useState(true);
   const [showIcon, setShowIcon] = useState(true);
+  const [fechaObjetivo, setFechaObjetivo] = useState(null);
 
   useEffect(() => {
     const queryString = new URLSearchParams(window.location.search);
     const gpQuery = queryString.get("GP");
 
     const gp = gpMapping.find((gp) => gp.country === gpQuery);
-    console.log(gp);
 
-    const thisWeekend = getCurrentWeekend(gp?.id);
+    const thisWeekend = getCurrentWeekend(gp?.id ?? 3);
+    const countDownTimer = startWeekend(gp?.id ?? 3);
+    setFechaObjetivo(countDownTimer);
+
     if (thisWeekend) {
       setThisWeekend(thisWeekend);
       setActive(thisWeekend.id);
@@ -39,6 +44,8 @@ function App() {
   const changeWeekend = (id) => {
     setTimeout(() => {
       const weekend = data.find((weekend) => weekend.id === id);
+      const countDownTimer = startWeekend(weekend?.id);
+      setFechaObjetivo(countDownTimer);
       setThisWeekend(weekend);
       setActive(id);
     }, 800);
@@ -89,15 +96,6 @@ function App() {
     });
   };
 
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulamos un retraso de carga (por ejemplo, 3 segundos)
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -114,15 +112,9 @@ function App() {
       setMounted={setMounted}
       setShowIcon={setShowIcon}
     >
-      <main
-        className=" flex flex-col justify-between w-full h-auto bg-center bg-cover bg-no-repeat backdrop-blur-10 z-10"
-        style={{
-          backgroundImage: `url(${thisWeekend?.image})`,
-          display: loading ? "none" : "block",
-        }}
-      >
-        <div className="absolute top-0 left-0 right-0 -bottom-75 backdrop-blur-xs pointer-events-none"></div>
+      <main className=" flex flex-col justify-between w-full h-auto bg-[#0D0D0D] text-white">
         <div className="w-full flex items-center justify-end px-12 py-5 relative z-10">
+          <Countdown fechaObjetivo={fechaObjetivo} name={thisWeekend?.name} />
           <button
             onClick={() => {
               clipboard(window.location.href);
@@ -172,7 +164,7 @@ function App() {
               active={active}
               changeWeekend={changeWeekend}
               updateQueryString={updateQueryString}
-              country={item.infoTrack.location.split(", ")[1]}
+              country={item.infoTrack.location}
             />
           ))}
         </Carousel>

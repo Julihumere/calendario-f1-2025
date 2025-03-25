@@ -24,7 +24,6 @@ const Spinner = ({
       style={{ zIndex: mounted ? 10 : -10 }}
       className="w-full h-full flex justify-center items-center overflow-hidden"
     >
-      {/* Rojo: se mueve de centro hacia la izquierda */}
       <div
         className={`w-1/2 h-screen z-10 bg-primary transition-transform duration-1000 ease-in-out ${
           (mounted && !close ? "-translate-x-300" : "translate-x-0",
