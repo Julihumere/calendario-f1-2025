@@ -59,7 +59,9 @@ export default function LeaderBoard() {
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
-      <h1 className="w-full text-left pl-10 py-4 text-5xl">Campeonatos</h1>
+      <h1 className="w-full text-left pl-10 py-4 text-5xl max-[500px]:text-3xl">
+        Campeonatos
+      </h1>
       <div className="w-[400px] h-[50px] flex items-center justify-around border-2 border-white rounded-2xl mb-4 relative overflow-hidden">
         <div
           className={`absolute h-full rounded-2xl transition-transform duration-500 ease-in-out w-1/2 bg-primary ${
@@ -90,31 +92,47 @@ export default function LeaderBoard() {
 
       {activeButton === "pilots" ? (
         <div className="w-full h-full flex flex-col items-center justify-center mb-4">
-          <div className="w-[75%] flex items-center justify-around bg-[#101828] py-4 rounded-t-2xl border-b-2 border-white">
-            <p className="w-full text-center text-2xl">N°</p>
-            <p className="w-full text-center text-2xl">Nombre</p>
-            <p className="w-full text-center text-2xl">Nacionalidad</p>
-            <p className="w-full text-center text-2xl">Equipo</p>
-            <p className="w-full text-center text-2xl">Puntos</p>
+          <div className="w-[75%] flex items-center justify-around bg-[#101828] py-4 rounded-t-2xl border-b-2 border-white max-[500px]:w-[90%]">
+            <p className="w-full text-center text-2xl max-[500px]:text-sm">
+              N°
+            </p>
+            <p className="w-full text-center text-2xl max-[500px]:text-sm">
+              Nombre
+            </p>
+            <p className="w-full text-center text-2xl max-[500px]:text-sm">
+              Nacionalidad
+            </p>
+            <p className="w-full text-center text-2xl max-[500px]:text-sm">
+              Equipo
+            </p>
+            <p className="w-full text-center text-2xl max-[500px]:text-sm">
+              Puntos
+            </p>
           </div>
           {leaderBoard.map((item, index) => {
             return (
               <div
                 key={index}
-                className="w-[75%] bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl"
+                className="w-[75%] bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
               >
-                <p className="w-full text-center text-lg">{item.number}</p>
-                <p className="w-full text-center text-lg">{item.name}</p>
+                <p className="w-full text-center text-lg max-[500px]:text-sm">
+                  {item.number}
+                </p>
+                <p className="w-full text-center text-lg max-[500px]:text-sm">
+                  {item.name}
+                </p>
                 <div className="w-full text-2xl flex items-center justify-center">
                   <img
                     src={item.nation}
                     alt={`Nacionalidad de ${item.name}`}
-                    className="w-16 h-12 p-2"
+                    className="w-16 h-12 p-2 max-[500px]:w-12 max-[500px]:h-10"
                   />
                 </div>
 
-                <p className="w-full text-center text-lg">{item.team}</p>
-                <p className="w-full text-center text-4xl text-primary">
+                <p className="w-full text-center text-lg max-[500px]:text-sm">
+                  {item.team}
+                </p>
+                <p className="w-full text-center text-4xl text-primary max-[500px]:text-2xl">
                   {item.points}
                 </p>
               </div>
@@ -123,7 +141,7 @@ export default function LeaderBoard() {
         </div>
       ) : (
         <div className="w-full h-full flex flex-col items-center justify-center mb-4">
-          <div className="w-[75%] flex items-center justify-around bg-[#101828] py-4 rounded-t-2xl border-b-2 border-white">
+          <div className="w-[75%] flex items-center justify-around bg-[#101828] py-4 rounded-t-2xl border-b-2 border-white max-[500px]:w-[90%]">
             <p className="w-full text-center text-2xl">Equipo</p>
             <p className="w-full text-center text-2xl">Puntos</p>
           </div>
@@ -131,11 +149,11 @@ export default function LeaderBoard() {
             return (
               <div
                 key={index}
-                className="w-[75%] bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl"
+                className="w-[75%] bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
               >
                 <div className="w-full text-2xl flex flex-col items-center justify-center">
                   <p
-                    className="text-5xl font-bold"
+                    className="text-5xl font-bold text-center max-[500px]:text-2xl"
                     style={{ textShadow: "4px 6px black" }}
                   >
                     {item.team}

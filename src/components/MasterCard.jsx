@@ -7,7 +7,7 @@ export default function MasterCard({ thisWeekend }) {
   return (
     <main>
       <div className="h-full flex flex-col items-center justify-between text-white relative z-10">
-        <div className="w-full relative flex flex-col items-center justify-center rounded-2xl p-10 max-[500px]:w-[90%]">
+        <div className="w-full relative flex flex-col items-center justify-center rounded-2xl p-10 max-[500px]:w-[90%] max-[500px]:p-5">
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray-900 opacity-60 rounded-2xl -z-10"></div>
           <h1
             className="w-full text-4xl font-bold text-white text-center max-[500px]:text-2xl"

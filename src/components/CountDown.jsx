@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 
 function Countdown({ fechaObjetivo, name }) {
@@ -33,22 +34,22 @@ function Countdown({ fechaObjetivo, name }) {
 
   if (tiempoRestante) {
     return (
-      <div className="w-full py-5">
-        <h1 className="text-left text-4xl">
+      <div className="w-full py-2">
+        <h1 className="text-left text-4xl max-[500px]:text-lg">
           Inicio del GP de {name}:{" "}
-          <span className="text-primary px-3 py-4 text-center rounded-full">
+          <span className="text-primary px-3 py-4 text-center rounded-full max-[500px]:px-1 max-[500px]:py-2">
             {tiempoRestante.dias}
           </span>{" "}
           días,{"  "}
-          <span className="text-primary px-3 py-4 text-center rounded-full">
+          <span className="text-primary px-3 py-4 text-center rounded-full max-[500px]:px-1 max-[500px]:py-2">
             {tiempoRestante.horas}
           </span>{" "}
           horas,
-          <span className="text-primary px-3 py-4 text-center rounded-full">
+          <span className="text-primary px-3 py-4 text-center rounded-full max-[500px]:px-1 max-[500px]:py-2">
             {tiempoRestante.minutos}
           </span>{" "}
           minutos y{" "}
-          <span className="text-primary px-3 py-4 text-center rounded-full">
+          <span className="text-primary px-3 py-4 text-center rounded-full max-[500px]:px-1 max-[500px]:py-2">
             {tiempoRestante.segundos}
           </span>{" "}
           segundos.

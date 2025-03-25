@@ -18,6 +18,8 @@ import { startWeekend } from "./utils/startWeekend";
 import Countdown from "./components/CountDown";
 import LeaderBoard from "./components/LeaderBoard";
 
+const width = window.innerWidth;
+
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
   const [active, setActive] = useState(0);
@@ -114,7 +116,7 @@ function App() {
       setShowIcon={setShowIcon}
     >
       <main className=" flex flex-col justify-between w-full h-auto bg-[#0D0D0D] text-white">
-        <div className="w-full flex items-center justify-end px-12 py-5 relative z-10">
+        <div className="w-full flex items-center justify-end px-12 py-5 z-10 max-[500px]:flex-col">
           <Countdown fechaObjetivo={fechaObjetivo} name={thisWeekend?.name} />
           <button
             onClick={() => {
@@ -126,7 +128,7 @@ function App() {
               //   url: window.location.href,
               // });
             }}
-            className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer"
+            className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer max-[500px]:mt-5"
           >
             <FaShareAlt size={24} color="white" />{" "}
             <span className=" text-white text-lg text-center m-0">
@@ -134,11 +136,11 @@ function App() {
             </span>
           </button>
         </div>
-        <div className="flex items-center justify-around h-[720px] w-full mt-10">
-          <div className="h-full w-[45%]">
+        <div className="flex items-center justify-around w-full mt-10 max-[500px]:flex-col">
+          <div className="h-full w-[45%] max-[500px]:w-full">
             <MasterCard thisWeekend={thisWeekend} />
           </div>
-          <div className="h-full w-[45%]">
+          <div className="h-full w-[45%] max-[500px]:w-full max-[500px]:mt-5">
             {thisWeekend && (
               <CardInfo
                 info={thisWeekend?.infoTrack}
@@ -150,7 +152,7 @@ function App() {
 
         <Carousel
           className="my-10"
-          itemsToShow={5}
+          itemsToShow={width < 500 ? 2 : 5}
           enableAutoPlay={true}
           pagination={false}
           showArrows={false}

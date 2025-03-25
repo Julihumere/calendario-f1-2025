@@ -4,10 +4,10 @@ import { FaLinkedin, FaGithub, FaLink } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="w-full flex items-center justify-between px-10 h-16 bg-gray-900 text-white z-10">
-      <h1 className="text-2xl">Creado por Julio Humere</h1>
+      <h1 className="text-2xl max-[500px]:text-lg">Creado por Julio Humere</h1>
       <div className="flex">
         <FaLinkedin
-          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300"
+          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
           onClick={() =>
             window.open(
               "https://www.linkedin.com/in/juli-humere/",
@@ -17,7 +17,7 @@ export default function Footer() {
           }
         />
         <FaGithub
-          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300"
+          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
           onClick={() =>
             window.open(
               "https://github.com/Julihumere",
@@ -28,7 +28,7 @@ export default function Footer() {
         />
 
         <FaLink
-          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300"
+          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
           onClick={() =>
             window.open(
               "https://portfolio-julio-humere.vercel.app/",

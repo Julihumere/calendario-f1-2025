@@ -26,12 +26,12 @@ export default function Cards({
   };
 
   return (
-    <div className="w-full mx-8 h-80 relative flex flex-col items-center justify-between rounded-2xl max-[500px]:w-[90%]">
+    <div className="w-full mx-8 h-80 relative flex flex-col items-center justify-between rounded-2xl max-[500px]:w-full max-[500px]:mx-2">
       <div
         style={{ backgroundColor: active !== id ? "#101828" : "#FF0000" }}
         className="absolute top-0 left-0 right-0 bottom-0 bg-gray-900 opacity-90 rounded-2xl z-10"
       ></div>
-      <h1 className="w-full text-center pt-5 text-white text-2xl z-10">
+      <h1 className="w-full text-center pt-5 text-white text-2xl z-10 max-[500px]:text-lg max-[500px]:px-2">
         {name}
       </h1>
       <img
@@ -41,9 +41,9 @@ export default function Cards({
       />
       <div
         style={{ backgroundColor: active !== id ? "#101828" : "#FF0000" }}
-        className="w-full flex items-center justify-around bg-[#101828] rounded-b-[1rem] z-10"
+        className="w-full flex items-center justify-around bg-[#101828] rounded-b-[1rem] z-10 max-[500px]:flex-col max-[500px]:mb-5"
       >
-        <p className="text-center py-2 text-white text-2xl z-10">
+        <p className="text-center py-2 text-white text-2xl z-10 max-[500px]:text-lg">
           {formaterDate(weekend)}
         </p>
         <button
