@@ -38,7 +38,7 @@ const Spinner = ({
               showIcon
                 ? "transition-transform duration-1000 ease-in-out transform scale-100"
                 : "transition-transform duration-1000 ease-out transform scale-0"
-            }`}
+            } max-[500px]:top-[43%] max-[500px]:left-[40%] max-[500px]:w-24 max-[500px]:h-24`}
           />
         </div>
       ) : (

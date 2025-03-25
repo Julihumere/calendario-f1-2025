@@ -66,6 +66,7 @@ function App() {
       setShowIcon(false);
     }, 2000);
   };
+  console.log(width);
 
   const updateQueryString = (name) => {
     const queryString = new URLSearchParams();
