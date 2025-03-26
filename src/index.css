@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@fontsource/bebas-neue";
-
+@import "react-loading-skeleton/dist/skeleton.css";
 @theme {
   --color-primary: #fe0000;
   --color-secondary: #e3291f;
