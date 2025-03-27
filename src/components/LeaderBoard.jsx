@@ -9,40 +9,71 @@ export default function LeaderBoard({ loading }) {
   const [activeButton, setActiveButton] = useState("pilots");
 
   const getLeaderBoard = async () => {
-    const result = data
-      .map((item) => {
-        return {
-          name: item.name,
-          points: item.points,
-          team: item.team,
-          number: item.number,
-          nation: item.nation,
-        };
-      })
-      .sort((a, b) => b.points - a.points);
+    const result = data.map((item) => {
+      // Filtrar solo posiciones numéricas para calcular la mejor posición
+      const validPositions = item.positions.filter(
+        (pos) => typeof pos === "number"
+      );
+      const bestPosition =
+        validPositions.length > 0 ? Math.min(...validPositions) : Infinity;
+      const hasDSQ = item.positions.includes("DSQ");
 
-    setLeaderBoard(result);
+      return {
+        ...item,
+        bestPosition,
+        hasDSQ,
+      };
+    });
+
+    const sortedDrivers = result.sort((a, b) => {
+      if (b.points !== a.points) {
+        return b.points - a.points; // Ordenar por puntos (descendente)
+      }
+
+      if (a.bestPosition !== b.bestPosition) {
+        return a.bestPosition - b.bestPosition; // Ordenar por mejor posición (ascendente)
+      }
+
+      if (b.lapsComplete !== a.lapsComplete) {
+        return b.lapsComplete - a.lapsComplete; // Ordenar por vueltas completadas (descendente)
+      }
+
+      // Si ambos tienen DSQ o ninguno lo tiene, no se cambia el orden
+      if (a.hasDSQ !== b.hasDSQ) {
+        return a.hasDSQ ? 1 : -1; // Si A tiene DSQ, va después; si B tiene DSQ, A va primero
+      }
+
+      return 0;
+    });
+
+    setLeaderBoard(sortedDrivers);
   };
 
   const getLeaderBoardTeams = async () => {
     const result = data.reduce((teams, pilot) => {
-      const { team, points, cars } = pilot;
+      const { team, points, cars, positions } = pilot;
 
       if (!teams[team]) {
         teams[team] = {
           team: team,
           totalPoints: 0,
           cars: cars,
+          dsqCount: 0, // Contador de descalificaciones
         };
       }
 
       teams[team].totalPoints += points;
+      teams[team].dsqCount += positions.filter((pos) => pos === "DSQ").length;
+
       return teams;
     }, {});
 
-    let resultArray = Object.values(result).sort(
-      (a, b) => b.totalPoints - a.totalPoints
-    );
+    let resultArray = Object.values(result).sort((a, b) => {
+      if (b.totalPoints !== a.totalPoints) {
+        return b.totalPoints - a.totalPoints; // Ordenar por puntos
+      }
+      return a.dsqCount - b.dsqCount; // Si hay empate, el equipo con más DSQ queda abajo
+    });
 
     setLeaderBoardTeams(resultArray);
   };

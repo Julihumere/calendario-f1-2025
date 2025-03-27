@@ -5,7 +5,9 @@
     "name": "Max Verstappen",
     "points": 36,
     "team": "Red Bull Racing Honda RBPT",
-    "cars": "/cars/red-bull-racing.avif"
+    "cars": "/cars/red-bull-racing.avif",
+    "positions": [2, 4],
+    "lapsComplete": 113
   },
   {
     "number": 30,
@@ -13,7 +15,9 @@
     "name": "Liam Lawson",
     "points": 0,
     "team": "Red Bull Racing Honda RBPT",
-    "cars": "/cars/red-bull-racing.avif"
+    "cars": "/cars/red-bull-racing.avif",
+    "positions": [15, 12],
+    "lapsComplete": 113
   },
   {
     "number": 16,
@@ -21,7 +25,9 @@
     "name": "Charles Leclerc",
     "points": 8,
     "team": "Ferrari",
-    "cars": "/cars/ferrari.avif"
+    "cars": "/cars/ferrari.avif",
+    "positions": [8, "DSQ"],
+    "lapsComplete": 57
   },
   {
     "number": 44,
@@ -29,7 +35,9 @@
     "name": "Lewis Hamilton",
     "points": 9,
     "team": "Ferrari",
-    "cars": "/cars/ferrari.avif"
+    "cars": "/cars/ferrari.avif",
+    "positions": [10, "DSQ"],
+    "lapsComplete": 57
   },
   {
     "number": 63,
@@ -37,7 +45,9 @@
     "name": "George Russell",
     "points": 35,
     "team": "Mercedes",
-    "cars": "/cars/mercedes.avif"
+    "cars": "/cars/mercedes.avif",
+    "positions": [3, 3],
+    "lapsComplete": 113
   },
   {
     "number": 12,
@@ -45,7 +55,9 @@
     "name": "Andrea Kimi Antonelli",
     "points": 22,
     "team": "Mercedes",
-    "cars": "/cars/mercedes.avif"
+    "cars": "/cars/mercedes.avif",
+    "positions": [4, 6],
+    "lapsComplete": 113
   },
   {
     "number": 4,
@@ -53,7 +65,9 @@
     "name": "Lando Norris",
     "points": 44,
     "team": "McLaren Mercedes",
-    "cars": "/cars/mclaren.avif"
+    "cars": "/cars/mclaren.avif",
+    "positions": [1, 2],
+    "lapsComplete": 113
   },
   {
     "number": 81,
@@ -61,7 +75,9 @@
     "name": "Oscar Piastri",
     "points": 34,
     "team": "McLaren Mercedes",
-    "cars": "/cars/mclaren.avif"
+    "cars": "/cars/mclaren.avif",
+    "positions": [9, 1],
+    "lapsComplete": 113
   },
   {
     "number": 14,
@@ -69,7 +85,9 @@
     "name": "Fernando Alonso",
     "points": 0,
     "team": "Aston Martin Aramco Mercedes",
-    "cars": "/cars/aston-martin.avif"
+    "cars": "/cars/aston-martin.avif",
+    "positions": [17, 17],
+    "lapsComplete": 36
   },
   {
     "number": 18,
@@ -77,7 +95,9 @@
     "name": "Lance Stroll",
     "points": 10,
     "team": "Aston Martin Aramco Mercedes",
-    "cars": "/cars/aston-martin.avif"
+    "cars": "/cars/aston-martin.avif",
+    "positions": [6, 9],
+    "lapsComplete": 113
   },
   {
     "number": 10,
@@ -85,7 +105,9 @@
     "name": "Pierre Gasly",
     "points": 0,
     "team": "Alpine Renault",
-    "cars": "/cars/alpine.avif"
+    "cars": "/cars/alpine.avif",
+    "positions": [11, "DSQ"],
+    "lapsComplete": 57
   },
   {
     "number": 7,
@@ -93,7 +115,9 @@
     "name": "Jack Doohan",
     "points": 0,
     "team": "Alpine Renault",
-    "cars": "/cars/alpine.avif"
+    "cars": "/cars/alpine.avif",
+    "positions": [19, 13],
+    "lapsComplete": 56
   },
   {
     "number": 22,
@@ -101,7 +125,9 @@
     "name": "Yuki Tsunoda",
     "points": 3,
     "team": "Racing Bulls Honda RBPT",
-    "cars": "/cars/racing-bulls.avif"
+    "cars": "/cars/racing-bulls.avif",
+    "positions": [12, 16],
+    "lapsComplete": 112
   },
   {
     "number": 6,
@@ -109,7 +135,9 @@
     "name": "Isack Hadjar",
     "points": 0,
     "team": "Racing Bulls Honda RBPT",
-    "cars": "/cars/racing-bulls.avif"
+    "cars": "/cars/racing-bulls.avif",
+    "positions": [20, 11],
+    "lapsComplete": 56
   },
   {
     "number": 27,
@@ -117,7 +145,9 @@
     "name": "Nico Hulkenberg",
     "points": 6,
     "team": "Kick Sauber Ferrari",
-    "cars": "/cars/kick-sauber.avif"
+    "cars": "/cars/kick-sauber.avif",
+    "positions": [7, 15],
+    "lapsComplete": 112
   },
   {
     "number": 5,
@@ -125,7 +155,9 @@
     "name": "Gabriel Bortoleto",
     "points": 0,
     "team": "Kick Sauber Ferrari",
-    "cars": "/cars/kick-sauber.avif"
+    "cars": "/cars/kick-sauber.avif",
+    "positions": [16, 14],
+    "lapsComplete": 100
   },
   {
     "number": 87,
@@ -133,7 +165,9 @@
     "name": "Oliver Bearman",
     "points": 4,
     "team": "Haas Ferrari",
-    "cars": "/cars/haas.avif"
+    "cars": "/cars/haas.avif",
+    "positions": [14, 8],
+    "lapsComplete": 113
   },
   {
     "number": 31,
@@ -141,7 +175,9 @@
     "name": "Esteban Ocon",
     "points": 10,
     "team": "Haas Ferrari",
-    "cars": "/cars/haas.avif"
+    "cars": "/cars/haas.avif",
+    "positions": [13, 5],
+    "lapsComplete": 113
   },
   {
     "number": 23,
@@ -149,7 +185,9 @@
     "name": "Alex Albon",
     "points": 16,
     "team": "Williams Mercedes",
-    "cars": "/cars/williams.avif"
+    "cars": "/cars/williams.avif",
+    "positions": [5, 7],
+    "lapsComplete": 113
   },
   {
     "number": 55,
@@ -157,6 +195,8 @@
     "name": "Carlos Sainz",
     "points": 1,
     "team": "Williams Mercedes",
-    "cars": "/cars/williams.avif"
+    "cars": "/cars/williams.avif",
+    "positions": [18, 10],
+    "lapsComplete": 56
   }
 ]
