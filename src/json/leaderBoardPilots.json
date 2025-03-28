@@ -14,8 +14,8 @@
     "nation": "/nationality/NZL.avif",
     "name": "Liam Lawson",
     "points": 0,
-    "team": "Red Bull Racing Honda RBPT",
-    "cars": "/cars/red-bull-racing.avif",
+    "team": "Racing Bulls Honda RBPT",
+    "cars": "/cars/racing-bulls.avif",
     "positions": [15, 12],
     "lapsComplete": 113
   },
@@ -124,8 +124,8 @@
     "nation": "/nationality/JAP.avif",
     "name": "Yuki Tsunoda",
     "points": 3,
-    "team": "Racing Bulls Honda RBPT",
-    "cars": "/cars/racing-bulls.avif",
+    "team": "Red Bull Racing Honda RBPT",
+    "cars": "/cars/red-bull-racing.avif",
     "positions": [12, 16],
     "lapsComplete": 112
   },
