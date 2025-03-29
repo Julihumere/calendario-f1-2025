@@ -20,7 +20,7 @@ function Countdown({ fechaObjetivo, name }) {
 
       return { dias, horas, minutos, segundos };
     } else {
-      return null; // O puedes devolver un objeto con todos los valores en 0
+      return null;
     }
   }
 
@@ -29,8 +29,8 @@ function Countdown({ fechaObjetivo, name }) {
       setTiempoRestante(calcularTiempoRestante());
     }, 1000);
 
-    return () => clearInterval(intervalo); // Limpieza del intervalo
-  }, [fechaObjetivo]); // Dependencia: fechaObjetivo
+    return () => clearInterval(intervalo);
+  }, [fechaObjetivo]);
 
   if (tiempoRestante) {
     return (

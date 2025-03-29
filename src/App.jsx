@@ -22,12 +22,14 @@ import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
   const [active, setActive] = useState(0);
-  // const [mounted, setMounted] = useState(false);
-  // const [close, setClose] = useState(true);
-  // const [showIcon, setShowIcon] = useState(true);
   const [fechaObjetivo, setFechaObjetivo] = useState(null);
   const [widthScreen, setWidthScreen] = useState(window.innerWidth);
   const [loading, setLoading] = useState(true);
+  const [gpPast, setGpPast] = useState(null);
+  const [loadingSpinner, setLoadingSpinner] = useState(true);
+
+  const [, setRace] = useState("gp");
+  const [dataGP, setDataGP] = useState(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -51,36 +53,45 @@ function App() {
     const countDownTimer = startWeekend(gp?.id ?? 3);
     setFechaObjetivo(countDownTimer);
 
+    const fechaActual = new Date();
+    if (countDownTimer < fechaActual) {
+      setGpPast(true);
+    } else {
+      setGpPast(false);
+    }
+
+    setDataGP(thisWeekend.results);
+
     if (thisWeekend) {
       setThisWeekend(thisWeekend);
       setActive(thisWeekend.id);
     }
-
+    setTimeout(() => {
+      setLoadingSpinner(false);
+    }, 3000);
     setTimeout(() => {
       setLoading(false);
     }, 3000);
   }, []);
 
   const changeWeekend = (id) => {
+    setLoadingSpinner(true);
+    setTimeout(() => {
+      setLoadingSpinner(false);
+    }, 3000);
     const weekend = data.find((weekend) => weekend.id === id);
     const countDownTimer = startWeekend(weekend?.id);
     setFechaObjetivo(countDownTimer);
     setThisWeekend(weekend);
+    setDataGP(weekend.results);
     setActive(id);
 
-    // setClose(true);
-    // setMounted(false);
-    // scrollToTop();
-
-    // setTimeout(() => {
-    //   setShowIcon(true);
-    // }, 1000);
-
-    // setTimeout(() => {
-    //   setClose(false);
-    //   setMounted(true);
-    //   setShowIcon(false);
-    // }, 2000);
+    const fechaActual = new Date();
+    if (countDownTimer < fechaActual) {
+      setGpPast(true);
+    } else {
+      setGpPast(false);
+    }
   };
 
   const updateQueryString = (name) => {
@@ -115,13 +126,6 @@ function App() {
     });
   };
 
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // };
-
   return (
     <SkeletonTheme baseColor="#0D0D0D" highlightColor="#101828">
       <main className=" flex flex-col justify-between w-full h-auto bg-[#0D0D0D] text-white">
@@ -132,16 +136,15 @@ function App() {
           </div>
         ) : (
           <div className="w-full flex items-center justify-end px-12 py-5 z-10 max-[500px]:flex-col">
-            <Countdown fechaObjetivo={fechaObjetivo} name={thisWeekend?.name} />
+            <Countdown
+              fechaObjetivo={fechaObjetivo}
+              name={thisWeekend?.name}
+              setGpPast={setGpPast}
+            />
             <button
               onClick={() => {
                 clipboard(window.location.href);
                 toastClipboard();
-                // navigator.share({
-                //   title: "F1 Weekends",
-                //   text: "Descubre los fines de semana de la F1",
-                //   url: window.location.href,
-                // });
               }}
               className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer max-[500px]:mt-5"
             >
@@ -161,13 +164,23 @@ function App() {
         ) : (
           <div className="flex items-center justify-around w-full mt-10 max-[500px]:flex-col">
             <div className="min-h-[750px] w-[45%] max-[500px]:w-full">
-              <MasterCard thisWeekend={thisWeekend} />
+              <MasterCard
+                thisWeekend={thisWeekend}
+                gpPast={gpPast}
+                loadingSpinner={loadingSpinner}
+                setDataGP={setDataGP}
+                dataGP={dataGP}
+                setRace={setRace}
+              />
             </div>
             <div className="min-h-[750px] w-[45%] max-[500px]:w-full max-[500px]:mt-5">
               {thisWeekend && (
                 <CardInfo
                   info={thisWeekend?.infoTrack}
                   track2D={thisWeekend?.track2D}
+                  gpPast={gpPast}
+                  loadingSpinner={loadingSpinner}
+                  dataGP={dataGP}
                 />
               )}
             </div>
