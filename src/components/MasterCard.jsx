@@ -89,9 +89,15 @@ export default function MasterCard({
                           key={index}
                           className="col-span-2 flex flex-col items-center justify-center border-4 border-gray-800 rounded-lg"
                         >
-                          <h1 className="text-2xl py-4 font-bold text-white text-center max-[500px]:text-2xl">
-                            {driver.driver}
-                          </h1>
+                          <div className="flex items-center">
+                            <img
+                              src={`/teams/${driver.team}.avif`}
+                              className="w-8 h-8"
+                            />
+                            <h1 className="text-2xl py-4 ml-2 font-bold text-white text-center max-[500px]:text-2xl">
+                              {driver.driver}
+                            </h1>
+                          </div>
                           <div className="w-full py-4  bg-gray-800 flex items-center justify-center">
                             <img
                               src={`/podium/${index + 1}.webp`}
@@ -106,9 +112,15 @@ export default function MasterCard({
                           key={index}
                           className="col-span-1 flex flex-col items-center justify-center border-4 border-gray-800 rounded-lg"
                         >
-                          <h1 className="text-2xl py-4 font-bold text-white text-center max-[500px]:text-2xl">
-                            {driver.driver}
-                          </h1>
+                          <div className="flex items-center">
+                            <img
+                              src={`/teams/${driver.team}.avif`}
+                              className="w-8 h-8"
+                            />
+                            <h1 className="text-2xl py-4 ml-2 font-bold text-white text-center max-[500px]:text-2xl">
+                              {driver.driver}
+                            </h1>
+                          </div>
                           <div className="w-full py-4  bg-gray-800 flex items-center justify-center">
                             <img
                               src={`/podium/${index + 1}.webp`}

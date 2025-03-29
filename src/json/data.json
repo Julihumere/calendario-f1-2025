@@ -53,17 +53,17 @@
         {
           "position": 1,
           "driver": "Max Verstappen",
-          "team": "Red Bull Racing"
+          "team": "redb"
         },
         {
           "position": 2,
           "driver": "Lewis Hamilton",
-          "team": "Mercedes"
+          "team": "mer"
         },
         {
           "position": 3,
           "driver": "Charles Leclerc",
-          "team": "Ferrari"
+          "team": "fer"
         }
       ],
       "leaderBoard": [
@@ -289,17 +289,17 @@
         {
           "position": 1,
           "driver": "Oscar Piastri",
-          "team": "McLaren Mercedes"
+          "team": "mcl"
         },
         {
           "position": 2,
           "driver": "Lando Norris",
-          "team": "McLaren Mercedes"
+          "team": "mcl"
         },
         {
           "position": 3,
           "driver": "George Russell",
-          "team": "Mercedes"
+          "team": "mer"
         }
       ],
       "leaderBoard": [
@@ -475,17 +475,17 @@
         {
           "position": 1,
           "driver": "Lewis Hamilton",
-          "team": "Ferrari"
+          "team": "fer"
         },
         {
           "position": 2,
           "driver": "Oscar Piastri",
-          "team": "McLaren Mercedes"
+          "team": "mcl"
         },
         {
           "position": 3,
           "driver": "Max Verstappen",
-          "team": "Red Bull Racing Honda RBPT"
+          "team": "redb"
         }
       ],
       "leaderBoard": [
