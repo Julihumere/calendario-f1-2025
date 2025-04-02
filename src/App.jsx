@@ -128,7 +128,7 @@ function App() {
 
   return (
     <SkeletonTheme baseColor="#0D0D0D" highlightColor="#101828">
-      <main className=" flex flex-col justify-between w-full h-auto bg-[#0D0D0D] text-white">
+      <main className=" flex flex-col justify-between w-full h-auto bg-transparent text-white">
         {loading ? (
           <div className="w-full flex items-center justify-between px-12 py-5 z-10 max-[500px]:flex-col">
             <Skeleton width={1000} height={40} />
