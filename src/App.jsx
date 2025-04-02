@@ -200,10 +200,8 @@ function App() {
             itemsToShow={
               (widthScreen < 500 && 2) || (widthScreen < 768 && 3) || 4
             }
-            enableAutoPlay={true}
             pagination={false}
             showArrows={false}
-            autoPlaySpeed={5000}
           >
             {data.map((item) => (
               <Cards
