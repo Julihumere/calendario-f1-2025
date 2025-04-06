@@ -162,10 +162,10 @@ export default function LeaderBoard({ loading }) {
                     key={index}
                     className="w-[75%] bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
                   >
-                    <p className="w-full text-center text-lg max-[500px]:text-sm">
+                    <p className="w-full text-center text-2xl max-[500px]:text-sm">
                       {item.number}
                     </p>
-                    <p className="w-full text-center text-lg max-[500px]:text-sm">
+                    <p className="w-full text-center text-2xl max-[500px]:text-sm">
                       {item.name}
                     </p>
                     <div className="w-full text-2xl flex items-center justify-center">
@@ -176,7 +176,7 @@ export default function LeaderBoard({ loading }) {
                       />
                     </div>
 
-                    <p className="w-full text-center text-lg max-[500px]:text-sm">
+                    <p className="w-full text-center text-2xl max-[500px]:text-sm">
                       {item.team}
                     </p>
                     <p className="w-full text-center text-4xl text-primary max-[500px]:text-2xl">
