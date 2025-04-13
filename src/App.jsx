@@ -49,8 +49,9 @@ function App() {
 
     const gp = gpMapping.find((gp) => gp.country === gpQuery);
 
-    const thisWeekend = getCurrentWeekend(gp?.id ?? 3);
-    const countDownTimer = startWeekend(gp?.id ?? 3);
+    const thisWeekend = getCurrentWeekend(gp?.id);
+
+    const countDownTimer = startWeekend(thisWeekend?.id);
     setFechaObjetivo(countDownTimer);
 
     const fechaActual = new Date();
