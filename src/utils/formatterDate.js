@@ -3,7 +3,7 @@ export const formaterDate = (date) => {
 
   const formattedDates = date.map((date) => {
     const d = new Date(date);
-    return d.getDate(); // Obtiene el día del mes
+    return d.getDate() + 1; // Obtiene el día del mes
   });
 
   const month = new Date(date[0]).toLocaleDateString("es-ES", {

@@ -5,6 +5,7 @@
     "weekend": ["2025-03-14", "2025-03-15", "2025-03-16"],
     "hashtag": "#AustralianGP",
     "initDay": "2025-03-14",
+    "finishDay": "2025-03-16",
     "track2D": "/tracks-2d/Australia.avif",
     "image": "/tracks/Australia.webp",
     "infoTrack": {
@@ -241,6 +242,7 @@
     "weekend": ["2025-03-21", "2025-03-22", "2025-03-23"],
     "hashtag": "#ChineseGP",
     "initDay": "2025-03-21",
+    "finishDay": "2025-03-23",
     "track2D": "/tracks-2d/China.png",
     "image": "/tracks/China.webp",
     "infoTrack": {
@@ -663,6 +665,7 @@
     "weekend": ["2025-04-04", "2025-04-05", "2025-04-06"],
     "hashtag": "#JapaneseGP",
     "initDay": "2025-04-04",
+    "finishDay": "2025-04-06",
     "track2D": "/tracks-2d/Japan.avif",
     "image": "/tracks/Japan.webp",
     "infoTrack": {
@@ -899,6 +902,7 @@
     "weekend": ["2025-04-11", "2025-04-12", "2025-04-13"],
     "hashtag": "#BahrainGP",
     "initDay": "2025-04-11",
+    "finishDay": "2025-04-13",
     "track2D": "/tracks-2d/Bahrain.avif",
     "image": "/tracks/Bahrein.webp",
     "infoTrack": {
@@ -949,6 +953,7 @@
     "weekend": ["2025-04-18", "2025-04-19", "2025-04-20"],
     "hashtag": "#SaudiArabiaGP",
     "initDay": "2025-04-18",
+    "finishDay": "2025-04-20",
     "track2D": "/tracks-2d/SaudiArabia.avif",
     "image": "/tracks/SaudiArabia.webp",
     "infoTrack": {
@@ -1000,6 +1005,7 @@
     "weekend": ["2025-05-02", "2025-05-03", "2025-05-04"],
     "hashtag": "#MiamiGP",
     "initDay": "2025-05-02",
+    "finishDay": "2025-05-04",
     "track2D": "/tracks-2d/Miami.avif",
     "infoTrack": {
       "name": "Miami International Autodrome",
@@ -1049,6 +1055,7 @@
     "weekend": ["2025-05-16", "2025-05-17", "2025-05-18"],
     "hashtag": "#EmiliaRomagnaGP",
     "initDay": "2025-05-16",
+    "finishDay": "2025-05-18",
     "track2D": "/tracks-2d/Imola.avif",
     "image": "/tracks/Imola.webp",
     "infoTrack": {
@@ -1099,6 +1106,7 @@
     "weekend": ["2025-05-23", "2025-05-24", "2025-05-25"],
     "hashtag": "#MonacoGP",
     "initDay": "2025-05-23",
+    "finishDay": "2025-05-25",
     "track2D": "/tracks-2d/Monaco.avif",
     "image": "/tracks/Monaco.webp",
     "infoTrack": {
@@ -1149,6 +1157,7 @@
     "weekend": ["2025-05-30", "2025-05-31", "2025-06-01"],
     "hashtag": "#SpanishGP",
     "initDay": "2025-05-30",
+    "finishDay": "2025-06-01",
     "track2D": "/tracks-2d/Espana.avif",
     "image": "/tracks/Espana.webp",
     "infoTrack": {
@@ -1199,6 +1208,7 @@
     "weekend": ["2025-06-13", "2025-06-14", "2025-06-15"],
     "hashtag": "#CanadianGP",
     "initDay": "2025-06-13",
+    "finishDay": "2025-06-15",
     "track2D": "/tracks-2d/Canada.avif",
     "image": "/tracks/Canada.webp",
     "infoTrack": {
@@ -1249,6 +1259,7 @@
     "weekend": ["2025-06-27", "2025-06-28", "2025-06-29"],
     "hashtag": "#AustrianGP",
     "initDay": "2025-06-27",
+    "finishDay": "2025-06-29",
     "track2D": "/tracks-2d/Austria.avif",
     "image": "/tracks/Austria.webp",
     "infoTrack": {
@@ -1299,6 +1310,7 @@
     "weekend": ["2025-07-04", "2025-07-05", "2025-07-06"],
     "hashtag": "#BritishGP",
     "initDay": "2025-07-04",
+    "finishDay": "2025-07-06",
     "track2D": "/tracks-2d/Silverstone.avif",
     "image": "/tracks/Silverstone.webp",
     "infoTrack": {
@@ -1349,6 +1361,7 @@
     "weekend": ["2025-07-25", "2025-07-26", "2025-07-27"],
     "hashtag": "#BelgianGP",
     "initDay": "2025-07-25",
+    "finishDay": "2025-07-27",
     "track2D": "/tracks-2d/Belgica.png",
     "image": "/tracks/Belgium.webp",
     "infoTrack": {
@@ -1399,6 +1412,7 @@
     "weekend": ["2025-08-01", "2025-08-02", "2025-08-03"],
     "hashtag": "#HungarianGP",
     "initDay": "2025-08-01",
+    "finishDay": "2025-08-03",
     "track2D": "/tracks-2d/Hungria.avif",
     "image": "/tracks/Hungary.webp",
     "infoTrack": {
@@ -1449,6 +1463,7 @@
     "weekend": ["2025-08-29", "2025-08-30", "2025-08-31"],
     "hashtag": "#DutchGP",
     "initDay": "2025-08-29",
+    "finishDay": "2025-08-31",
     "track2D": "/tracks-2d/Holanda.avif",
     "image": "/tracks/Netherlands.webp",
     "infoTrack": {
@@ -1499,6 +1514,7 @@
     "weekend": ["2025-09-05", "2025-09-06", "2025-09-07"],
     "hashtag": "#ItalianGP",
     "initDay": "2025-09-05",
+    "finishDay": "2025-09-07",
     "track2D": "/tracks-2d/Monza.avif",
     "image": "/tracks/Monza.webp",
     "infoTrack": {
@@ -1549,6 +1565,7 @@
     "weekend": ["2025-09-19", "2025-09-20", "2025-09-21"],
     "hashtag": "#AzerbaijanGP",
     "initDay": "2025-09-19",
+    "finishDay": "2025-09-21",
     "track2D": "/tracks-2d/Baku.avif",
     "image": "/tracks/Azerbaijan.webp",
     "infoTrack": {
@@ -1599,6 +1616,7 @@
     "weekend": ["2025-10-03", "2025-10-04", "2025-10-05"],
     "hashtag": "#SingaporeGP",
     "initDay": "2025-10-03",
+    "finishDay": "2025-10-05",
     "track2D": "/tracks-2d/Singapur.avif",
     "image": "/tracks/Singapore.webp",
     "infoTrack": {
@@ -1649,6 +1667,7 @@
     "weekend": ["2025-10-17", "2025-10-18", "2025-10-19"],
     "hashtag": "#USAGP",
     "initDay": "2025-10-17",
+    "finishDay": "2025-10-19",
     "track2D": "/tracks-2d/EEUU.avif",
     "image": "/tracks/USA.webp",
     "infoTrack": {
@@ -1699,6 +1718,7 @@
     "weekend": ["2025-10-24", "2025-10-25", "2025-10-26"],
     "hashtag": "#MexicoGP",
     "initDay": "2025-10-24",
+    "finishDay": "2025-10-26",
     "track2D": "/tracks-2d/Mexico.avif",
     "image": "/tracks/Mexico.webp",
     "infoTrack": {
@@ -1749,6 +1769,7 @@
     "weekend": ["2025-11-07", "2025-11-08", "2025-11-09"],
     "hashtag": "#BrazilGP",
     "initDay": "2025-11-07",
+    "finishDay": "2025-11-09",
     "track2D": "/tracks-2d/Brasil.avif",
     "image": "/tracks/Brazil.webp",
     "infoTrack": {
@@ -1799,6 +1820,7 @@
     "weekend": ["2025-11-20", "2025-11-21", "2025-11-22"],
     "hashtag": "#LasVegasGP",
     "initDay": "2025-11-20",
+    "finishDay": "2025-11-22",
     "track2D": "/tracks-2d/LasVegas.avif",
     "image": "/tracks/LasVegas.webp",
     "infoTrack": {
@@ -1844,6 +1866,7 @@
     "weekend": ["2025-11-28", "2025-11-29", "2025-11-30"],
     "hashtag": "#QatarGP",
     "initDay": "2025-11-28",
+    "finishDay": "2025-11-30",
     "track2D": "/tracks-2d/Qatar.avif",
     "image": "/tracks/Qatar.webp",
     "infoTrack": {
@@ -1894,6 +1917,7 @@
     "weekend": ["2025-12-05", "2025-12-06", "2025-12-07"],
     "hashtag": "#AbuDhabiGP",
     "initDay": "2025-12-05",
+    "finishDay": "2025-12-07",
     "track2D": "/tracks-2d/AbuDhabi.avif",
     "image": "/tracks/AbuDhabi.webp",
     "infoTrack": {

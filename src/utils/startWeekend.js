@@ -23,7 +23,5 @@ export const startWeekend = (id) => {
 
   let finalStartWeekend = new Date(`${initDay}T${initTime}`);
 
-  console.log("finalStartWeekend", finalStartWeekend);
-
   return finalStartWeekend;
 };
