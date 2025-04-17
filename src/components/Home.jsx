@@ -203,6 +203,7 @@ function App() {
             }
             pagination={false}
             showArrows={false}
+            initialActiveIndex={active - 2}
           >
             {data.map((item) => (
               <Cards
