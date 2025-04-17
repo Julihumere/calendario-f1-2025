@@ -70,21 +70,21 @@ export default function CardInfo({
             </div>
           </div>
         ) : (
-          <div className="p-10">
+          <div className="p-10 w-full h-full flex flex-col items-center justify-between">
             <h1
               className="w-full text-4xl font-bold text-white text-center max-[500px]:text-2xl"
               style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}
             >
               {name}
             </h1>
-            <div className="flex items-center justify-center w-full mt-4">
+            <div className="flex items-center justify-center w-full mt-4 max-h-[60%]">
               <img
                 src={track2D}
                 alt={name}
-                className="w-full h-full rounded-2xl"
+                className="w-full h-full object-contain rounded-2xl"
               />
             </div>
-            <ul className="w-full text-left mt-4">
+            <ul className="w-full text-left mt-4 overflow-y-auto max-h-[30%]">
               <li className="text-2xl text-white">
                 <span className="text-2xl font-semibold text-primary">
                   Localización:
