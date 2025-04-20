@@ -163,8 +163,8 @@ function App() {
             <Skeleton width={900} height={750} />
           </div>
         ) : (
-          <div className="flex items-center justify-around w-full mt-10 max-[500px]:flex-col">
-            <div className="min-h-[750px] w-[45%] max-[500px]:w-full">
+          <div className="flex items-center justify-around w-full mt-10 max-[900px]:flex-col">
+            <div className="min-h-[750px] w-[45%] max-[900px]:w-[90%]">
               <MasterCard
                 thisWeekend={thisWeekend}
                 gpPast={gpPast}
@@ -174,7 +174,7 @@ function App() {
                 setRace={setRace}
               />
             </div>
-            <div className="min-h-[750px] w-[45%] max-[500px]:w-full max-[500px]:mt-5">
+            <div className="min-h-[750px] w-[45%] max-[900px]:w-[90%] max-[900px]:mt-5">
               {thisWeekend && (
                 <CardInfo
                   info={thisWeekend?.infoTrack}

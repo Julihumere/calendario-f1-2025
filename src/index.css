@@ -9,3 +9,7 @@
 body {
   font-family: "Bebas Neue", sans-serif;
 }
+
+@utility mask-fade-bottom {
+  mask-image: linear-gradient(to bottom, black, 90%, transparent);
+}

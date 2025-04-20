@@ -16,34 +16,35 @@ export default function LeaderBoard({ loading }) {
       );
       const bestPosition =
         validPositions.length > 0 ? Math.min(...validPositions) : Infinity;
-      const hasDSQ = item.positions.includes("DSQ");
+      const dnfCount = item.positions.filter((pos) => pos === "DNF").length;
+      const dsqCount = item.positions.filter((pos) => pos === "DSQ").length;
 
       return {
         ...item,
         bestPosition,
-        hasDSQ,
+        dnfCount,
+        dsqCount,
       };
     });
 
     const sortedDrivers = result.sort((a, b) => {
+      // 1. Ordenar por puntos (descendente)
       if (b.points !== a.points) {
-        return b.points - a.points; // Ordenar por puntos (descendente)
+        return b.points - a.points;
       }
 
+      // 2. Ordenar por mejor posición (ascendente)
       if (a.bestPosition !== b.bestPosition) {
-        return a.bestPosition - b.bestPosition; // Ordenar por mejor posición (ascendente)
+        return a.bestPosition - b.bestPosition;
       }
 
-      if (b.lapsComplete !== a.lapsComplete) {
-        return b.lapsComplete - a.lapsComplete; // Ordenar por vueltas completadas (descendente)
+      // 3. Ordenar por menos DNF (ascendente)
+      if (a.dnfCount !== b.dnfCount) {
+        return a.dnfCount - b.dnfCount;
       }
 
-      // Si ambos tienen DSQ o ninguno lo tiene, no se cambia el orden
-      if (a.hasDSQ !== b.hasDSQ) {
-        return a.hasDSQ ? 1 : -1; // Si A tiene DSQ, va después; si B tiene DSQ, A va primero
-      }
-
-      return 0;
+      // 4. Ordenar por menos DSQ (ascendente)
+      return a.dsqCount - b.dsqCount;
     });
 
     setLeaderBoard(sortedDrivers);
