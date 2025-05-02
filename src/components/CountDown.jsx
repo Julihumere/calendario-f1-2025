@@ -35,7 +35,7 @@ function Countdown({ fechaObjetivo, name }) {
   if (tiempoRestante) {
     return (
       <div className="w-full py-2">
-        <h1 className="text-left text-4xl max-[500px]:text-lg">
+        <h1 className="text-left text-4xl max-[500px]:text-2xl">
           Inicio del GP de {name}:{" "}
           <span className="text-primary px-3 py-4 text-center rounded-full max-[500px]:px-1 max-[500px]:py-2">
             {tiempoRestante.dias}

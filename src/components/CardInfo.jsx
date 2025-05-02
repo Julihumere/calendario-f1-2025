@@ -11,11 +11,11 @@ export default function CardInfo({
   const { name, location, length, laps, distance, curves, lapRecord } = info;
 
   return (
-    <div className="h-[750px] flex flex-col items-center justify-between text-white relative z-10">
-      <div className="h-full w-full relative flex flex-col items-center justify-between rounded-2xl max-[500px]:w-[90%]">
+    <div className="flex flex-col items-center justify-between text-white relative z-10">
+      <div className="h-[750px] w-full relative flex flex-col items-center justify-between rounded-2xl max-[500px]:h-full max-[500px]:w-[100%]">
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray opacity-60 bg-[#101828] rounded-2xl -z-10"></div>
         {loadingSpinner ? (
-          <div className="w-full h-full flex items-center justify-center">
+          <div className="w-full h-[500px] flex items-center justify-center">
             <div id="semiTransparenDiv" />
           </div>
         ) : gpPast ? (
@@ -70,21 +70,21 @@ export default function CardInfo({
             </div>
           </div>
         ) : (
-          <div className="p-10 w-full h-full flex flex-col items-center justify-between">
+          <div className="w-full h-[750px] p-10 max-[500px]:p-5 flex flex-col items-center justify-between max-[500px]:h-full">
             <h1
               className="w-full text-4xl font-bold text-white text-center max-[500px]:text-2xl"
               style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}
             >
               {name}
             </h1>
-            <div className="flex items-center justify-center w-full mt-4 max-h-[60%]">
+            <div className="flex items-center justify-center">
               <img
                 src={track2D}
                 alt={name}
                 className="w-full h-full object-contain rounded-2xl"
               />
             </div>
-            <ul className="w-full text-left mt-4 overflow-y-auto max-h-[30%]">
+            <ul className="w-full text-left mt-4">
               <li className="text-2xl text-white">
                 <span className="text-2xl font-semibold text-primary">
                   Localización:

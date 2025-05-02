@@ -158,13 +158,13 @@ function App() {
         )}
 
         {loading ? (
-          <div className="w-full flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
+          <div className="w-full max-h-[750px] flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
             <Skeleton width={900} height={750} />
             <Skeleton width={900} height={750} />
           </div>
         ) : (
           <div className="flex items-center justify-around w-full mt-10 max-[900px]:flex-col">
-            <div className="min-h-[750px] w-[45%] max-[900px]:w-[90%]">
+            <div className="max-h-[750px] w-[45%] max-[900px]:w-[90%]">
               <MasterCard
                 thisWeekend={thisWeekend}
                 gpPast={gpPast}
@@ -174,7 +174,11 @@ function App() {
                 setRace={setRace}
               />
             </div>
-            <div className="min-h-[750px] w-[45%] max-[900px]:w-[90%] max-[900px]:mt-5">
+            <div
+              className={`${
+                gpPast ? "min-h-[750px]" : "max-h-[750px]"
+              } w-[45%] max-[900px]:w-[90%] max-[900px]:mt-5`}
+            >
               {thisWeekend && (
                 <CardInfo
                   info={thisWeekend?.infoTrack}
