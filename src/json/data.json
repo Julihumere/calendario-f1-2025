@@ -1437,6 +1437,384 @@
         "time": "17:00"
       }
     ],
+    "results": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "photo": "/pilots/piastri.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "photo": "/pilots/norris.avif"
+        },
+        {
+          "position": 3,
+          "driver": "George Russell",
+          "team": "mer",
+          "photo": "/pilots/russell.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 57,
+          "time": "1:28:51.587",
+          "points": 25
+        },
+        {
+          "position": 2,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 57,
+          "time": "+4.630s",
+          "points": 18
+        },
+        {
+          "position": 3,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 57,
+          "time": "+37.644s",
+          "points": 15
+        },
+        {
+          "position": 4,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 57,
+          "time": "+39.956s",
+          "points": 12
+        },
+        {
+          "position": 5,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 57,
+          "time": "+48.067s",
+          "points": 10
+        },
+        {
+          "position": 6,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 57,
+          "time": "+55.502s",
+          "points": 8
+        },
+        {
+          "position": 7,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 57,
+          "time": "+57.036s",
+          "points": 6
+        },
+        {
+          "position": 8,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 57,
+          "time": "+60.186s",
+          "points": 4
+        },
+        {
+          "position": 9,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 57,
+          "time": "+60.577s",
+          "points": 2
+        },
+        {
+          "position": 10,
+          "driver": "Yuki Tsunoda",
+          "team": "redb",
+          "laps": 57,
+          "time": "+74.434s",
+          "points": 1
+        },
+        {
+          "position": 11,
+          "driver": "Isack Hadjar",
+          "team": "rb",
+          "laps": 57,
+          "time": "+74.602s",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 57,
+          "time": "+82.006s",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 57,
+          "time": "+90.445s",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "driver": "Nico Hulkenberg",
+          "team": "kick",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 36,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Gabriel Bortoleto",
+          "team": "kick",
+          "laps": 30,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 27,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Jack Doohan",
+          "team": "alp",
+          "laps": 0,
+          "time": "DNF",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "time": "1:26.204"
+      }
+    },
+    "resultsSprint": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "photo": "/pilots/norris.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "photo": "/pilots/piastri.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "photo": "/pilots/hamilton.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 18,
+          "time": "36:37.647",
+          "points": 8
+        },
+        {
+          "position": 2,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 18,
+          "time": "+0.672s",
+          "points": 7
+        },
+        {
+          "position": 3,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 18,
+          "time": "+1.073s",
+          "points": 6
+        },
+        {
+          "position": 4,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 18,
+          "time": "+3.127s",
+          "points": 5
+        },
+        {
+          "position": 5,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 18,
+          "time": "+3.412s",
+          "points": 4
+        },
+        {
+          "position": 6,
+          "driver": "Yuki Tsunoda",
+          "team": "redb",
+          "laps": 18,
+          "time": "+5.153s",
+          "points": 3
+        },
+        {
+          "position": 7,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 18,
+          "time": "+5.635s",
+          "points": 2
+        },
+        {
+          "position": 8,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 18,
+          "time": "+5.973s",
+          "points": 1
+        },
+        {
+          "position": 9,
+          "driver": "Nico Hulkenberg",
+          "team": "kick",
+          "laps": 18,
+          "time": "+6.153s",
+          "points": 0
+        },
+        {
+          "position": 10,
+          "driver": "Isack Hadjar",
+          "team": "rb",
+          "laps": 18,
+          "time": "+7.502s",
+          "points": 0
+        },
+        {
+          "position": 11,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 18,
+          "time": "+7.522s",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 18,
+          "time": "+8.998s",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 18,
+          "time": "+9.024s",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 18,
+          "time": "+9.218s",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "driver": "Gabriel Bortoleto",
+          "team": "kick",
+          "laps": 18,
+          "time": "+9.675s",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "driver": "Jack Doohan",
+          "team": "alp",
+          "laps": 18,
+          "time": "+9.909s",
+          "points": 0
+        },
+        {
+          "position": 17,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 18,
+          "time": "+12.059s",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 13,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 12,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 0,
+          "time": "DNF",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:26.482"
+      }
+    },
     "sprint": true
   },
   {

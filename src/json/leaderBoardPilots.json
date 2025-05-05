@@ -3,89 +3,89 @@
     "number": 1,
     "nation": "/nationality/NED.avif",
     "name": "Max Verstappen",
-    "points": 87,
+    "points": 99,
     "team": "Red Bull Racing Honda RBPT",
     "teamLogo": "redb",
     "cars": "/cars/red-bull-racing.avif",
-    "positions": [2, 4, 1, 6, 2],
-    "lapsComplete": 278
+    "positions": [2, 4, 1, 6, 2, 4],
+    "lapsComplete": 330
   },
   {
     "number": 22,
     "nation": "/nationality/JAP.avif",
     "name": "Yuki Tsunoda",
-    "points": 5,
+    "points": 9,
     "team": "Red Bull Racing Honda RBPT",
     "teamLogo": "redb",
     "cars": "/cars/red-bull-racing.avif",
-    "positions": [12, 16, 12, 9, "DNF"],
-    "lapsComplete": 223
+    "positions": [12, 16, 12, 9, "DNF", 10],
+    "lapsComplete": 280
   },
   {
     "number": 16,
     "nation": "/nationality/MON.avif",
     "name": "Charles Leclerc",
-    "points": 47,
+    "points": 53,
     "team": "Ferrari",
     "teamLogo": "fer",
     "cars": "/cars/ferrari.avif",
-    "positions": [8, "DSQ", 4, 4, 3],
-    "lapsComplete": 222
+    "positions": [8, "DSQ", 4, 4, 3, 7],
+    "lapsComplete": 274
   },
   {
     "number": 44,
     "nation": "/nationality/UK.avif",
     "name": "Lewis Hamilton",
-    "points": 31,
+    "points": 41,
     "team": "Ferrari",
     "teamLogo": "fer",
     "cars": "/cars/ferrari.avif",
-    "positions": [10, "DSQ", 7, 5, 7],
-    "lapsComplete": 222
+    "positions": [10, "DSQ", 7, 5, 7, 8],
+    "lapsComplete": 274
   },
   {
     "number": 63,
     "nation": "/nationality/UK.avif",
     "name": "George Russell",
-    "points": 73,
+    "points": 93,
     "team": "Mercedes",
     "teamLogo": "mer",
     "cars": "/cars/mercedes.avif",
-    "positions": [3, 3, 5, 2, 5],
-    "lapsComplete": 278
+    "positions": [3, 3, 5, 2, 5, 3],
+    "lapsComplete": 330
   },
   {
     "number": 12,
     "nation": "/nationality/ITA.avif",
     "name": "Andrea Kimi Antonelli",
-    "points": 38,
+    "points": 48,
     "team": "Mercedes",
     "teamLogo": "mer",
     "cars": "/cars/mercedes.avif",
-    "positions": [4, 6, 6, 11, 6],
-    "lapsComplete": 278
+    "positions": [4, 6, 6, 11, 6, 6],
+    "lapsComplete": 330
   },
   {
     "number": 4,
     "nation": "/nationality/UK.avif",
     "name": "Lando Norris",
-    "points": 89,
+    "points": 115,
     "team": "McLaren Mercedes",
     "teamLogo": "mcl",
     "cars": "/cars/mclaren.avif",
-    "positions": [1, 2, 2, 2, 4],
-    "lapsComplete": 278
+    "positions": [1, 2, 2, 3, 4, 2],
+    "lapsComplete": 330
   },
   {
     "number": 81,
     "nation": "/nationality/AUS.avif",
     "name": "Oscar Piastri",
-    "points": 99,
+    "points": 131,
     "team": "McLaren Mercedes",
     "teamLogo": "mcl",
     "cars": "/cars/mclaren.avif",
-    "positions": [9, 1, 3, 1, 1],
-    "lapsComplete": 278
+    "positions": [9, 1, 3, 1, 1, 1],
+    "lapsComplete": 330
   },
   {
     "number": 14,
@@ -95,30 +95,30 @@
     "team": "Aston Martin Aramco Mercedes",
     "teamLogo": "ast",
     "cars": "/cars/aston-martin.avif",
-    "positions": [17, 17, 11, 16, 11],
-    "lapsComplete": 201
+    "positions": ["DNF", "DNF", 11, 15, 11, 15],
+    "lapsComplete": 252
   },
   {
     "number": 18,
     "nation": "/nationality/CAN.avif",
     "name": "Lance Stroll",
-    "points": 10,
+    "points": 14,
     "team": "Aston Martin Aramco Mercedes",
     "teamLogo": "ast",
     "cars": "/cars/aston-martin.avif",
-    "positions": [6, 9, 20, 18, 16],
-    "lapsComplete": 222
+    "positions": [6, 9, 20, 17, 16, 16],
+    "lapsComplete": 327
   },
   {
     "number": 10,
     "nation": "/nationality/FRA.avif",
     "name": "Pierre Gasly",
-    "points": 6,
+    "points": 7,
     "team": "Alpine Renault",
     "teamLogo": "alp",
     "cars": "/cars/alpine.avif",
-    "positions": [11, "DSQ", 13, 7, "DNF"],
-    "lapsComplete": 167
+    "positions": [11, "DSQ", 13, 7, "DNF", 13],
+    "lapsComplete": 224
   },
   {
     "number": 7,
@@ -128,8 +128,8 @@
     "team": "Alpine Renault",
     "teamLogo": "alp",
     "cars": "/cars/alpine.avif",
-    "positions": [19, 13, 15, 15, 17],
-    "lapsComplete": 166
+    "positions": ["DNF", 13, 15, 14, 17, "DNF"],
+    "lapsComplete": 215
   },
   {
     "number": 30,
@@ -139,8 +139,8 @@
     "team": "Racing Bulls Honda RBPT",
     "teamLogo": "rb",
     "cars": "/cars/racing-bulls.avif",
-    "positions": [15, 12, 17, 17, 12],
-    "lapsComplete": 212
+    "positions": ["DNF", 12, 17, 16, 12, "DNF"],
+    "lapsComplete": 298
   },
   {
     "number": 6,
@@ -150,8 +150,8 @@
     "team": "Racing Bulls Honda RBPT",
     "teamLogo": "rb",
     "cars": "/cars/racing-bulls.avif",
-    "positions": [20, 11, 6, 14, 10],
-    "lapsComplete": 166
+    "positions": ["DNF", 11, 8, 13, 10, 11],
+    "lapsComplete": 273
   },
   {
     "number": 27,
@@ -161,8 +161,8 @@
     "team": "Kick Sauber Ferrari",
     "teamLogo": "kick",
     "cars": "/cars/kick-sauber.avif",
-    "positions": [7, 15, 16, 13, 15],
-    "lapsComplete": 222
+    "positions": [7, 15, 16, "DSQ", 15, 14],
+    "lapsComplete": 270
   },
   {
     "number": 5,
@@ -172,8 +172,8 @@
     "team": "Kick Sauber Ferrari",
     "teamLogo": "kick",
     "cars": "/cars/kick-sauber.avif",
-    "positions": [16, 14, 19, 19, 18],
-    "lapsComplete": 210
+    "positions": ["DNF", 14, 19, 18, 18, "DNF"],
+    "lapsComplete": 289
   },
   {
     "number": 87,
@@ -183,8 +183,8 @@
     "team": "Haas Ferrari",
     "teamLogo": "haas",
     "cars": "/cars/haas.avif",
-    "positions": [14, 8, 10, 10, 13],
-    "lapsComplete": 223
+    "positions": [14, 8, 10, 10, 13, "DNF"],
+    "lapsComplete": 300
   },
   {
     "number": 31,
@@ -194,29 +194,29 @@
     "team": "Haas Ferrari",
     "teamLogo": "haas",
     "cars": "/cars/haas.avif",
-    "positions": [13, 5, 18, 8, 14],
-    "lapsComplete": 223
+    "positions": [13, 5, 18, 8, 14, 12],
+    "lapsComplete": 330
   },
   {
     "number": 23,
     "nation": "/nationality/THA.avif",
     "name": "Alex Albon",
-    "points": 20,
+    "points": 30,
     "team": "Williams Mercedes",
     "teamLogo": "will",
     "cars": "/cars/williams.avif",
-    "positions": [5, 7, 9, 12, 9],
-    "lapsComplete": 223
+    "positions": [5, 7, 9, 12, 9, 5],
+    "lapsComplete": 330
   },
   {
     "number": 55,
     "nation": "/nationality/ESP.avif",
     "name": "Carlos Sainz",
-    "points": 5,
+    "points": 7,
     "team": "Williams Mercedes",
     "teamLogo": "will",
     "cars": "/cars/williams.avif",
-    "positions": [18, 10, 14, 20, 8],
-    "lapsComplete": 154
+    "positions": ["DNF", 10, 14, "DNF", 8, 9],
+    "lapsComplete": 261
   }
 ]
