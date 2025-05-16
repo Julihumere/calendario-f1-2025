@@ -19,56 +19,64 @@ export default function CardInfo({
             <div id="semiTransparenDiv" />
           </div>
         ) : gpPast ? (
-          <div className="w-full bg-[#101828] overflow-hidden rounded-2xl p-4 flex flex-col items-center justify-between h-full">
-            <div className="w-full flex items-center justify-around py-2 border-b-2 border-white">
-              <p className="w-1/2 flex items-center justify-center text-lg">
-                Posición
-              </p>
-              <p className="w-full flex items-center justify-center text-lg">
-                Piloto
-              </p>
-              <p className="w-full flex items-center justify-center text-lg">
-                Equipo
-              </p>
-              <p className="w-full flex items-center justify-center text-lg">
-                Tiempo
-              </p>
-              <p className="w-1/2 mr-2 flex items-center justify-center text-lg">
-                Puntos
-              </p>
-            </div>
-            <div className="leaderBoard-info w-full h-full overflow-y-auto flex flex-col items-center justify-between">
-              {dataGP?.leaderBoard?.map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="w-full h-full bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
-                  >
-                    <p className="w-1/2 text-center text-lg max-[500px]:text-sm">
-                      {item.position}
-                    </p>
-                    <p className="w-full text-center text-lg max-[500px]:text-sm">
-                      {item.driver}
-                    </p>
-                    <div className="w-full flex items-center justify-center">
-                      <img
-                        src={`/teams/${item.team}.avif`}
-                        alt={item.team}
-                        className="w-10 h-10 rounded-full mr-2"
-                      />
-                    </div>
+          dataGP !== undefined ? (
+            <div className="w-full bg-[#101828] overflow-hidden rounded-2xl p-4 flex flex-col items-center justify-between h-full">
+              <div className="w-full flex items-center justify-around py-2 border-b-2 border-white">
+                <p className="w-1/2 flex items-center justify-center text-lg">
+                  Posición
+                </p>
+                <p className="w-full flex items-center justify-center text-lg">
+                  Piloto
+                </p>
+                <p className="w-full flex items-center justify-center text-lg">
+                  Equipo
+                </p>
+                <p className="w-full flex items-center justify-center text-lg">
+                  Tiempo
+                </p>
+                <p className="w-1/2 mr-2 flex items-center justify-center text-lg">
+                  Puntos
+                </p>
+              </div>
+              <div className="leaderBoard-info w-full h-full overflow-y-auto flex flex-col items-center justify-between">
+                {dataGP?.leaderBoard?.map((item, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="w-full h-full bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
+                    >
+                      <p className="w-1/2 text-center text-lg max-[500px]:text-sm">
+                        {item.position}
+                      </p>
+                      <p className="w-full text-center text-lg max-[500px]:text-sm">
+                        {item.driver}
+                      </p>
+                      <div className="w-full flex items-center justify-center">
+                        <img
+                          src={`/teams/${item.team}.avif`}
+                          alt={item.team}
+                          className="w-10 h-10 rounded-full mr-2"
+                        />
+                      </div>
 
-                    <p className="w-full text-center text-lg max-[500px]:text-sm">
-                      {item.time}
-                    </p>
-                    <p className="w-1/2 text-center text-3xl text-primary max-[500px]:text-2xl">
-                      {item.points}
-                    </p>
-                  </div>
-                );
-              })}
+                      <p className="w-full text-center text-lg max-[500px]:text-sm">
+                        {item.time}
+                      </p>
+                      <p className="w-1/2 text-center text-3xl text-primary max-[500px]:text-2xl">
+                        {item.points}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="w-[400px] h-[50px] flex items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-2xl">
+              <h1 className="text-2xl text-gray-300">
+                Aún no se han cargado los datos
+              </h1>
+            </div>
+          )
         ) : (
           <div className="w-full h-[750px] p-10 max-[500px]:p-5 flex flex-col items-center justify-between max-[500px]:h-full">
             <h1

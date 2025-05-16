@@ -1,13 +1,37 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 
-function Countdown({ fechaObjetivo, name }) {
+function Countdown({ fechaObjetivo, name, thisWeekend }) {
   const [tiempoRestante, setTiempoRestante] = useState(
     calcularTiempoRestante()
   );
 
   function calcularTiempoRestante() {
     const ahora = new Date();
+
+    // Si no hay fecha objetivo, retornamos null
+    if (!fechaObjetivo) return null;
+
+    // Obtenemos la fecha de inicio y fin del GP
+    const inicioGP = new Date(fechaObjetivo);
+    const finGP =
+      thisWeekend?.sunday?.length > 0
+        ? new Date(
+            thisWeekend.sunday[thisWeekend.sunday.length - 1].date +
+              "T" +
+              thisWeekend.sunday[thisWeekend.sunday.length - 1].time
+          )
+        : new Date(
+            thisWeekend.saturday[thisWeekend.saturday.length - 1].date +
+              "T" +
+              thisWeekend.saturday[thisWeekend.saturday.length - 1].time
+          );
+
+    // Si estamos entre el inicio y el fin del GP
+    if (ahora >= inicioGP && ahora <= finGP) {
+      return "en_curso";
+    }
+
     const diferencia = fechaObjetivo - ahora;
 
     if (diferencia > 0) {
@@ -32,7 +56,15 @@ function Countdown({ fechaObjetivo, name }) {
     return () => clearInterval(intervalo);
   }, [fechaObjetivo]);
 
-  if (tiempoRestante) {
+  if (tiempoRestante === "en_curso") {
+    return (
+      <div className="w-full py-2">
+        <h1 className="text-left text-4xl max-[500px]:text-2xl">
+          GP de {name} disputándose ahora
+        </h1>
+      </div>
+    );
+  } else if (tiempoRestante) {
     return (
       <div className="w-full py-2">
         <h1 className="text-left text-4xl max-[500px]:text-2xl">
@@ -58,10 +90,9 @@ function Countdown({ fechaObjetivo, name }) {
     );
   } else {
     return (
-      <div className="w-full py-5">
-        {" "}
+      <div className="w-full py-2">
         <h1 className="text-left text-4xl">
-          ¡Este Gran premio ya se ha diputado!
+          ¡Este Gran premio ya ha finalizado!
         </h1>
       </div>
     );

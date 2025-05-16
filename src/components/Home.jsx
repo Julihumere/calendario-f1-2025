@@ -51,22 +51,45 @@ function App() {
 
     const thisWeekend = getCurrentWeekend(gp?.id);
 
-    const countDownTimer = startWeekend(thisWeekend?.id);
-    setFechaObjetivo(countDownTimer);
+    // Si el GP actual ha terminado, buscamos el siguiente
+    const finGP =
+      thisWeekend?.sunday?.length > 0
+        ? new Date(
+            thisWeekend.sunday[thisWeekend.sunday.length - 1].date +
+              "T" +
+              thisWeekend.sunday[thisWeekend.sunday.length - 1].time
+          )
+        : new Date(
+            thisWeekend.saturday[thisWeekend.saturday.length - 1].date +
+              "T" +
+              thisWeekend.saturday[thisWeekend.saturday.length - 1].time
+          );
 
     const fechaActual = new Date();
-    if (countDownTimer < fechaActual) {
-      setGpPast(true);
+
+    if (finGP < fechaActual) {
+      // Buscar el siguiente GP
+      const nextGP = data.find((gp) => {
+        const gpStart = new Date(gp.weekend[0] + "T" + gp.friday[0].time);
+        return gpStart > fechaActual;
+      });
+
+      if (nextGP) {
+        const countDownTimer = startWeekend(nextGP.id);
+        setFechaObjetivo(countDownTimer);
+        setThisWeekend(nextGP);
+        setActive(nextGP.id);
+        setDataGP(nextGP.results);
+        updateQueryString(nextGP.name);
+      }
     } else {
-      setGpPast(false);
-    }
-
-    setDataGP(thisWeekend.results);
-
-    if (thisWeekend) {
+      const countDownTimer = startWeekend(thisWeekend?.id);
+      setFechaObjetivo(countDownTimer);
+      setDataGP(thisWeekend.results);
       setThisWeekend(thisWeekend);
       setActive(thisWeekend.id);
     }
+
     setTimeout(() => {
       setLoadingSpinner(false);
     }, 3000);
@@ -87,8 +110,24 @@ function App() {
     setDataGP(weekend.results);
     setActive(id);
 
+    // Hacer scroll al inicio de la página
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
     const fechaActual = new Date();
-    if (countDownTimer < fechaActual) {
+    const finGP =
+      weekend?.sunday?.length > 0
+        ? new Date(
+            weekend.sunday[weekend.sunday.length - 1].date +
+              "T" +
+              weekend.sunday[weekend.sunday.length - 1].time
+          )
+        : new Date(
+            weekend.saturday[weekend.saturday.length - 1].date +
+              "T" +
+              weekend.saturday[weekend.saturday.length - 1].time
+          );
+
+    if (finGP < fechaActual) {
       setGpPast(true);
     } else {
       setGpPast(false);
@@ -140,6 +179,7 @@ function App() {
             <Countdown
               fechaObjetivo={fechaObjetivo}
               name={thisWeekend?.name}
+              thisWeekend={thisWeekend}
               setGpPast={setGpPast}
             />
             <button
