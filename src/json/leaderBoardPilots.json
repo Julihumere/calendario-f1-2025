@@ -218,5 +218,16 @@
     "cars": "/cars/williams.avif",
     "positions": ["DNF", 10, 14, "DNF", 8, 9],
     "lapsComplete": 261
+  },
+  {
+    "number": 43,
+    "nation": "/nationality/ARG.avif",
+    "name": "Franco Colapinto",
+    "points": 0,
+    "team": "Alpine Renault",
+    "teamLogo": "alp",
+    "cars": "/cars/alpine.avif",
+    "positions": [],
+    "lapsComplete": 0
   }
 ]

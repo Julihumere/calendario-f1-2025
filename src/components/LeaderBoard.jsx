@@ -173,7 +173,7 @@ export default function LeaderBoard({ loading }) {
                       <img
                         src={item.nation}
                         alt={`Nacionalidad de ${item.name}`}
-                        className="w-16 h-12 p-2 max-[500px]:w-12 max-[500px]:h-10"
+                        className="w-12 h-8 rounded-sm max-[500px]:w-10 max-[500px]:h-8"
                       />
                     </div>
 
