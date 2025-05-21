@@ -18,7 +18,7 @@ import { startWeekend } from "../utils/startWeekend";
 import Countdown from "./CountDown";
 import LeaderBoard from "./LeaderBoard";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
-
+import Replay from "./Replay";
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
   const [active, setActive] = useState(0);
@@ -232,6 +232,14 @@ function App() {
           </div>
         )}
 
+        {/* {gpPast && (
+          <Replay
+            video={thisWeekend?.video}
+            loading={loading}
+            gp={thisWeekend.name}
+          />
+        )} */}
+
         {loading ? (
           <div className="w-full flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
             <Skeleton width={400} height={300} />
@@ -241,7 +249,8 @@ function App() {
           </div>
         ) : (
           <Carousel
-            className="my-10"
+            // className={`${gpPast ? "mt-0" : "mt-10"}`}
+            className="mt-10"
             itemsToShow={
               (widthScreen < 500 && 2) || (widthScreen < 768 && 3) || 4
             }

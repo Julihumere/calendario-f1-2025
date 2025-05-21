@@ -8,6 +8,7 @@
     "finishDay": "2025-03-16",
     "track2D": "/tracks-2d/Australia.avif",
     "image": "/tracks/Australia.webp",
+    "video": "md9-jG4RzXs",
     "infoTrack": {
       "name": "Albert Park Circuit",
       "location": "Melbourne, Australia",
@@ -257,6 +258,7 @@
       "curves": "16",
       "lapRecord": "1:32.238 - Michael Schumacher (2004)"
     },
+    "video": "Hml6MaRRkn8",
     "friday": [
       {
         "name": "Práctica 1",
@@ -677,6 +679,7 @@
     "finishDay": "2025-04-06",
     "track2D": "/tracks-2d/Japan.avif",
     "image": "/tracks/Japan.webp",
+    "video": "or9ooNWaqKU",
     "infoTrack": {
       "name": "Suzuka International Racing Course",
       "location": "Suzuka, Japón",
@@ -917,6 +920,7 @@
     "finishDay": "2025-04-13",
     "track2D": "/tracks-2d/Bahrain.avif",
     "image": "/tracks/Bahrein.webp",
+    "video": "bFXLP487kXo",
     "infoTrack": {
       "name": "Bahrain International Circuit",
       "location": "Sakhir, Baréin",
@@ -1157,6 +1161,7 @@
     "finishDay": "2025-04-20",
     "track2D": "/tracks-2d/SaudiArabia.avif",
     "image": "/tracks/SaudiArabia.webp",
+    "video": "Li93iQDZQeg",
     "infoTrack": {
       "name": "Jeddah Street Circuit",
       "location": "Jeddah, Arabia Saudita",
@@ -1397,6 +1402,7 @@
     "initDay": "2025-05-02",
     "finishDay": "2025-05-04",
     "track2D": "/tracks-2d/Miami.avif",
+    "video": "ZI-HntdeVas",
     "infoTrack": {
       "name": "Miami International Autodrome",
       "location": "Miami, Estados Unidos",
@@ -1826,6 +1832,7 @@
     "finishDay": "2025-05-18",
     "track2D": "/tracks-2d/Imola.avif",
     "image": "/tracks/Imola.webp",
+    "video": "xkRXnrvFCY0",
     "infoTrack": {
       "name": "Autodromo Enzo e Dino Ferrari",
       "location": "Imola, Italia",
@@ -2079,24 +2086,24 @@
       {
         "name": "Práctica 1",
         "date": "2025-05-23",
-        "time": "07:30"
+        "time": "08:30"
       },
       {
         "name": "Práctica 2",
         "date": "2025-05-23",
-        "time": "11:30"
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
         "date": "2025-05-24",
-        "time": "08:30"
+        "time": "07:30"
       },
       {
         "name": "Clasificación",
         "date": "2025-05-24",
-        "time": "12:00"
+        "time": "11:00"
       }
     ],
     "sunday": [
