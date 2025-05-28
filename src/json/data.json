@@ -2326,24 +2326,24 @@
       {
         "name": "Práctica 1",
         "date": "2025-05-30",
-        "time": "07:30"
+        "time": "08:30"
       },
       {
         "name": "Práctica 2",
         "date": "2025-05-30",
-        "time": "11:30"
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
         "date": "2025-05-31",
-        "time": "08:30"
+        "time": "07:30"
       },
       {
         "name": "Clasificación",
         "date": "2025-05-31",
-        "time": "12:00"
+        "time": "11:00"
       }
     ],
     "sunday": [
