@@ -2798,22 +2798,22 @@
       {
         "name": "Práctica 1",
         "date": "2025-06-27",
-        "time": "07:30"
+        "time": "08:30"
       },
       {
-        "name": "Clasificación Sprint",
+        "name": "Práctica 2",
         "date": "2025-06-27",
-        "time": "11:30"
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
-        "name": "Carrera Sprint",
+        "name": "Práctica 3",
         "date": "2025-06-28",
-        "time": "07:00"
+        "time": "07:30"
       },
       {
-        "name": "Clasificación Gran Premio",
+        "name": "Clasificación",
         "date": "2025-06-28",
         "time": "11:00"
       }
