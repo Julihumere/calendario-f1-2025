@@ -3116,7 +3116,7 @@
         "time": "10:00"
       }
     ],
-    "sprint": false
+    "sprint": true
   },
   {
     "id": 14,
@@ -3140,12 +3140,12 @@
       {
         "name": "Práctica 1",
         "date": "2025-08-01",
-        "time": "07:30"
+        "time": "08:30"
       },
       {
         "name": "Práctica 2",
         "date": "2025-08-01",
-        "time": "11:30"
+        "time": "12:00"
       }
     ],
     "saturday": [
