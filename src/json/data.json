@@ -3298,26 +3298,26 @@
       {
         "name": "Práctica 2",
         "date": "2025-09-19",
-        "time": "09:30"
+        "time": "08:30"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
         "date": "2025-09-20",
-        "time": "06:30"
+        "time": "05:30"
       },
       {
         "name": "Clasificación",
         "date": "2025-09-20",
-        "time": "10:00"
+        "time": "09:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
         "date": "2025-09-21",
-        "time": "09:00"
+        "time": "10:00"
       }
     ],
     "sprint": false
