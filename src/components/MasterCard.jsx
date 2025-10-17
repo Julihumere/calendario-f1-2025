@@ -84,54 +84,70 @@ export default function MasterCard({
                 </div>
               </div>
               <div className="w-full flex flex-col items-center justify-evenly">
-                <h1 className="text-4xl">Podium</h1>
-                <div className="relative w-full h-[400px] flex flex-col items-center justify-center">
-                  <div className="w-full h-full flex items-center justify-center">
-                    {dataGP.podium[2] && (
-                      <div className="flex flex-col items-center justify-center">
-                        <div className="flex items-center justify-center">
-                          <img src="/podium/3.webp" className="w-8" />
-                          <h3 className="text-2xl">
-                            {dataGP.podium[2].driver}
-                          </h3>
-                        </div>
+                <h1 className="text-4xl mb-4">Podium</h1>
+                <div className="relative w-full h-[380px] flex items-center justify-center px-4 max-[500px]:h-[300px]">
+                  {/* Segundo lugar - Izquierda atrás */}
+                  {dataGP.podium[1] && (
+                    <div className="absolute left-[33%] top-0 flex flex-col items-center justify-center z-10 max-[500px]:left-[2%] max-[500px]:top-4">
+                      <div className="flex items-center justify-center gap-1 mb-1">
                         <img
-                          src={`${dataGP.podium[2].photo}`}
-                          className="w-[300px] max-w-full h-auto mask-fade-bottom"
+                          src="/podium/2.webp"
+                          alt="2"
+                          className="w-5 h-5 max-[500px]:w-4 max-[500px]:h-4"
                         />
+                        <h3 className="text-lg max-[500px]:text-sm font-bold text-center">
+                          {dataGP.podium[1].driver}
+                        </h3>
                       </div>
-                    )}
-                    {dataGP.podium[1] && (
-                      <div className="flex flex-col items-center justify-center">
-                        <div className="flex items-center justify-center">
-                          <img src="/podium/2.webp" className="w-8" />
-                          <h3 className="text-2xl">
-                            {dataGP.podium[1].driver}
-                          </h3>
-                        </div>
+                      <img
+                        src={`${dataGP.podium[1].photo}`}
+                        alt={dataGP.podium[1].driver}
+                        className="w-[120px] h-auto mask-fade-bottom max-[500px]:w-[80px]"
+                      />
+                    </div>
+                  )}
+
+                  {/* Tercer lugar - Derecha atrás */}
+                  {dataGP.podium[2] && (
+                    <div className="absolute right-[33%] top-0 flex flex-col items-center justify-center z-10 max-[500px]:right-[2%] max-[500px]:top-4">
+                      <div className="flex items-center justify-center gap-1 mb-1">
                         <img
-                          src={`${dataGP.podium[1].photo}`}
-                          className="w-[300px] max-w-full h-auto mask-fade-bottom"
+                          src="/podium/3.webp"
+                          alt="3"
+                          className="w-5 h-5 max-[500px]:w-4 max-[500px]:h-4"
                         />
+                        <h3 className="text-lg max-[500px]:text-sm font-bold text-center">
+                          {dataGP.podium[2].driver}
+                        </h3>
                       </div>
-                    )}
-                  </div>
-                  <div className="absolute top-0 w-full h-full flex items-center justify-center">
-                    {dataGP.podium[0] && (
-                      <div className="absolute bottom-0 w-full flex flex-col-reverse items-center justify-center">
-                        <div className="flex items-center justify-center mt-4">
-                          <img src="/podium/1.webp" className="w-8" />
-                          <h3 className="text-2xl">
-                            {dataGP.podium[0].driver}
-                          </h3>
-                        </div>
+                      <img
+                        src={`${dataGP.podium[2].photo}`}
+                        alt={dataGP.podium[2].driver}
+                        className="w-[120px] h-auto mask-fade-bottom max-[500px]:w-[80px]"
+                      />
+                    </div>
+                  )}
+
+                  {/* Primer lugar - Centro adelante */}
+                  {dataGP.podium[0] && (
+                    <div className="absolute top-0 flex flex-col items-center justify-center z-20">
+                      <img
+                        src={`${dataGP.podium[0].photo}`}
+                        alt={dataGP.podium[0].driver}
+                        className="w-[140px] h-auto mask-fade-bottom mb-2 max-[500px]:w-[110px]"
+                      />
+                      <div className="flex items-center justify-center gap-2">
                         <img
-                          src={`${dataGP.podium[0].photo}`}
-                          className="w-[300px] max-w-full h-auto mask-fade-bottom max-[500px]:w-[200px]"
+                          src="/podium/1.webp"
+                          alt="1"
+                          className="w-6 h-6 max-[500px]:w-5 max-[500px]:h-5"
                         />
+                        <h3 className="text-2xl max-[500px]:text-base font-bold text-center">
+                          {dataGP.podium[0].driver}
+                        </h3>
                       </div>
-                    )}
-                  </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
