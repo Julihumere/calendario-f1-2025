@@ -3,73 +3,111 @@
     "number": 81,
     "nation": "/nationality/AUS.avif",
     "name": "Oscar Piastri",
-    "points": 346,
+    "points": 356,
     "team": "McLaren Mercedes",
     "teamLogo": "mcl",
     "cars": "/cars/mclaren.avif",
-    "positions": [9, 1, 3, 1, 1, 1, 3, 3, 1, 2, 2, 1, 2, 1, 3, "DNF", 5],
-    "lapsComplete": 1030
+    "positions": [9, 1, 3, 1, 1, 1, 3, 3, 1, 2, 2, 1, 2, 1, 3, "DNF", 5, 5],
+    "lapsComplete": 1101
   },
   {
     "number": 4,
     "nation": "/nationality/UK.avif",
     "name": "Lando Norris",
-    "points": 332,
+    "points": 357,
     "team": "McLaren Mercedes",
     "teamLogo": "mcl",
     "cars": "/cars/mclaren.avif",
-    "positions": [1, 2, 2, 3, 4, 2, 2, 1, 2, 1, 1, 2, 1, "DNF", 2, 4, 3],
-    "lapsComplete": 1069
+    "positions": [1, 2, 2, 3, 4, 2, 2, 1, 2, 1, 1, 2, 1, "DNF", 2, 4, 3, 1],
+    "lapsComplete": 1140
   },
   {
     "number": 1,
     "nation": "/nationality/NED.avif",
     "name": "Max Verstappen",
-    "points": 306,
+    "points": 321,
     "team": "Red Bull Racing Honda RBPT",
     "teamLogo": "redb",
     "cars": "/cars/red-bull-racing.avif",
-    "positions": [2, 4, 1, 6, 2, 4, 1, 4, 10, "DNF", 4, 6, 9, 2, 1, 1, 2],
-    "lapsComplete": 1011
+    "positions": [2, 4, 1, 6, 2, 4, 1, 4, 10, "DNF", 4, 6, 9, 2, 1, 1, 2, 3],
+    "lapsComplete": 1082
   },
   {
     "number": 63,
     "nation": "/nationality/UK.avif",
     "name": "George Russell",
-    "points": 252,
+    "points": 258,
     "team": "Mercedes",
     "teamLogo": "mer",
     "cars": "/cars/mercedes.avif",
-    "positions": [3, 3, 5, 2, 5, 3, 7, 11, 4, 5, 10, 5, 3, 4, 4, 2, 1],
-    "lapsComplete": 1079
+    "positions": [3, 3, 5, 2, 5, 3, 7, 11, 4, 5, 10, 5, 3, 4, 4, 2, 1, 7],
+    "lapsComplete": 1150
   },
   {
     "number": 16,
     "nation": "/nationality/MON.avif",
     "name": "Charles Leclerc",
-    "points": 192,
+    "points": 210,
     "team": "Ferrari",
     "teamLogo": "fer",
     "cars": "/cars/ferrari.avif",
-    "positions": [8, "DSQ", 4, 4, 3, 7, 6, 2, 3, 3, 14, 3, 4, "DNF", 5, 9, 6],
-    "lapsComplete": 1005
+    "positions": [
+      8,
+      "DSQ",
+      4,
+      4,
+      3,
+      7,
+      6,
+      2,
+      3,
+      3,
+      14,
+      3,
+      4,
+      "DNF",
+      5,
+      9,
+      6,
+      2
+    ],
+    "lapsComplete": 1076
   },
   {
     "number": 44,
     "nation": "/nationality/UK.avif",
     "name": "Lewis Hamilton",
-    "points": 142,
+    "points": 146,
     "team": "Ferrari",
     "teamLogo": "fer",
     "cars": "/cars/ferrari.avif",
-    "positions": [10, "DSQ", 7, 5, 7, 8, 4, 5, 6, 4, 5, 4, 12, "DNF", 6, 6, 4],
-    "lapsComplete": 974
+    "positions": [
+      10,
+      "DSQ",
+      7,
+      5,
+      7,
+      8,
+      4,
+      5,
+      6,
+      4,
+      5,
+      4,
+      12,
+      "DNF",
+      6,
+      6,
+      4,
+      8
+    ],
+    "lapsComplete": 1045
   },
   {
     "number": 12,
     "nation": "/nationality/ITA.avif",
     "name": "Andrea Kimi Antonelli",
-    "points": 89,
+    "points": 97,
     "team": "Mercedes",
     "teamLogo": "mer",
     "cars": "/cars/mercedes.avif",
@@ -90,9 +128,10 @@
       16,
       9,
       5,
-      7
+      7,
+      6
     ],
-    "lapsComplete": 946
+    "lapsComplete": 1017
   },
   {
     "number": 23,
@@ -119,9 +158,10 @@
       5,
       7,
       13,
-      14
+      14,
+      12
     ],
-    "lapsComplete": 959
+    "lapsComplete": 1029
   },
   {
     "number": 6,
@@ -148,9 +188,10 @@
       3,
       10,
       10,
-      11
+      11,
+      13
     ],
-    "lapsComplete": 983
+    "lapsComplete": 1053
   },
   {
     "number": 27,
@@ -177,9 +218,10 @@
       14,
       "DNS",
       16,
-      20
+      20,
+      "DNF"
     ],
-    "lapsComplete": 963
+    "lapsComplete": 988
   },
   {
     "number": 14,
@@ -206,9 +248,10 @@
       7,
       "DNF",
       15,
-      8
+      8,
+      "DNF"
     ],
-    "lapsComplete": 932
+    "lapsComplete": 966
   },
   {
     "number": 18,
@@ -219,9 +262,9 @@
     "teamLogo": "ast",
     "cars": "/cars/aston-martin.avif",
     "positions": [
-      6, 9, 20, 17, 16, 16, 15, 15, 17, 14, 7, 14, 6, 8, 18, 17, 13
+      6, 9, 20, 17, 16, 16, 15, 15, 17, 14, 7, 14, 6, 8, 18, 17, 13, 14
     ],
-    "lapsComplete": 1006
+    "lapsComplete": 1076
   },
   {
     "number": 55,
@@ -248,15 +291,16 @@
       13,
       11,
       3,
-      10
+      10,
+      "DNF"
     ],
-    "lapsComplete": 937
+    "lapsComplete": 1004
   },
   {
     "number": 31,
     "nation": "/nationality/FRA.avif",
     "name": "Esteban Ocon",
-    "points": 28,
+    "points": 30,
     "team": "Haas Ferrari",
     "teamLogo": "haas",
     "cars": "/cars/haas.avif",
@@ -277,9 +321,10 @@
       10,
       15,
       14,
-      18
+      18,
+      9
     ],
-    "lapsComplete": 1039
+    "lapsComplete": 1110
   },
   {
     "number": 30,
@@ -306,9 +351,10 @@
       12,
       14,
       8,
-      15
+      15,
+      "DNF"
     ],
-    "lapsComplete": 978
+    "lapsComplete": 983
   },
   {
     "number": 10,
@@ -335,9 +381,10 @@
       17,
       16,
       18,
-      19
+      19,
+      15
     ],
-    "lapsComplete": 898
+    "lapsComplete": 968
   },
   {
     "number": 22,
@@ -364,15 +411,16 @@
       9,
       13,
       7,
-      12
+      12,
+      11
     ],
-    "lapsComplete": 1023
+    "lapsComplete": 1094
   },
   {
     "number": 5,
     "nation": "/nationality/BRA.avif",
     "name": "Gabriel Bortoleto",
-    "points": 18,
+    "points": 19,
     "team": "Kick Sauber Ferrari",
     "teamLogo": "kick",
     "cars": "/cars/kick-sauber.avif",
@@ -393,15 +441,16 @@
       15,
       8,
       11,
-      17
+      17,
+      10
     ],
-    "lapsComplete": 986
+    "lapsComplete": 1057
   },
   {
     "number": 87,
     "nation": "/nationality/UK.avif",
     "name": "Oliver Bearman",
-    "points": 18,
+    "points": 30,
     "team": "Haas Ferrari",
     "teamLogo": "haas",
     "cars": "/cars/haas.avif",
@@ -422,9 +471,10 @@
       6,
       12,
       12,
-      9
+      9,
+      4
     ],
-    "lapsComplete": 1025
+    "lapsComplete": 1096
   },
   {
     "number": 43,
@@ -451,9 +501,10 @@
       11,
       17,
       19,
+      16,
       16
     ],
-    "lapsComplete": 691
+    "lapsComplete": 761
   },
   {
     "number": 7,
