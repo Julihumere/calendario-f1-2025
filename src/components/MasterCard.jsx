@@ -23,8 +23,6 @@ export default function MasterCard({
     }
   };
 
-  console.log(dataGP);
-
   return (
     <div className="flex flex-col items-center justify-between text-white relative z-10">
       <div className="h-[750px] w-full relative flex flex-col items-center justify-between rounded-2xl max-[500px]:h-full max-[500px]:w-[100%]">
@@ -178,7 +176,7 @@ export default function MasterCard({
                       key={index}
                       className="pl-4 w-full h-18 flex items-center border-b-[1px] border-white"
                     >
-                      <h1 className="text-3xl text-secondary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
+                      <h1 className="text-3xl text-primary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
                         {item.time}
                       </h1>
                       <h3 className="text-3xl text-white font-bold ml-4 max-[500px]:text-2xl">
@@ -199,7 +197,7 @@ export default function MasterCard({
                   key={index}
                   className="pl-4 w-full h-18 flex items-center border-b-[1px] border-white"
                 >
-                  <h1 className="text-3xl text-secondary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
+                  <h1 className="text-3xl text-primary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
                     {item.time}
                   </h1>
                   <h3 className="text-3xl text-white font-bold ml-4 max-[500px]:text-2xl">
@@ -219,7 +217,7 @@ export default function MasterCard({
                   key={index}
                   className="pl-4 w-full h-18 flex items-center border-b-[1px] border-white"
                 >
-                  <h1 className="text-3xl text-secondary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
+                  <h1 className="text-3xl text-primary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
                     {item.time}
                   </h1>
                   <h3 className="text-3xl text-white font-bold ml-4 max-[500px]:text-2xl">
@@ -240,7 +238,7 @@ export default function MasterCard({
                       key={index}
                       className="pl-4 w-full h-18 flex items-center border-b-[1px] border-white"
                     >
-                      <h1 className="text-3xl text-secondary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
+                      <h1 className="text-3xl text-primary font-bold bg-white px-2 py-1 rounded-md max-[500px]:text-2xl">
                         {item.time}
                       </h1>
                       <h3 className="text-3xl text-white font-bold ml-4 max-[500px]:text-2xl">
