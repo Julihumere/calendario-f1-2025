@@ -28,7 +28,7 @@ export default function MasterCard({
   return (
     <div className="flex flex-col items-center justify-between text-white relative z-10">
       <div className="h-[750px] w-full relative flex flex-col items-center justify-between rounded-2xl max-[500px]:h-full max-[500px]:w-[100%]">
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray opacity-60 bg-[#101828] rounded-2xl -z-10"></div>
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray opacity-60  rounded-2xl -z-10"></div>
         {loadingSpinner ? (
           <div className="w-full h-[750px] flex items-center justify-center">
             <div id="semiTransparenDiv" />
@@ -168,7 +168,7 @@ export default function MasterCard({
             </h1>
             <div className="w-full mt-4">
               {thursday.length === 0 ? null : (
-                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest max-[500px]:text-2xl">
+                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-2xl">
                   Jueves {thisWeekend?.weekend[0].split("-")[2]}
                 </h1>
               )}
@@ -190,7 +190,7 @@ export default function MasterCard({
             </div>
             <div className="w-full mt-4">
               {thisWeekend?.weekend && (
-                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest max-[500px]:text-3xl">
+                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-3xl">
                   Viernes {thisWeekend.weekend[0].split("-")[2]}
                 </h1>
               )}
@@ -210,7 +210,7 @@ export default function MasterCard({
             </div>
             <div className="w-full mt-4">
               {thisWeekend?.weekend && (
-                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest max-[500px]:text-3xl">
+                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-3xl">
                   Sabado {thisWeekend.weekend[1].split("-")[2]}
                 </h1>
               )}
@@ -230,7 +230,7 @@ export default function MasterCard({
             </div>
             <div className="w-full mt-4">
               {sunday.length === 0 ? null : (
-                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest max-[500px]:text-2xl">
+                <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-2xl">
                   Domingo {thisWeekend.weekend[2].split("-")[2]}
                 </h1>
               )}

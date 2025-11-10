@@ -19,6 +19,8 @@ import Countdown from "./CountDown";
 import LeaderBoard from "./LeaderBoard";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import Replay from "./Replay";
+import LiquidEther from "./ui/LiquidEther";
+
 function App() {
   const [thisWeekend, setThisWeekend] = useState(null);
   const [active, setActive] = useState(0);
@@ -168,71 +170,105 @@ function App() {
 
   return (
     <SkeletonTheme baseColor="#0D0D0D" highlightColor="#101828">
-      <main className=" flex flex-col justify-between w-full h-auto bg-[hsl(225,25%,7%)] text-white">
-        {loading ? (
-          <div className="w-full flex items-center justify-between px-12 py-5 z-10 max-[500px]:flex-col">
-            <Skeleton width={1000} height={40} />
-            <Skeleton width={150} height={50} />
-          </div>
-        ) : (
-          <div className="w-full flex items-center justify-end px-12 py-5 z-10 max-[500px]:flex-col">
-            <Countdown
-              fechaObjetivo={fechaObjetivo}
-              name={thisWeekend?.name}
-              thisWeekend={thisWeekend}
-              setGpPast={setGpPast}
-            />
-            <button
-              onClick={() => {
-                clipboard(window.location.href);
-                toastClipboard();
-              }}
-              className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer max-[500px]:mt-5"
-            >
-              <FaShareAlt size={24} color="white" />{" "}
-              <span className=" text-white text-lg text-center m-0">
-                Compartir
-              </span>
-            </button>
-          </div>
-        )}
+      <main className=" flex flex-col justify-between w-full h-auto bg-[hsl(225,25%,7%)] text-white relative">
+        {/* LiquidEther como fondo fijo de toda la página */}
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100vh",
+            zIndex: 0,
+            pointerEvents: "none",
+          }}
+        >
+          <LiquidEther
+            mouseForce={20}
+            cursorSize={100}
+            isViscous={false}
+            viscous={30}
+            iterationsViscous={32}
+            iterationsPoisson={32}
+            resolution={0.5}
+            isBounce={false}
+            autoDemo={true}
+            autoSpeed={0.5}
+            autoIntensity={2.2}
+            takeoverDuration={0.25}
+            autoResumeDelay={3000}
+            autoRampDuration={0.6}
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
 
-        {loading ? (
-          <div className="w-full max-h-[750px] flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
-            <Skeleton width={900} height={750} />
-            <Skeleton width={900} height={750} />
-          </div>
-        ) : (
-          <div className="flex items-center justify-around w-full mt-10 max-[900px]:flex-col">
-            <div className="max-h-[750px] w-[45%] max-[900px]:w-[90%]">
-              <MasterCard
-                thisWeekend={thisWeekend}
-                gpPast={gpPast}
-                loadingSpinner={loadingSpinner}
-                setDataGP={setDataGP}
-                dataGP={dataGP}
-                setRace={setRace}
-              />
+        {/* Contenido con z-index superior */}
+        <div style={{ position: "relative", zIndex: 1 }}>
+          {loading ? (
+            <div className="w-full flex items-center justify-between px-12 py-5 z-10 max-[500px]:flex-col">
+              <Skeleton width={1000} height={40} />
+              <Skeleton width={150} height={50} />
             </div>
-            <div
-              className={`${
-                gpPast ? "min-h-[750px]" : "max-h-[750px]"
-              } w-[45%] max-[900px]:w-[90%] max-[900px]:mt-5`}
-            >
-              {thisWeekend && (
-                <CardInfo
-                  info={thisWeekend?.infoTrack}
-                  track2D={thisWeekend?.track2D}
+          ) : (
+            <div className="w-full flex items-center justify-end px-12 py-5 z-10 max-[500px]:flex-col">
+              <Countdown
+                fechaObjetivo={fechaObjetivo}
+                name={thisWeekend?.name}
+                thisWeekend={thisWeekend}
+                setGpPast={setGpPast}
+              />
+              <button
+                onClick={() => {
+                  clipboard(window.location.href);
+                  toastClipboard();
+                }}
+                className="w-[150px] bg-[#101828] h-[50px] flex items-center m-0 justify-around px-4 py-2 rounded-md cursor-pointer max-[500px]:mt-5"
+              >
+                <FaShareAlt size={24} color="white" />{" "}
+                <span className=" text-white text-lg text-center m-0">
+                  Compartir
+                </span>
+              </button>
+            </div>
+          )}
+
+          {loading ? (
+            <div className="w-full max-h-[750px] flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
+              <Skeleton width={900} height={750} />
+              <Skeleton width={900} height={750} />
+            </div>
+          ) : (
+            <div className="flex items-center justify-around w-full mt-10 max-[900px]:flex-col">
+              <div className="max-h-[750px] w-[45%] max-[900px]:w-[90%]">
+                <MasterCard
+                  thisWeekend={thisWeekend}
                   gpPast={gpPast}
                   loadingSpinner={loadingSpinner}
+                  setDataGP={setDataGP}
                   dataGP={dataGP}
+                  setRace={setRace}
                 />
-              )}
-            </div>
-          </div>
-        )}
+              </div>
 
-        {/* {gpPast && (
+              <div
+                className={`${
+                  gpPast ? "min-h-[750px]" : "max-h-[750px]"
+                } w-[45%] max-[900px]:w-[90%] max-[900px]:mt-5`}
+              >
+                {thisWeekend && (
+                  <CardInfo
+                    info={thisWeekend?.infoTrack}
+                    track2D={thisWeekend?.track2D}
+                    gpPast={gpPast}
+                    loadingSpinner={loadingSpinner}
+                    dataGP={dataGP}
+                  />
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* {gpPast && (
           <Replay
             video={thisWeekend?.video}
             loading={loading}
@@ -240,41 +276,45 @@ function App() {
           />
         )} */}
 
-        {loading ? (
-          <div className="w-full flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
-            <Skeleton width={400} height={300} />
-            <Skeleton width={400} height={300} />
-            <Skeleton width={400} height={300} />
-            <Skeleton width={400} height={300} />
-          </div>
-        ) : (
-          <Carousel
-            // className={`${gpPast ? "mt-0" : "mt-10"}`}
-            className="mt-10"
-            itemsToShow={
-              (widthScreen < 500 && 2) || (widthScreen < 768 && 3) || 4
-            }
-            pagination={false}
-            showArrows={false}
-            initialActiveIndex={active - 2}
-          >
-            {data.map((item) => (
-              <Cards
-                id={item.id}
-                name={item.name}
-                img={item.track2D}
-                weekend={item.weekend}
-                active={active}
-                changeWeekend={changeWeekend}
-                updateQueryString={updateQueryString}
-                country={item.infoTrack.location}
-              />
-            ))}
-          </Carousel>
-        )}
-        <LeaderBoard loading={loading} />
-        <Footer />
-        <ToastContainer />
+          {loading ? (
+            <div className="w-full flex items-center justify-around px-12 py-5 z-10 max-[500px]:flex-col">
+              <Skeleton width={400} height={300} />
+              <Skeleton width={400} height={300} />
+              <Skeleton width={400} height={300} />
+              <Skeleton width={400} height={300} />
+            </div>
+          ) : (
+            <Carousel
+              // className={`${gpPast ? "mt-0" : "mt-10"}`}
+              className="mt-10"
+              itemsToShow={
+                (widthScreen < 500 && 4) || (widthScreen < 768 && 5) || 6
+              }
+              pagination={false}
+              showArrows={false}
+              initialActiveIndex={active - 2}
+              autoPlaySpeed={3000}
+              autoPlay={true}
+              transitionMs={500}
+            >
+              {data.map((item) => (
+                <Cards
+                  id={item.id}
+                  name={item.name}
+                  img={item.track2D}
+                  weekend={item.weekend}
+                  active={active}
+                  changeWeekend={changeWeekend}
+                  updateQueryString={updateQueryString}
+                  country={item.infoTrack.location}
+                />
+              ))}
+            </Carousel>
+          )}
+          <LeaderBoard loading={loading} />
+          <Footer />
+          <ToastContainer />
+        </div>
       </main>
     </SkeletonTheme>
   );

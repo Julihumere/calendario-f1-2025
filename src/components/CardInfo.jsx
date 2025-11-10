@@ -13,14 +13,14 @@ export default function CardInfo({
   return (
     <div className="flex flex-col items-center justify-between text-white relative z-10">
       <div className="h-[750px] w-full relative flex flex-col items-center justify-between rounded-2xl max-[500px]:h-full max-[500px]:w-[100%]">
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray opacity-60 bg-[#101828] rounded-2xl -z-10"></div>
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray opacity-60  rounded-2xl -z-10"></div>
         {loadingSpinner ? (
           <div className="w-full h-[500px] flex items-center justify-center">
             <div id="semiTransparenDiv" />
           </div>
         ) : gpPast ? (
           dataGP !== undefined ? (
-            <div className="w-full bg-[#101828] overflow-hidden rounded-2xl p-4 flex flex-col items-center justify-between h-full">
+            <div className="w-full  overflow-hidden rounded-2xl p-4 flex flex-col items-center justify-between h-full">
               <div className="w-full flex items-center justify-around py-2 border-b-2 border-white">
                 <p className="w-1/2 flex items-center justify-center text-lg">
                   Posición
@@ -43,7 +43,7 @@ export default function CardInfo({
                   return (
                     <div
                       key={index}
-                      className="w-full h-full bg-[#101828] py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
+                      className="w-full h-full  py-2  border-b-2 border-white flex items-center justify-around last:border-0 last:rounded-b-2xl max-[500px]:w-[90%]"
                     >
                       <p className="w-1/2 text-center text-lg max-[500px]:text-sm">
                         {item.position}
