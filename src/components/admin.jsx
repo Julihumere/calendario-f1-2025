@@ -182,7 +182,9 @@ export default function Admin() {
         }
       } catch (error) {
         console.error("Error al leer el archivo:", error);
-        toast.error("❌ Error al procesar el archivo Excel. Verifica el formato.");
+        toast.error(
+          "❌ Error al procesar el archivo Excel. Verifica el formato."
+        );
       }
     };
     reader.readAsArrayBuffer(file);
@@ -209,6 +211,19 @@ export default function Admin() {
     }
   };
 
+  const dictionaryTeams = {
+    McLaren: "mcl",
+    "Red Bull Racing": "redb",
+    Mercedes: "mer",
+    Ferrari: "fer",
+    Williams: "will",
+    "Haas F1 Team": "haas",
+    Alpine: "alp",
+    "Aston Martin": "ast",
+    "Racing Bulls": "rb",
+    "Kick Sauber": "kick",
+  };
+
   const generateResults = (driversData) => {
     if (!driversData || driversData.length === 0) return null;
 
@@ -220,7 +235,7 @@ export default function Admin() {
         return {
           position: d.position,
           driver: d.driver,
-          team: d.team,
+          team: dictionaryTeams[d.team] || d.team,
           photo: pilot
             ? `/pilots/${pilot.name.split(" ")[1].toLowerCase()}.avif`
             : "/pilots/default.avif",
@@ -234,7 +249,7 @@ export default function Admin() {
           : parseInt(d.position),
       number: parseInt(d.number) || 0,
       driver: d.driver,
-      team: d.team,
+      team: dictionaryTeams[d.team] || d.team,
       laps: parseInt(d.laps) || 0,
       time: d.time.toString(),
       points: parseInt(d.points) || 0,
@@ -258,7 +273,7 @@ export default function Admin() {
     }
 
     const hasSprint = selectedGP.sprint;
-    let jsonOutput = "";
+    let completeGP = { ...selectedGP };
 
     if (hasSprint) {
       // Verificar que ambos estén completos
@@ -270,19 +285,20 @@ export default function Admin() {
       const raceResults = generateResults(driversRace);
       const sprintResults = generateResults(driversSprint);
 
-      const output = {
-        ...(raceResults && { results: raceResults }),
-        ...(sprintResults && { sprintResults: sprintResults }),
-      };
-
-      jsonOutput = JSON.stringify(output, null, 2);
+      // Actualizar el objeto completo del GP
+      if (raceResults) {
+        completeGP.results = raceResults;
+      }
+      if (sprintResults) {
+        completeGP.resultsSprint = sprintResults;
+      }
 
       let message = "📊 Resultados generados:\n\n";
       if (raceResults) message += "✅ Gran Premio\n";
       if (sprintResults) message += "✅ Sprint\n";
 
       toast.success(
-        `${message}\nEl JSON se copió al portapapeles.\n\nPuedes pegarlo en data.json en el GP con id: ${selectedGP.id}`
+        `${message}\nEl JSON se copió al portapapeles.\n\nObjeto completo del GP #${selectedGP.id} listo para reemplazar en data.json`
       );
     } else {
       // Solo Gran Premio
@@ -292,15 +308,207 @@ export default function Admin() {
       }
 
       const results = generateResults(driversRace);
-      jsonOutput = JSON.stringify({ results }, null, 2);
+
+      // Actualizar el objeto completo del GP
+      completeGP.results = results;
 
       toast.success(
-        `Resultados guardados! El JSON se copió al portapapeles.\n\nPuedes pegarlo en data.json en el GP con id: ${selectedGP.id}`
+        `Resultados guardados! El JSON se copió al portapapeles.\n\nObjeto completo del GP #${selectedGP.id} listo para reemplazar en data.json`
       );
     }
 
-    console.log("Resultados generados:", jsonOutput);
+    const jsonOutput = JSON.stringify(completeGP, null, 2);
+    console.log("GP completo generado:", completeGP);
     navigator.clipboard.writeText(jsonOutput);
+  };
+
+  const handleUpdateLeaderBoard = () => {
+    // Mapeo de pilotos por número y variaciones de nombres
+    const pilotMap = {
+      1: ["Max Verstappen"],
+      4: ["Lando Norris"],
+      5: ["Gabriel Bortoleto"],
+      6: ["Isack Hadjar"],
+      7: ["Jack Doohan"],
+      10: ["Pierre Gasly"],
+      12: ["Kimi Antonelli", "Andrea Kimi Antonelli", "Andrea Antonelli"],
+      14: ["Fernando Alonso"],
+      16: ["Charles Leclerc"],
+      18: ["Lance Stroll"],
+      22: ["Yuki Tsunoda"],
+      23: ["Alexander Albon", "Alex Albon", "Alexandre Albon"],
+      27: ["Nico Hulkenberg"],
+      30: ["Liam Lawson"],
+      31: ["Esteban Ocon"],
+      43: ["Franco Colapinto"],
+      44: ["Lewis Hamilton"],
+      55: ["Carlos Sainz"],
+      63: ["George Russell"],
+      81: ["Oscar Piastri"],
+      87: ["Oliver Bearman"],
+    };
+
+    // Función para buscar piloto en resultados
+    const findPilot = (leaderBoard, pilot) => {
+      return leaderBoard.find((d) => {
+        // Primero intentar por número exacto
+        if (d.number && parseInt(d.number) === pilot.number) {
+          return true;
+        }
+
+        // Buscar por variaciones de nombre usando el mapeo
+        const possibleNames = pilotMap[pilot.number] || [];
+        possibleNames.push(pilot.name); // Agregar el nombre del leaderBoardPilots
+
+        // Verificar si el nombre del resultado coincide con alguna variación
+        return possibleNames.some(
+          (name) => name.toLowerCase() === d.driver.toLowerCase()
+        );
+      });
+    };
+
+    // Crear una copia del leaderboard actualizado con todos los GPs
+    const updatedLeaderBoard = teams.map((pilot) => {
+      let totalPoints = 0;
+      let totalLaps = 0;
+      const allPositions = [];
+      const debugInfo = { name: pilot.name, number: pilot.number, gps: [] };
+
+      // Recorrer todos los circuitos
+      circuits.forEach((gp) => {
+        // Procesar resultados del Sprint primero (si existe)
+        if (gp.resultsSprint && gp.resultsSprint.leaderBoard) {
+          const pilotResult = findPilot(gp.resultsSprint.leaderBoard, pilot);
+
+          if (!pilotResult) {
+            // No se encontró el piloto, buscar en todo el leaderBoard
+            const allDrivers = gp.resultsSprint.leaderBoard.map(
+              (d) => `${d.driver} (#${d.number || "N/A"})`
+            );
+            console.warn(
+              `⚠️ ${pilot.name} (#${pilot.number}) NO encontrado en Sprint ${gp.name}. Pilotos disponibles:`,
+              allDrivers
+            );
+          }
+
+          if (pilotResult) {
+            // Formatear la posición del sprint
+            let position = pilotResult.position;
+            if (position === "NC" || position === "DQ") {
+              position = "DSQ";
+            } else if (position === "DNS") {
+              position = "DNS";
+            } else if (typeof position !== "number") {
+              position = parseInt(position) || "DNF";
+            }
+
+            allPositions.push(position);
+
+            const points = parseInt(pilotResult.points) || 0;
+            const laps = parseInt(pilotResult.laps) || 0;
+
+            // Sumar puntos del sprint
+            totalPoints += points;
+            // Sumar vueltas del sprint
+            totalLaps += laps;
+
+            debugInfo.gps.push({
+              gp: gp.name,
+              type: "Sprint",
+              position,
+              points,
+              laps,
+            });
+          } else {
+            // Si no participó en el sprint, agregar string vacío
+            allPositions.push("");
+          }
+        }
+
+        // Procesar resultados del Gran Premio
+        if (gp.results && gp.results.leaderBoard) {
+          const pilotResult = findPilot(gp.results.leaderBoard, pilot);
+
+          if (!pilotResult) {
+            // No se encontró el piloto
+            const allDrivers = gp.results.leaderBoard.map(
+              (d) => `${d.driver} (#${d.number || "N/A"})`
+            );
+            console.warn(
+              `⚠️ ${pilot.name} (#${pilot.number}) NO encontrado en GP ${gp.name}. Pilotos disponibles:`,
+              allDrivers
+            );
+          }
+
+          if (pilotResult) {
+            // Formatear la posición
+            let position = pilotResult.position;
+            if (position === "NC" || position === "DQ") {
+              position = "DSQ";
+            } else if (position === "DNS") {
+              position = "DNS";
+            } else if (typeof position !== "number") {
+              position = parseInt(position) || "DNF";
+            }
+
+            allPositions.push(position);
+
+            const points = parseInt(pilotResult.points) || 0;
+            const laps = parseInt(pilotResult.laps) || 0;
+
+            // Sumar puntos
+            totalPoints += points;
+
+            // Sumar vueltas completadas
+            totalLaps += laps;
+
+            debugInfo.gps.push({
+              gp: gp.name,
+              type: "GP",
+              position,
+              points,
+              laps,
+            });
+          } else {
+            // Si no participó en este GP, agregar string vacío
+            allPositions.push("");
+          }
+        } else {
+          // GP sin resultados todavía
+          allPositions.push("");
+        }
+      });
+
+      debugInfo.totalPoints = totalPoints;
+      debugInfo.totalLaps = totalLaps;
+      console.log(`${pilot.name} (#${pilot.number}):`, debugInfo);
+
+      return {
+        ...pilot,
+        points: totalPoints,
+        positions: allPositions,
+        lapsComplete: totalLaps,
+      };
+    });
+
+    const jsonOutput = JSON.stringify(updatedLeaderBoard, null, 2);
+    console.log("LeaderBoard actualizado:", jsonOutput);
+
+    // Resumen de puntos
+    console.log("\n=== RESUMEN DE PUNTOS ===");
+    updatedLeaderBoard
+      .sort((a, b) => b.points - a.points)
+      .forEach((pilot, index) => {
+        console.log(`${index + 1}. ${pilot.name}: ${pilot.points} puntos`);
+      });
+
+    navigator.clipboard.writeText(jsonOutput);
+
+    const totalGPs = circuits.filter((gp) => gp.results).length;
+
+    toast.success(
+      `✅ LeaderBoard actualizado!\n\nSe calcularon:\n- Puntos totales\n- Posiciones de ${totalGPs} GPs\n- Vueltas completadas\n\nEl JSON se copió al portapapeles.\n\nRevisa la CONSOLA para ver el detalle.`
+    );
   };
 
   useEffect(() => {
@@ -352,6 +560,12 @@ export default function Admin() {
                 className="border-2 border-green-600 bg-green-600 py-2 px-5 rounded-md hover:bg-green-700 hover:border-green-700 text-white transition duration-300 ease-in-out cursor-pointer"
               >
                 💾 Guardar Resultados
+              </button>
+              <button
+                onClick={handleUpdateLeaderBoard}
+                className="border-2 border-purple-600 bg-purple-600 py-2 px-5 rounded-md hover:bg-purple-700 hover:border-purple-700 text-white transition duration-300 ease-in-out cursor-pointer"
+              >
+                🏆 Actualizar LeaderBoard
               </button>
             </div>
           </div>
