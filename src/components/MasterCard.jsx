@@ -189,7 +189,12 @@ export default function MasterCard({
             <div className="w-full mt-4">
               {thisWeekend?.weekend && (
                 <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-3xl">
-                  Viernes {thisWeekend.weekend[0].split("-")[2]}
+                  Viernes{" "}
+                  {
+                    thisWeekend.weekend[thursday.length > 0 ? 1 : 0].split(
+                      "-"
+                    )[2]
+                  }
                 </h1>
               )}
               {thisWeekend?.friday.map((item, index) => (
@@ -209,7 +214,12 @@ export default function MasterCard({
             <div className="w-full mt-4">
               {thisWeekend?.weekend && (
                 <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-3xl">
-                  Sabado {thisWeekend.weekend[1].split("-")[2]}
+                  Sabado{" "}
+                  {
+                    thisWeekend.weekend[thursday.length > 0 ? 2 : 1].split(
+                      "-"
+                    )[2]
+                  }
                 </h1>
               )}
               {thisWeekend?.saturday.map((item, index) => (
@@ -229,7 +239,12 @@ export default function MasterCard({
             <div className="w-full mt-4">
               {sunday.length === 0 ? null : (
                 <h1 className="w-full bg-primary text-4xl py-2 px-4 font-black tracking-widest rounded-md max-[500px]:text-2xl">
-                  Domingo {thisWeekend.weekend[2].split("-")[2]}
+                  Domingo{" "}
+                  {
+                    thisWeekend.weekend[thursday.length > 0 ? 3 : 2].split(
+                      "-"
+                    )[2]
+                  }
                 </h1>
               )}
               {thisWeekend?.sunday

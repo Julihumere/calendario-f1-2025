@@ -6518,10 +6518,10 @@
   {
     "id": 22,
     "name": "Gran Premio de Las Vegas",
-    "weekend": ["2025-11-20", "2025-11-21", "2025-11-22"],
+    "weekend": ["2025-11-20", "2025-11-21", "2025-11-22", "2025-11-23"],
     "hashtag": "#LasVegasGP",
     "initDay": "2025-11-20",
-    "finishDay": "2025-11-22",
+    "finishDay": "2025-11-23",
     "track2D": "/tracks-2d/LasVegas.avif",
     "image": "/tracks/LasVegas.webp",
     "infoTrack": {
@@ -6537,26 +6537,33 @@
       {
         "name": "Práctica 1",
         "date": "2025-11-20",
-        "time": "23:30"
+        "time": "21:30"
       }
     ],
     "friday": [
       {
         "name": "Práctica 2",
         "date": "2025-11-21",
-        "time": "03:30"
+        "time": "01:00"
       },
       {
-        "name": "Clasificación",
+        "name": "Práctica 3",
         "date": "2025-11-21",
-        "time": "07:00"
+        "time": "21:30"
       }
     ],
     "saturday": [
       {
-        "name": "Gran Premio",
+        "name": "Clasificación",
         "date": "2025-11-22",
-        "time": "06:00"
+        "time": "01:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2025-11-23",
+        "time": "01:00"
       }
     ],
     "sprint": false
