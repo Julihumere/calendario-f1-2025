@@ -7,7 +7,7 @@ export default function Footer() {
       <h1 className="text-2xl max-[500px]:text-lg">Creado por Julio Humere</h1>
       <div className="flex">
         <FaLinkedin
-          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
+          className="text-2xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
           onClick={() =>
             window.open(
               "https://www.linkedin.com/in/juli-humere/",
@@ -17,7 +17,7 @@ export default function Footer() {
           }
         />
         <FaGithub
-          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
+          className="text-2xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
           onClick={() =>
             window.open(
               "https://github.com/Julihumere",
@@ -28,7 +28,7 @@ export default function Footer() {
         />
 
         <FaLink
-          className="text-4xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
+          className="text-2xl mx-2 cursor-pointer hover:scale-120 transition-all duration-300 max-[500px]:text-2xl"
           onClick={() =>
             window.open(
               "https://portfolio-julio-humere.vercel.app/",
