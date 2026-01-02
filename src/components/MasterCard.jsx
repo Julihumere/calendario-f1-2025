@@ -222,7 +222,7 @@ export default function MasterCard({
                   }
                 </h1>
               )}
-              {thisWeekend?.saturday.map((item, index) => (
+              {thisWeekend?.saturday?.map((item, index) => (
                 <div
                   key={index}
                   className="pl-4 w-full h-18 flex items-center border-b-[1px] border-white"

@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../json/leaderBoardPilots.json";
+import data from "../json/leaderBoardPilots2026.json";
 import { useState } from "react";
 import { useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
@@ -173,7 +173,7 @@ export default function LeaderBoard({ loading }) {
                       <img
                         src={item.nation}
                         alt={`Nacionalidad de ${item.name}`}
-                        className="w-12 h-8 rounded-sm max-[500px]:w-10 max-[500px]:h-8"
+                        className="w-12 h-10 rounded-sm max-[500px]:w-10 max-[500px]:h-8"
                       />
                     </div>
 

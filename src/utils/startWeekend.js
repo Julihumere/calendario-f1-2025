@@ -1,4 +1,4 @@
-import data from "../json/data.json";
+import data from "../json/data2026.json";
 
 export const startWeekend = (id) => {
   let timeStartWeekend = data.find((item) => item.id === id);

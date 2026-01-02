@@ -2,8 +2,8 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import * as XLSX from "xlsx";
-import data from "../json/data.json";
-import dataLeaderBoard from "../json/leaderBoardPilots.json";
+import data from "../json/data2026.json";
+import dataLeaderBoard from "../json/leaderBoardPilots2026.json";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 
 export default function Admin() {

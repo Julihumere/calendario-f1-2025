@@ -21,11 +21,13 @@ function Countdown({ fechaObjetivo, name, thisWeekend }) {
               "T" +
               thisWeekend.sunday[thisWeekend.sunday.length - 1].time
           )
-        : new Date(
+        : thisWeekend?.saturday?.length > 0
+        ? new Date(
             thisWeekend.saturday[thisWeekend.saturday.length - 1].date +
               "T" +
               thisWeekend.saturday[thisWeekend.saturday.length - 1].time
-          );
+          )
+        : new Date();
 
     // Si estamos entre el inicio y el fin del GP
     if (ahora >= inicioGP && ahora <= finGP) {

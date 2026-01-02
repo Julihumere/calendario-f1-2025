@@ -1,0 +1,1227 @@
+[
+  {
+    "id": 1,
+    "name": "Gran Premio de Australia",
+    "weekend": ["2026-03-06", "2026-03-07", "2026-03-08"],
+    "hashtag": "#AustralianGP",
+    "initDay": "2026-03-06",
+    "finishDay": "2026-03-08",
+    "track2D": "/tracks-2d/Australia.avif",
+    "image": "/tracks/Australia.webp",
+    "infoTrack": {
+      "name": "Albert Park Circuit",
+      "location": "Melbourne, Australia",
+      "length": "5.303 km",
+      "laps": "58",
+      "distance": "307.574 km",
+      "curves": "16",
+      "lapRecord": "1:24.125 - Michael Schumacher (2004)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-03-06",
+        "time": "00:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-03-06",
+        "time": "04:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-03-07",
+        "time": "01:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-03-07",
+        "time": "05:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-03-08",
+        "time": "01:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 2,
+    "name": "Gran Premio de China",
+    "weekend": ["2026-03-13", "2026-03-14", "2026-03-15"],
+    "hashtag": "#ChineseGP",
+    "initDay": "2026-03-13",
+    "finishDay": "2026-03-15",
+    "track2D": "/tracks-2d/China.png",
+    "image": "/tracks/China.webp",
+    "infoTrack": {
+      "name": "Shanghai International Circuit",
+      "location": "Shanghai, China",
+      "length": "5.451 km",
+      "laps": "56",
+      "distance": "305.066 km",
+      "curves": "16",
+      "lapRecord": "1:32.238 - Michael Schumacher (2004)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-03-13",
+        "time": "00:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-03-13",
+        "time": "04:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-03-14",
+        "time": "00:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-03-14",
+        "time": "04:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-03-15",
+        "time": "04:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 3,
+    "name": "Gran Premio de Japón",
+    "weekend": ["2026-03-27", "2026-03-28", "2026-03-29"],
+    "hashtag": "#JapaneseGP",
+    "initDay": "2026-03-27",
+    "finishDay": "2026-03-29",
+    "track2D": "/tracks-2d/Japan.avif",
+    "image": "/tracks/Japan.webp",
+    "infoTrack": {
+      "name": "Suzuka International Racing Course",
+      "location": "Suzuka, Japón",
+      "length": "5.807 km",
+      "laps": "53",
+      "distance": "307.471 km",
+      "curves": "18",
+      "lapRecord": "1:30.983 - Lewis Hamilton (2019)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-03-27",
+        "time": "02:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-03-27",
+        "time": "06:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-03-28",
+        "time": "02:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-03-28",
+        "time": "06:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-03-29",
+        "time": "05:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 4,
+    "name": "Gran Premio de Baréin",
+    "weekend": ["2026-04-03", "2026-04-04", "2026-04-05"],
+    "hashtag": "#BahrainGP",
+    "initDay": "2026-04-03",
+    "finishDay": "2026-04-05",
+    "track2D": "/tracks-2d/Bahrain.avif",
+    "image": "/tracks/Bahrein.webp",
+    "infoTrack": {
+      "name": "Bahrain International Circuit",
+      "location": "Sakhir, Baréin",
+      "length": "5.412 km",
+      "laps": "57",
+      "distance": "308.238 km",
+      "curves": "15",
+      "lapRecord": "1:31.447 - Pedro de la Rosa (2005)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-04-03",
+        "time": "10:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-04-03",
+        "time": "14:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-04-04",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-04-04",
+        "time": "15:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-04-05",
+        "time": "14:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 5,
+    "name": "Gran Premio de Arabia Saudita",
+    "weekend": ["2026-04-10", "2026-04-11", "2026-04-12"],
+    "hashtag": "#SaudiArabianGP",
+    "initDay": "2026-04-10",
+    "finishDay": "2026-04-12",
+    "track2D": "/tracks-2d/SaudiArabia.avif",
+    "image": "/tracks/SaudiArabia.webp",
+    "infoTrack": {
+      "name": "Jeddah Corniche Circuit",
+      "location": "Yeda, Arabia Saudita",
+      "length": "6.174 km",
+      "laps": "50",
+      "distance": "308.700 km",
+      "curves": "27",
+      "lapRecord": "1:30.734 - Lewis Hamilton (2021)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-04-10",
+        "time": "13:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-04-10",
+        "time": "17:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-04-11",
+        "time": "13:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-04-11",
+        "time": "17:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-04-12",
+        "time": "17:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 6,
+    "name": "Gran Premio de Miami",
+    "weekend": ["2026-04-24", "2026-04-25", "2026-04-26"],
+    "hashtag": "#MiamiGP",
+    "initDay": "2026-04-24",
+    "finishDay": "2026-04-26",
+    "track2D": "/tracks-2d/Miami.avif",
+    "image": "/tracks/Miami.webp",
+    "infoTrack": {
+      "name": "Miami International Autodrome",
+      "location": "Miami, Estados Unidos",
+      "length": "5.412 km",
+      "laps": "57",
+      "distance": "308.326 km",
+      "curves": "19",
+      "lapRecord": "1:29.708 - Max Verstappen (2023)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-04-24",
+        "time": "18:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-04-24",
+        "time": "22:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-04-25",
+        "time": "16:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-04-25",
+        "time": "20:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-04-26",
+        "time": "20:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 7,
+    "name": "Gran Premio de Emilia-Romaña",
+    "weekend": ["2026-05-08", "2026-05-09", "2026-05-10"],
+    "hashtag": "#ImolaGP",
+    "initDay": "2026-05-08",
+    "finishDay": "2026-05-10",
+    "track2D": "/tracks-2d/Imola.avif",
+    "image": "/tracks/Imola.webp",
+    "infoTrack": {
+      "name": "Autodromo Enzo e Dino Ferrari",
+      "location": "Imola, Italia",
+      "length": "4.909 km",
+      "laps": "63",
+      "distance": "309.049 km",
+      "curves": "19",
+      "lapRecord": "1:15.484 - Lewis Hamilton (2020)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-05-08",
+        "time": "11:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-05-08",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-05-09",
+        "time": "10:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-05-09",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-05-10",
+        "time": "13:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 8,
+    "name": "Gran Premio de Mónaco",
+    "weekend": ["2026-05-22", "2026-05-23", "2026-05-24"],
+    "hashtag": "#MonacoGP",
+    "initDay": "2026-05-22",
+    "finishDay": "2026-05-24",
+    "track2D": "/tracks-2d/Monaco.avif",
+    "image": "/tracks/Monaco.webp",
+    "infoTrack": {
+      "name": "Circuit de Monaco",
+      "location": "Monte Carlo, Mónaco",
+      "length": "3.337 km",
+      "laps": "78",
+      "distance": "260.286 km",
+      "curves": "19",
+      "lapRecord": "1:12.909 - Lewis Hamilton (2021)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-05-22",
+        "time": "11:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-05-22",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-05-23",
+        "time": "10:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-05-23",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-05-24",
+        "time": "13:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 9,
+    "name": "Gran Premio de España",
+    "weekend": ["2026-06-05", "2026-06-06", "2026-06-07"],
+    "hashtag": "#SpanishGP",
+    "initDay": "2026-06-05",
+    "finishDay": "2026-06-07",
+    "track2D": "/tracks-2d/Espana.avif",
+    "image": "/tracks/Espana.webp",
+    "infoTrack": {
+      "name": "Circuit de Barcelona-Catalunya",
+      "location": "Barcelona, España",
+      "length": "4.675 km",
+      "laps": "66",
+      "distance": "308.424 km",
+      "curves": "14",
+      "lapRecord": "1:18.149 - Max Verstappen (2021)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-06-05",
+        "time": "11:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-06-05",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-06-06",
+        "time": "10:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-06-06",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-06-07",
+        "time": "13:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 10,
+    "name": "Gran Premio de Canadá",
+    "weekend": ["2026-06-19", "2026-06-20", "2026-06-21"],
+    "hashtag": "#CanadianGP",
+    "initDay": "2026-06-19",
+    "finishDay": "2026-06-21",
+    "track2D": "/tracks-2d/Canada.avif",
+    "image": "/tracks/Canada.webp",
+    "infoTrack": {
+      "name": "Circuit Gilles Villeneuve",
+      "location": "Montreal, Canadá",
+      "length": "4.361 km",
+      "laps": "70",
+      "distance": "305.270 km",
+      "curves": "14",
+      "lapRecord": "1:13.078 - Valtteri Bottas (2019)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-06-19",
+        "time": "17:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-06-19",
+        "time": "21:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-06-20",
+        "time": "16:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-06-20",
+        "time": "20:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-06-21",
+        "time": "18:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 11,
+    "name": "Gran Premio de Austria",
+    "weekend": ["2026-07-03", "2026-07-04", "2026-07-05"],
+    "hashtag": "#AustrianGP",
+    "initDay": "2026-07-03",
+    "finishDay": "2026-07-05",
+    "track2D": "/tracks-2d/Austria.avif",
+    "image": "/tracks/Austria.webp",
+    "infoTrack": {
+      "name": "Red Bull Ring",
+      "location": "Spielberg, Austria",
+      "length": "4.318 km",
+      "laps": "71",
+      "distance": "306.452 km",
+      "curves": "10",
+      "lapRecord": "1:05.619 - Carlos Sainz (2020)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-07-03",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-07-03",
+        "time": "15:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-07-04",
+        "time": "10:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-07-04",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-07-05",
+        "time": "13:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 12,
+    "name": "Gran Premio de Gran Bretaña",
+    "weekend": ["2026-07-17", "2026-07-18", "2026-07-19"],
+    "hashtag": "#BritishGP",
+    "initDay": "2026-07-17",
+    "finishDay": "2026-07-19",
+    "track2D": "/tracks-2d/Silverstone.avif",
+    "image": "/tracks/Silverstone.webp",
+    "infoTrack": {
+      "name": "Silverstone Circuit",
+      "location": "Silverstone, Reino Unido",
+      "length": "5.891 km",
+      "laps": "52",
+      "distance": "306.198 km",
+      "curves": "18",
+      "lapRecord": "1:27.097 - Max Verstappen (2020)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-07-17",
+        "time": "12:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-07-17",
+        "time": "16:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-07-18",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-07-18",
+        "time": "15:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-07-19",
+        "time": "14:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 13,
+    "name": "Gran Premio de Hungría",
+    "weekend": ["2026-07-31", "2026-08-01", "2026-08-02"],
+    "hashtag": "#HungarianGP",
+    "initDay": "2026-07-31",
+    "finishDay": "2026-08-02",
+    "track2D": "/tracks-2d/Hungria.avif",
+    "image": "/tracks/Hungary.webp",
+    "infoTrack": {
+      "name": "Hungaroring",
+      "location": "Budapest, Hungría",
+      "length": "4.381 km",
+      "laps": "70",
+      "distance": "306.630 km",
+      "curves": "14",
+      "lapRecord": "1:16.627 - Lewis Hamilton (2020)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-07-31",
+        "time": "11:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-07-31",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-08-01",
+        "time": "10:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-08-01",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-08-02",
+        "time": "13:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 14,
+    "name": "Gran Premio de Bélgica",
+    "weekend": ["2026-08-14", "2026-08-15", "2026-08-16"],
+    "hashtag": "#BelgianGP",
+    "initDay": "2026-08-14",
+    "finishDay": "2026-08-16",
+    "track2D": "/tracks-2d/Belgica.png",
+    "image": "/tracks/Belgium.webp",
+    "infoTrack": {
+      "name": "Circuit de Spa-Francorchamps",
+      "location": "Stavelot, Bélgica",
+      "length": "7.004 km",
+      "laps": "44",
+      "distance": "308.052 km",
+      "curves": "19",
+      "lapRecord": "1:46.286 - Valtteri Bottas (2018)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-08-14",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-08-14",
+        "time": "15:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-08-15",
+        "time": "10:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-08-15",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-08-16",
+        "time": "13:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 15,
+    "name": "Gran Premio de Países Bajos",
+    "weekend": ["2026-08-28", "2026-08-29", "2026-08-30"],
+    "hashtag": "#DutchGP",
+    "initDay": "2026-08-28",
+    "finishDay": "2026-08-30",
+    "track2D": "/tracks-2d/Holanda.avif",
+    "image": "/tracks/Netherlands.webp",
+    "infoTrack": {
+      "name": "Circuit Zandvoort",
+      "location": "Zandvoort, Países Bajos",
+      "length": "4.259 km",
+      "laps": "72",
+      "distance": "306.648 km",
+      "curves": "14",
+      "lapRecord": "1:11.097 - Lewis Hamilton (2021)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-08-28",
+        "time": "10:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-08-28",
+        "time": "14:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-08-29",
+        "time": "09:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-08-29",
+        "time": "13:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-08-30",
+        "time": "13:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 16,
+    "name": "Gran Premio de Italia",
+    "weekend": ["2026-09-11", "2026-09-12", "2026-09-13"],
+    "hashtag": "#ItalianGP",
+    "initDay": "2026-09-11",
+    "finishDay": "2026-09-13",
+    "track2D": "/tracks-2d/Monza.avif",
+    "image": "/tracks/Monza.webp",
+    "infoTrack": {
+      "name": "Autodromo Nazionale di Monza",
+      "location": "Monza, Italia",
+      "length": "5.793 km",
+      "laps": "53",
+      "distance": "306.720 km",
+      "curves": "11",
+      "lapRecord": "1:21.046 - Rubens Barrichello (2004)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-09-11",
+        "time": "11:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-09-11",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-09-12",
+        "time": "10:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-09-12",
+        "time": "14:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-09-13",
+        "time": "13:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 17,
+    "name": "Gran Premio de Azerbaiyán",
+    "weekend": ["2026-09-25", "2026-09-26", "2026-09-27"],
+    "hashtag": "#AzerbaijanGP",
+    "initDay": "2026-09-25",
+    "finishDay": "2026-09-27",
+    "track2D": "/tracks-2d/Baku.avif",
+    "image": "/tracks/Azerbaijan.webp",
+    "infoTrack": {
+      "name": "Baku City Circuit",
+      "location": "Bakú, Azerbaiyán",
+      "length": "6.003 km",
+      "laps": "51",
+      "distance": "306.049 km",
+      "curves": "20",
+      "lapRecord": "1:43.009 - Charles Leclerc (2019)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-09-25",
+        "time": "09:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-09-25",
+        "time": "13:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-09-26",
+        "time": "08:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-09-26",
+        "time": "12:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-09-27",
+        "time": "11:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 18,
+    "name": "Gran Premio de Singapur",
+    "weekend": ["2026-10-09", "2026-10-10", "2026-10-11"],
+    "hashtag": "#SingaporeGP",
+    "initDay": "2026-10-09",
+    "finishDay": "2026-10-11",
+    "track2D": "/tracks-2d/Singapur.avif",
+    "image": "/tracks/Singapore.webp",
+    "infoTrack": {
+      "name": "Marina Bay Street Circuit",
+      "location": "Singapur",
+      "length": "4.940 km",
+      "laps": "62",
+      "distance": "306.143 km",
+      "curves": "19",
+      "lapRecord": "1:35.867 - Lewis Hamilton (2023)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-10-09",
+        "time": "11:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-10-09",
+        "time": "15:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-10-10",
+        "time": "11:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-10-10",
+        "time": "15:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-10-11",
+        "time": "14:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 19,
+    "name": "Gran Premio de Estados Unidos",
+    "weekend": ["2026-10-23", "2026-10-24", "2026-10-25"],
+    "hashtag": "#USGP",
+    "initDay": "2026-10-23",
+    "finishDay": "2026-10-25",
+    "track2D": "/tracks-2d/EEUU.avif",
+    "image": "/tracks/USA.webp",
+    "infoTrack": {
+      "name": "Circuit of the Americas",
+      "location": "Austin, Estados Unidos",
+      "length": "5.513 km",
+      "laps": "56",
+      "distance": "308.405 km",
+      "curves": "20",
+      "lapRecord": "1:36.169 - Charles Leclerc (2019)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-10-23",
+        "time": "18:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-10-23",
+        "time": "22:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-10-24",
+        "time": "18:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-10-24",
+        "time": "22:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-10-25",
+        "time": "19:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 20,
+    "name": "Gran Premio de México",
+    "weekend": ["2026-11-06", "2026-11-07", "2026-11-08"],
+    "hashtag": "#MexicoGP",
+    "initDay": "2026-11-06",
+    "finishDay": "2026-11-08",
+    "track2D": "/tracks-2d/Mexico.avif",
+    "image": "/tracks/Mexico.webp",
+    "infoTrack": {
+      "name": "Autódromo Hermanos Rodríguez",
+      "location": "Ciudad de México, México",
+      "length": "4.304 km",
+      "laps": "71",
+      "distance": "305.354 km",
+      "curves": "17",
+      "lapRecord": "1:17.774 - Valtteri Bottas (2021)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-11-06",
+        "time": "18:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-11-06",
+        "time": "22:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-11-07",
+        "time": "17:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-11-07",
+        "time": "21:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-11-08",
+        "time": "20:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 21,
+    "name": "Gran Premio de Brasil",
+    "weekend": ["2026-11-20", "2026-11-21", "2026-11-22"],
+    "hashtag": "#BrazilGP",
+    "initDay": "2026-11-20",
+    "finishDay": "2026-11-22",
+    "track2D": "/tracks-2d/Brasil.avif",
+    "image": "/tracks/Brazil.webp",
+    "infoTrack": {
+      "name": "Autódromo José Carlos Pace",
+      "location": "São Paulo, Brasil",
+      "length": "4.309 km",
+      "laps": "71",
+      "distance": "305.879 km",
+      "curves": "15",
+      "lapRecord": "1:10.540 - Valtteri Bottas (2018)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-11-20",
+        "time": "14:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-11-20",
+        "time": "18:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-11-21",
+        "time": "14:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-11-21",
+        "time": "18:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-11-22",
+        "time": "16:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 22,
+    "name": "Gran Premio de Las Vegas",
+    "weekend": ["2026-12-04", "2026-12-05", "2026-12-06"],
+    "hashtag": "#LasVegasGP",
+    "initDay": "2026-12-04",
+    "finishDay": "2026-12-06",
+    "track2D": "/tracks-2d/LasVegas.avif",
+    "image": "/tracks/LasVegas.webp",
+    "infoTrack": {
+      "name": "Las Vegas Strip Circuit",
+      "location": "Las Vegas, Estados Unidos",
+      "length": "6.201 km",
+      "laps": "50",
+      "distance": "310.050 km",
+      "curves": "17",
+      "lapRecord": "1:35.490 - Oscar Piastri (2024)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-12-04",
+        "time": "03:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-12-04",
+        "time": "07:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-12-05",
+        "time": "03:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-12-05",
+        "time": "07:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-12-06",
+        "time": "07:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 23,
+    "name": "Gran Premio de Catar",
+    "weekend": ["2026-12-11", "2026-12-12", "2026-12-13"],
+    "hashtag": "#QatarGP",
+    "initDay": "2026-12-11",
+    "finishDay": "2026-12-13",
+    "track2D": "/tracks-2d/Qatar.avif",
+    "image": "/tracks/Qatar.webp",
+    "infoTrack": {
+      "name": "Lusail International Circuit",
+      "location": "Lusail, Catar",
+      "length": "5.419 km",
+      "laps": "57",
+      "distance": "308.611 km",
+      "curves": "16",
+      "lapRecord": "1:24.319 - Max Verstappen (2023)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-12-11",
+        "time": "12:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-12-11",
+        "time": "16:30"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Carrera Sprint",
+        "date": "2026-12-12",
+        "time": "13:00"
+      },
+      {
+        "name": "Clasificación Gran Premio",
+        "date": "2026-12-12",
+        "time": "17:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-12-13",
+        "time": "16:00"
+      }
+    ],
+    "sprint": true
+  },
+  {
+    "id": 24,
+    "name": "Gran Premio de Abu Dabi",
+    "weekend": ["2026-12-18", "2026-12-19", "2026-12-20"],
+    "hashtag": "#AbuDhabiGP",
+    "initDay": "2026-12-18",
+    "finishDay": "2026-12-20",
+    "track2D": "/tracks-2d/AbuDhabi.avif",
+    "image": "/tracks/AbuDhabi.webp",
+    "infoTrack": {
+      "name": "Yas Marina Circuit",
+      "location": "Abu Dabi, Emiratos Árabes Unidos",
+      "length": "5.554 km",
+      "laps": "55",
+      "distance": "305.470 km",
+      "curves": "21",
+      "lapRecord": "1:36.231 - Lewis Hamilton (2019)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-12-18",
+        "time": "06:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-12-18",
+        "time": "10:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-12-19",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-12-19",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-12-20",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  }
+]
+

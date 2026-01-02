@@ -4,7 +4,7 @@ import MasterCard from "./MasterCard";
 import { getCurrentWeekend } from "../utils/getCurrentWeekend";
 import { useEffect } from "react";
 import { useState } from "react";
-import data from "../json/data.json";
+import data from "../json/data2026.json";
 import Cards from "./Cards";
 import Carousel from "react-elastic-carousel";
 import CardInfo from "./CardInfo";
@@ -53,6 +53,30 @@ function App() {
 
     const thisWeekend = getCurrentWeekend(gp?.id);
 
+    // Si no hay ningún GP disponible, salir
+    if (!thisWeekend) {
+      setTimeout(() => {
+        setLoadingSpinner(false);
+        setLoading(false);
+      }, 3000);
+      return;
+    }
+
+    // Si la temporada ha terminado, mostrar el último GP
+    if (thisWeekend.seasonEnded) {
+      setFechaObjetivo(null);
+      setThisWeekend(thisWeekend);
+      setActive(thisWeekend.id);
+      setDataGP(thisWeekend.results);
+      setGpPast(true);
+      updateQueryString(thisWeekend.name);
+      setTimeout(() => {
+        setLoadingSpinner(false);
+        setLoading(false);
+      }, 3000);
+      return;
+    }
+
     // Si el GP actual ha terminado, buscamos el siguiente
     const finGP =
       thisWeekend?.sunday?.length > 0
@@ -61,11 +85,13 @@ function App() {
               "T" +
               thisWeekend.sunday[thisWeekend.sunday.length - 1].time
           )
-        : new Date(
+        : thisWeekend?.saturday?.length > 0
+        ? new Date(
             thisWeekend.saturday[thisWeekend.saturday.length - 1].date +
               "T" +
               thisWeekend.saturday[thisWeekend.saturday.length - 1].time
-          );
+          )
+        : new Date();
 
     const fechaActual = new Date();
 
@@ -83,6 +109,14 @@ function App() {
         setActive(nextGP.id);
         setDataGP(nextGP.results);
         updateQueryString(nextGP.name);
+      } else {
+        // No hay más GPs, temporada terminada
+        setFechaObjetivo(null);
+        setThisWeekend(thisWeekend);
+        setActive(thisWeekend.id);
+        setDataGP(thisWeekend.results);
+        setGpPast(true);
+        updateQueryString(thisWeekend.name);
       }
     } else {
       const countDownTimer = startWeekend(thisWeekend?.id);
@@ -123,11 +157,13 @@ function App() {
               "T" +
               weekend.sunday[weekend.sunday.length - 1].time
           )
-        : new Date(
+        : weekend?.saturday?.length > 0
+        ? new Date(
             weekend.saturday[weekend.saturday.length - 1].date +
               "T" +
               weekend.saturday[weekend.saturday.length - 1].time
-          );
+          )
+        : new Date();
 
     if (finGP < fechaActual) {
       setGpPast(true);
@@ -285,17 +321,18 @@ function App() {
             </div>
           ) : (
             <Carousel
-              // className={`${gpPast ? "mt-0" : "mt-10"}`}
               className="mt-10"
-              itemsToShow={
-                (widthScreen < 500 && 4) || (widthScreen < 768 && 5) || 6
-              }
+              itemsToShow={widthScreen < 500 ? 3 : 5}
+              itemsToScroll={widthScreen < 500 ? 3 : 5}
               pagination={false}
-              showArrows={false}
-              initialActiveIndex={active - 2}
-              autoPlaySpeed={3000}
+              showArrows={true}
+              initialActiveIndex={Math.max(0, active - 3)}
+              autoPlaySpeed={500}
               autoPlay={true}
-              transitionMs={500}
+              transitionMs={300}
+              focusOnSelect={true}
+              enableSwipe={false}
+              enableMouseSwipe={false}
             >
               {data.map((item) => (
                 <Cards
