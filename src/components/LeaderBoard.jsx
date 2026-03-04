@@ -12,7 +12,7 @@ export default function LeaderBoard({ loading }) {
     const result = data.map((item) => {
       // Filtrar solo posiciones numéricas para calcular la mejor posición
       const validPositions = item.positions.filter(
-        (pos) => typeof pos === "number"
+        (pos) => typeof pos === "number",
       );
       const bestPosition =
         validPositions.length > 0 ? Math.min(...validPositions) : Infinity;
@@ -173,7 +173,7 @@ export default function LeaderBoard({ loading }) {
                       <img
                         src={item.nation}
                         alt={`Nacionalidad de ${item.name}`}
-                        className="w-12 h-10 rounded-sm max-[500px]:w-10 max-[500px]:h-8"
+                        className="w-12 h-8 rounded-sm max-[500px]:w-10 max-[500px]:h-8"
                       />
                     </div>
 

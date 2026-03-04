@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Gran Premio de Australia",
-    "weekend": ["2026-03-06", "2026-03-07", "2026-03-08"],
+    "weekend": ["2026-03-05", "2026-03-06", "2026-03-07", "2026-03-08"],
     "hashtag": "#AustralianGP",
-    "initDay": "2026-03-06",
+    "initDay": "2026-03-05",
     "finishDay": "2026-03-08",
     "track2D": "/tracks-2d/Australia.avif",
     "image": "/tracks/Australia.webp",
@@ -17,28 +17,30 @@
       "curves": "16",
       "lapRecord": "1:24.125 - Michael Schumacher (2004)"
     },
-    "friday": [
+    "thursday": [
       {
         "name": "Práctica 1",
-        "date": "2026-03-06",
-        "time": "00:30"
-      },
+        "date": "2026-03-05",
+        "time": "22:30"
+      }
+    ],
+    "friday": [
       {
         "name": "Práctica 2",
         "date": "2026-03-06",
-        "time": "04:30"
+        "time": "02:00"
+      },
+      {
+        "name": "Práctica 3",
+        "date": "2026-03-06",
+        "time": "22:30"
       }
     ],
     "saturday": [
       {
-        "name": "Práctica 3",
-        "date": "2026-03-07",
-        "time": "01:30"
-      },
-      {
         "name": "Clasificación",
         "date": "2026-03-07",
-        "time": "05:00"
+        "time": "02:00"
       }
     ],
     "sunday": [
@@ -1224,4 +1226,3 @@
     "sprint": false
   }
 ]
-

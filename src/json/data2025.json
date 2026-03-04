@@ -130,7 +130,7 @@
           "position": 7,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 57,
           "time": "+18.423s",
           "points": 6
@@ -211,7 +211,7 @@
           "position": "NC",
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 45,
           "time": "DNF",
           "points": 0
@@ -455,7 +455,7 @@
           "position": 14,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 55,
           "time": "+1 lap",
           "points": 0
@@ -464,7 +464,7 @@
           "position": 15,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 55,
           "time": "+1 lap",
           "points": 0
@@ -700,7 +700,7 @@
           "position": 18,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 19,
           "time": "+53.940s",
           "points": 0
@@ -709,7 +709,7 @@
           "position": 19,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 19,
           "time": "+56.682s",
           "points": 0
@@ -943,7 +943,7 @@
           "position": 16,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 53,
           "time": "+81.957s",
           "points": 0
@@ -970,7 +970,7 @@
           "position": 19,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 53,
           "time": "+83.897s",
           "points": 0
@@ -1222,7 +1222,7 @@
           "position": 18,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 57,
           "time": "+66.872s",
           "points": 0
@@ -1240,7 +1240,7 @@
           "position": "DQ",
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 0,
           "time": "DSQ",
           "points": 0
@@ -1456,7 +1456,7 @@
           "position": 15,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 49,
           "time": "+1 lap",
           "points": 0
@@ -1483,7 +1483,7 @@
           "position": 18,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 49,
           "time": "+1 lap",
           "points": 0
@@ -1707,7 +1707,7 @@
           "position": 14,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 56,
           "time": "+1 lap",
           "points": 0
@@ -1743,7 +1743,7 @@
           "position": "NC",
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 30,
           "time": "DNF",
           "points": 0
@@ -1871,7 +1871,7 @@
           "position": 9,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 18,
           "time": "+6.153s",
           "points": 0
@@ -1925,7 +1925,7 @@
           "position": 15,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 18,
           "time": "+9.675s",
           "points": 0
@@ -2161,7 +2161,7 @@
           "position": 12,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 63,
           "time": "+30.296s",
           "points": 0
@@ -2215,7 +2215,7 @@
           "position": 18,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 63,
           "time": "+38.572s",
           "points": 0
@@ -2440,7 +2440,7 @@
           "position": 14,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 76,
           "time": "+2 laps",
           "points": 0
@@ -2458,7 +2458,7 @@
           "position": 16,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 76,
           "time": "+2 laps",
           "points": 0
@@ -2620,7 +2620,7 @@
           "position": 5,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 66,
           "time": "+13.648s",
           "points": 10
@@ -2683,7 +2683,7 @@
           "position": 12,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 66,
           "time": "+25.996s",
           "points": 0
@@ -2907,7 +2907,7 @@
           "position": 8,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 70,
           "time": "+15.364s",
           "points": 4
@@ -2961,7 +2961,7 @@
           "position": 14,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 69,
           "time": "+1 lap",
           "points": 0
@@ -3167,7 +3167,7 @@
           "position": 8,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 69,
           "time": "+1 lap",
           "points": 4
@@ -3176,7 +3176,7 @@
           "position": 9,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 69,
           "time": "+1 lap",
           "points": 2
@@ -3355,7 +3355,7 @@
         {
           "position": 3,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "photo": "/pilots/hulkenberg.avif"
         }
       ],
@@ -3382,7 +3382,7 @@
           "position": 3,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 52,
           "time": "+34.742s",
           "points": 15
@@ -3517,7 +3517,7 @@
           "position": "NC",
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 3,
           "time": "DNF",
           "points": 0
@@ -3696,7 +3696,7 @@
           "position": 9,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 44,
           "time": "+56.434s",
           "points": 2
@@ -3723,7 +3723,7 @@
           "position": 12,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 44,
           "time": "+73.628s",
           "points": 0
@@ -3905,7 +3905,7 @@
           "position": 9,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 15,
           "time": "+22.183s",
           "points": 0
@@ -3986,7 +3986,7 @@
           "position": 18,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 15,
           "time": "+32.867s",
           "points": 0
@@ -4138,7 +4138,7 @@
           "position": 6,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 70,
           "time": "+66.169s",
           "points": 8
@@ -4201,7 +4201,7 @@
           "position": 13,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 69,
           "time": "+1 lap",
           "points": 0
@@ -4470,7 +4470,7 @@
           "position": 14,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 72,
           "time": "+19.725s",
           "points": 0
@@ -4479,7 +4479,7 @@
           "position": 15,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 72,
           "time": "+21.565s",
           "points": 0
@@ -4676,7 +4676,7 @@
           "position": 8,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 53,
           "time": "+58.484s",
           "points": 4
@@ -4784,7 +4784,7 @@
           "position": "NC",
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 0,
           "time": "DNS",
           "points": 0
@@ -4963,7 +4963,7 @@
           "position": 11,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 51,
           "time": "+67.606s",
           "points": 0
@@ -5008,7 +5008,7 @@
           "position": 16,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 51,
           "time": "+80.237s",
           "points": 0
@@ -5277,7 +5277,7 @@
           "position": 17,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 61,
           "time": "+1 lap",
           "points": 0
@@ -5304,7 +5304,7 @@
           "position": 20,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 61,
           "time": "+1 lap",
           "points": 0
@@ -5456,7 +5456,7 @@
           "position": 8,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 56,
           "time": "+57.249s",
           "points": 4
@@ -5546,7 +5546,7 @@
           "position": 18,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 55,
           "time": "+1 lap",
           "points": 0
@@ -5692,7 +5692,7 @@
           "position": 11,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 19,
           "time": "+5.649s",
           "points": 0
@@ -5710,7 +5710,7 @@
           "position": 13,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 19,
           "time": "+6.624s",
           "points": 0
@@ -5943,7 +5943,7 @@
           "position": 10,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 71,
           "time": "+76.863s",
           "points": 1
@@ -6024,7 +6024,7 @@
           "position": "NC",
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 25,
           "time": "DNF",
           "points": 0
@@ -6194,7 +6194,7 @@
           "position": 9,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 71,
           "time": "+53.324s",
           "points": 2
@@ -6293,7 +6293,7 @@
           "position": "NC",
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 0,
           "time": "DNF",
           "points": 0
@@ -6457,7 +6457,7 @@
           "position": 15,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 24,
           "time": "+42.349s",
           "points": 0
@@ -6484,7 +6484,7 @@
           "position": 18,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 23,
           "time": "DNF",
           "points": 0
@@ -6647,7 +6647,7 @@
           "position": 7,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 50,
           "time": "+51.134s",
           "points": 6
@@ -6737,7 +6737,7 @@
           "position": "NC",
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 2,
           "time": "DNF",
           "points": 0
@@ -6961,7 +6961,7 @@
           "position": 13,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 57,
           "time": "+84.812s",
           "points": 0
@@ -7024,7 +7024,7 @@
           "position": "NC",
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 6,
           "time": "DNF",
           "points": 0
@@ -7152,7 +7152,7 @@
           "position": 11,
           "number": 5,
           "driver": "Gabriel Bortoleto",
-          "team": "kick",
+          "team": "audi",
           "laps": 19,
           "time": "+32.966s",
           "points": 0
@@ -7197,7 +7197,7 @@
           "position": 16,
           "number": 27,
           "driver": "Nico Hulkenberg",
-          "team": "kick",
+          "team": "audi",
           "laps": 19,
           "time": "+39.638s",
           "points": 0

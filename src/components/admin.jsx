@@ -77,7 +77,7 @@ export default function Admin() {
       (driversRace.length > 0 || driversSprint.length > 0)
     ) {
       const confirmar = window.confirm(
-        `⚠️ Hay datos cargados para ${selectedGP.name}. ¿Deseas cambiar al GP seleccionado? Los datos actuales se limpiarán.`
+        `⚠️ Hay datos cargados para ${selectedGP.name}. ¿Deseas cambiar al GP seleccionado? Los datos actuales se limpiarán.`,
       );
       if (!confirmar) {
         return; // No cambiar de GP
@@ -147,7 +147,7 @@ export default function Admin() {
     // Verificar que se haya seleccionado un GP primero
     if (!selectedGP) {
       toast.error(
-        "⚠️ Por favor selecciona un Gran Premio primero antes de cargar el Excel"
+        "⚠️ Por favor selecciona un Gran Premio primero antes de cargar el Excel",
       );
       e.target.value = null; // Limpiar el input file
       return;
@@ -183,7 +183,7 @@ export default function Admin() {
       } catch (error) {
         console.error("Error al leer el archivo:", error);
         toast.error(
-          "❌ Error al procesar el archivo Excel. Verifica el formato."
+          "❌ Error al procesar el archivo Excel. Verifica el formato.",
         );
       }
     };
@@ -221,7 +221,7 @@ export default function Admin() {
     Alpine: "alp",
     "Aston Martin": "ast",
     "Racing Bulls": "rb",
-    "Kick Sauber": "kick",
+    Audi: "audi",
   };
 
   const generateResults = (driversData) => {
@@ -298,7 +298,7 @@ export default function Admin() {
       if (sprintResults) message += "✅ Sprint\n";
 
       toast.success(
-        `${message}\nEl JSON se copió al portapapeles.\n\nObjeto completo del GP #${selectedGP.id} listo para reemplazar en data.json`
+        `${message}\nEl JSON se copió al portapapeles.\n\nObjeto completo del GP #${selectedGP.id} listo para reemplazar en data.json`,
       );
     } else {
       // Solo Gran Premio
@@ -313,7 +313,7 @@ export default function Admin() {
       completeGP.results = results;
 
       toast.success(
-        `Resultados guardados! El JSON se copió al portapapeles.\n\nObjeto completo del GP #${selectedGP.id} listo para reemplazar en data.json`
+        `Resultados guardados! El JSON se copió al portapapeles.\n\nObjeto completo del GP #${selectedGP.id} listo para reemplazar en data.json`,
       );
     }
 
@@ -362,7 +362,7 @@ export default function Admin() {
 
         // Verificar si el nombre del resultado coincide con alguna variación
         return possibleNames.some(
-          (name) => name.toLowerCase() === d.driver.toLowerCase()
+          (name) => name.toLowerCase() === d.driver.toLowerCase(),
         );
       });
     };
@@ -383,11 +383,11 @@ export default function Admin() {
           if (!pilotResult) {
             // No se encontró el piloto, buscar en todo el leaderBoard
             const allDrivers = gp.resultsSprint.leaderBoard.map(
-              (d) => `${d.driver} (#${d.number || "N/A"})`
+              (d) => `${d.driver} (#${d.number || "N/A"})`,
             );
             console.warn(
               `⚠️ ${pilot.name} (#${pilot.number}) NO encontrado en Sprint ${gp.name}. Pilotos disponibles:`,
-              allDrivers
+              allDrivers,
             );
           }
 
@@ -432,11 +432,11 @@ export default function Admin() {
           if (!pilotResult) {
             // No se encontró el piloto
             const allDrivers = gp.results.leaderBoard.map(
-              (d) => `${d.driver} (#${d.number || "N/A"})`
+              (d) => `${d.driver} (#${d.number || "N/A"})`,
             );
             console.warn(
               `⚠️ ${pilot.name} (#${pilot.number}) NO encontrado en GP ${gp.name}. Pilotos disponibles:`,
-              allDrivers
+              allDrivers,
             );
           }
 
@@ -507,7 +507,7 @@ export default function Admin() {
     const totalGPs = circuits.filter((gp) => gp.results).length;
 
     toast.success(
-      `✅ LeaderBoard actualizado!\n\nSe calcularon:\n- Puntos totales\n- Posiciones de ${totalGPs} GPs\n- Vueltas completadas\n\nEl JSON se copió al portapapeles.\n\nRevisa la CONSOLA para ver el detalle.`
+      `✅ LeaderBoard actualizado!\n\nSe calcularon:\n- Puntos totales\n- Posiciones de ${totalGPs} GPs\n- Vueltas completadas\n\nEl JSON se copió al portapapeles.\n\nRevisa la CONSOLA para ver el detalle.`,
     );
   };
 
@@ -698,8 +698,8 @@ export default function Admin() {
                         selectedGP?.id === item.id
                           ? "bg-green-600 border-green-600 text-white font-semibold"
                           : item.results
-                          ? "border-green-700/50 bg-green-900/20 hover:bg-green-800/30 hover:border-green-600/50 text-gray-200"
-                          : "border-gray-600 bg-gray-900/50 hover:bg-gray-700 hover:border-gray-500 text-gray-200"
+                            ? "border-green-700/50 bg-green-900/20 hover:bg-green-800/30 hover:border-green-600/50 text-gray-200"
+                            : "border-gray-600 bg-gray-900/50 hover:bg-gray-700 hover:border-gray-500 text-gray-200"
                       }`}
                       onClick={() => handleSelectCircuit(item.id)}
                     >
