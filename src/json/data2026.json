@@ -2,7 +2,12 @@
   {
     "id": 1,
     "name": "Gran Premio de Australia",
-    "weekend": ["2026-03-05", "2026-03-06", "2026-03-07", "2026-03-08"],
+    "weekend": [
+      "2026-03-05",
+      "2026-03-06",
+      "2026-03-07",
+      "2026-03-08"
+    ],
     "hashtag": "#AustralianGP",
     "initDay": "2026-03-05",
     "finishDay": "2026-03-08",
@@ -55,7 +60,11 @@
   {
     "id": 2,
     "name": "Gran Premio de China",
-    "weekend": ["2026-03-13", "2026-03-14", "2026-03-15"],
+    "weekend": [
+      "2026-03-13",
+      "2026-03-14",
+      "2026-03-15"
+    ],
     "hashtag": "#ChineseGP",
     "initDay": "2026-03-13",
     "finishDay": "2026-03-15",
@@ -106,7 +115,11 @@
   {
     "id": 3,
     "name": "Gran Premio de Japón",
-    "weekend": ["2026-03-27", "2026-03-28", "2026-03-29"],
+    "weekend": [
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29"
+    ],
     "hashtag": "#JapaneseGP",
     "initDay": "2026-03-27",
     "finishDay": "2026-03-29",
@@ -125,31 +138,31 @@
       {
         "name": "Práctica 1",
         "date": "2026-03-27",
-        "time": "02:30"
+        "time": "23:30"
       },
       {
         "name": "Práctica 2",
         "date": "2026-03-27",
-        "time": "06:00"
+        "time": "03:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
         "date": "2026-03-28",
-        "time": "02:30"
+        "time": "23:30"
       },
       {
         "name": "Clasificación",
         "date": "2026-03-28",
-        "time": "06:00"
+        "time": "03:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
         "date": "2026-03-29",
-        "time": "05:00"
+        "time": "02:00"
       }
     ],
     "sprint": false
@@ -157,7 +170,11 @@
   {
     "id": 4,
     "name": "Gran Premio de Baréin",
-    "weekend": ["2026-04-03", "2026-04-04", "2026-04-05"],
+    "weekend": [
+      "2026-04-03",
+      "2026-04-04",
+      "2026-04-05"
+    ],
     "hashtag": "#BahrainGP",
     "initDay": "2026-04-03",
     "finishDay": "2026-04-05",
@@ -208,7 +225,11 @@
   {
     "id": 5,
     "name": "Gran Premio de Arabia Saudita",
-    "weekend": ["2026-04-10", "2026-04-11", "2026-04-12"],
+    "weekend": [
+      "2026-04-10",
+      "2026-04-11",
+      "2026-04-12"
+    ],
     "hashtag": "#SaudiArabianGP",
     "initDay": "2026-04-10",
     "finishDay": "2026-04-12",
@@ -259,7 +280,11 @@
   {
     "id": 6,
     "name": "Gran Premio de Miami",
-    "weekend": ["2026-04-24", "2026-04-25", "2026-04-26"],
+    "weekend": [
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26"
+    ],
     "hashtag": "#MiamiGP",
     "initDay": "2026-04-24",
     "finishDay": "2026-04-26",
@@ -310,7 +335,11 @@
   {
     "id": 7,
     "name": "Gran Premio de Emilia-Romaña",
-    "weekend": ["2026-05-08", "2026-05-09", "2026-05-10"],
+    "weekend": [
+      "2026-05-08",
+      "2026-05-09",
+      "2026-05-10"
+    ],
     "hashtag": "#ImolaGP",
     "initDay": "2026-05-08",
     "finishDay": "2026-05-10",
@@ -361,7 +390,11 @@
   {
     "id": 8,
     "name": "Gran Premio de Mónaco",
-    "weekend": ["2026-05-22", "2026-05-23", "2026-05-24"],
+    "weekend": [
+      "2026-05-22",
+      "2026-05-23",
+      "2026-05-24"
+    ],
     "hashtag": "#MonacoGP",
     "initDay": "2026-05-22",
     "finishDay": "2026-05-24",
@@ -412,7 +445,11 @@
   {
     "id": 9,
     "name": "Gran Premio de España",
-    "weekend": ["2026-06-05", "2026-06-06", "2026-06-07"],
+    "weekend": [
+      "2026-06-05",
+      "2026-06-06",
+      "2026-06-07"
+    ],
     "hashtag": "#SpanishGP",
     "initDay": "2026-06-05",
     "finishDay": "2026-06-07",
@@ -463,7 +500,11 @@
   {
     "id": 10,
     "name": "Gran Premio de Canadá",
-    "weekend": ["2026-06-19", "2026-06-20", "2026-06-21"],
+    "weekend": [
+      "2026-06-19",
+      "2026-06-20",
+      "2026-06-21"
+    ],
     "hashtag": "#CanadianGP",
     "initDay": "2026-06-19",
     "finishDay": "2026-06-21",
@@ -514,7 +555,11 @@
   {
     "id": 11,
     "name": "Gran Premio de Austria",
-    "weekend": ["2026-07-03", "2026-07-04", "2026-07-05"],
+    "weekend": [
+      "2026-07-03",
+      "2026-07-04",
+      "2026-07-05"
+    ],
     "hashtag": "#AustrianGP",
     "initDay": "2026-07-03",
     "finishDay": "2026-07-05",
@@ -565,7 +610,11 @@
   {
     "id": 12,
     "name": "Gran Premio de Gran Bretaña",
-    "weekend": ["2026-07-17", "2026-07-18", "2026-07-19"],
+    "weekend": [
+      "2026-07-17",
+      "2026-07-18",
+      "2026-07-19"
+    ],
     "hashtag": "#BritishGP",
     "initDay": "2026-07-17",
     "finishDay": "2026-07-19",
@@ -616,7 +665,11 @@
   {
     "id": 13,
     "name": "Gran Premio de Hungría",
-    "weekend": ["2026-07-31", "2026-08-01", "2026-08-02"],
+    "weekend": [
+      "2026-07-31",
+      "2026-08-01",
+      "2026-08-02"
+    ],
     "hashtag": "#HungarianGP",
     "initDay": "2026-07-31",
     "finishDay": "2026-08-02",
@@ -667,7 +720,11 @@
   {
     "id": 14,
     "name": "Gran Premio de Bélgica",
-    "weekend": ["2026-08-14", "2026-08-15", "2026-08-16"],
+    "weekend": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
     "hashtag": "#BelgianGP",
     "initDay": "2026-08-14",
     "finishDay": "2026-08-16",
@@ -718,7 +775,11 @@
   {
     "id": 15,
     "name": "Gran Premio de Países Bajos",
-    "weekend": ["2026-08-28", "2026-08-29", "2026-08-30"],
+    "weekend": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
     "hashtag": "#DutchGP",
     "initDay": "2026-08-28",
     "finishDay": "2026-08-30",
@@ -769,7 +830,11 @@
   {
     "id": 16,
     "name": "Gran Premio de Italia",
-    "weekend": ["2026-09-11", "2026-09-12", "2026-09-13"],
+    "weekend": [
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13"
+    ],
     "hashtag": "#ItalianGP",
     "initDay": "2026-09-11",
     "finishDay": "2026-09-13",
@@ -820,7 +885,11 @@
   {
     "id": 17,
     "name": "Gran Premio de Azerbaiyán",
-    "weekend": ["2026-09-25", "2026-09-26", "2026-09-27"],
+    "weekend": [
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
     "hashtag": "#AzerbaijanGP",
     "initDay": "2026-09-25",
     "finishDay": "2026-09-27",
@@ -871,7 +940,11 @@
   {
     "id": 18,
     "name": "Gran Premio de Singapur",
-    "weekend": ["2026-10-09", "2026-10-10", "2026-10-11"],
+    "weekend": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11"
+    ],
     "hashtag": "#SingaporeGP",
     "initDay": "2026-10-09",
     "finishDay": "2026-10-11",
@@ -922,7 +995,11 @@
   {
     "id": 19,
     "name": "Gran Premio de Estados Unidos",
-    "weekend": ["2026-10-23", "2026-10-24", "2026-10-25"],
+    "weekend": [
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25"
+    ],
     "hashtag": "#USGP",
     "initDay": "2026-10-23",
     "finishDay": "2026-10-25",
@@ -973,7 +1050,11 @@
   {
     "id": 20,
     "name": "Gran Premio de México",
-    "weekend": ["2026-11-06", "2026-11-07", "2026-11-08"],
+    "weekend": [
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08"
+    ],
     "hashtag": "#MexicoGP",
     "initDay": "2026-11-06",
     "finishDay": "2026-11-08",
@@ -1024,7 +1105,11 @@
   {
     "id": 21,
     "name": "Gran Premio de Brasil",
-    "weekend": ["2026-11-20", "2026-11-21", "2026-11-22"],
+    "weekend": [
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ],
     "hashtag": "#BrazilGP",
     "initDay": "2026-11-20",
     "finishDay": "2026-11-22",
@@ -1075,7 +1160,11 @@
   {
     "id": 22,
     "name": "Gran Premio de Las Vegas",
-    "weekend": ["2026-12-04", "2026-12-05", "2026-12-06"],
+    "weekend": [
+      "2026-12-04",
+      "2026-12-05",
+      "2026-12-06"
+    ],
     "hashtag": "#LasVegasGP",
     "initDay": "2026-12-04",
     "finishDay": "2026-12-06",
@@ -1126,7 +1215,11 @@
   {
     "id": 23,
     "name": "Gran Premio de Catar",
-    "weekend": ["2026-12-11", "2026-12-12", "2026-12-13"],
+    "weekend": [
+      "2026-12-11",
+      "2026-12-12",
+      "2026-12-13"
+    ],
     "hashtag": "#QatarGP",
     "initDay": "2026-12-11",
     "finishDay": "2026-12-13",
@@ -1177,7 +1270,11 @@
   {
     "id": 24,
     "name": "Gran Premio de Abu Dabi",
-    "weekend": ["2026-12-18", "2026-12-19", "2026-12-20"],
+    "weekend": [
+      "2026-12-18",
+      "2026-12-19",
+      "2026-12-20"
+    ],
     "hashtag": "#AbuDhabiGP",
     "initDay": "2026-12-18",
     "finishDay": "2026-12-20",
