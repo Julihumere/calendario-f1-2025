@@ -161,15 +161,17 @@ export default function Admin() {
         const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
         const jsonData = XLSX.utils.sheet_to_json(firstSheet);
 
+        console.log("Datos de Excel crudos:", jsonData);
+
         // Mapear los datos del Excel al formato correcto
         const parsedDrivers = jsonData.map((row) => ({
-          position: row.position ?? row.Position ?? row.Pos ?? 0,
-          number: row.number ?? row.Number ?? row.Numero ?? 0,
+          position: row.position ?? row.Position ?? row.Pos ?? row["Pos."] ?? 0,
+          number: row.number ?? row.Number ?? row.Numero ?? row["No."] ?? 0,
           driver: row.driver || row.Driver || row.Piloto || "",
           team: row.team || row.Team || row.Equipo || "",
           laps: row.laps ?? row.Laps ?? row.Vueltas ?? 0,
-          time: row.time || row.Time || row.Tiempo || "",
-          points: row.points ?? row.Points ?? row.Puntos ?? 0,
+          time: row.time || row.Time || row.Tiempo || row["Time / Retired"] || "",
+          points: row.points ?? row.Points ?? row.Puntos ?? row["Pts."] ?? 0,
         }));
 
         setDrivers(parsedDrivers);

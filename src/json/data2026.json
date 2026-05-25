@@ -50,7 +50,234 @@
         "time": "01:00"
       }
     ],
-    "sprint": false
+    "sprint": false,
+    "results": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "George Russell",
+          "team": "mer",
+          "photo": "/pilots/russell.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "photo": "/pilots/kimi.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "photo": "/pilots/leclerc.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 58,
+          "time": "1:23:06.801",
+          "points": 25
+        },
+        {
+          "position": 2,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 58,
+          "time": "+2.974s",
+          "points": 18
+        },
+        {
+          "position": 3,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 58,
+          "time": "+15.519s",
+          "points": 15
+        },
+        {
+          "position": 4,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 58,
+          "time": "+16.144s",
+          "points": 12
+        },
+        {
+          "position": 5,
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 58,
+          "time": "+51.741s",
+          "points": 10
+        },
+        {
+          "position": 6,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 58,
+          "time": "+54.617s",
+          "points": 8
+        },
+        {
+          "position": 7,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 6
+        },
+        {
+          "position": 8,
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 4
+        },
+        {
+          "position": 9,
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 2
+        },
+        {
+          "position": 10,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 1
+        },
+        {
+          "position": 11,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 57,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 56,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 56,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 55,
+          "time": "+3 laps",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 43,
+          "time": "+15 laps",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 21,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 15,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 10,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "George Russell",
+        "team": "Mercedes",
+        "time": "1:18.518"
+      }
+    }
   },
   {
     "id": 2,
@@ -101,7 +328,461 @@
         "time": "04:00"
       }
     ],
-    "sprint": true
+    "sprint": true,
+    "results": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "photo": "/pilots/kimi.avif"
+        },
+        {
+          "position": 2,
+          "driver": "George Russell",
+          "team": "mer",
+          "photo": "/pilots/russell.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "photo": "/pilots/hamilton.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 56,
+          "time": "1:33:15.607",
+          "points": 25
+        },
+        {
+          "position": 2,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 56,
+          "time": "+5.515s",
+          "points": 18
+        },
+        {
+          "position": 3,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 56,
+          "time": "+25.267s",
+          "points": 15
+        },
+        {
+          "position": 4,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 56,
+          "time": "+28.894s",
+          "points": 12
+        },
+        {
+          "position": 5,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 56,
+          "time": "+57.268s",
+          "points": 10
+        },
+        {
+          "position": 6,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 56,
+          "time": "+59.647s",
+          "points": 8
+        },
+        {
+          "position": 7,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 56,
+          "time": "+80.588s",
+          "points": 6
+        },
+        {
+          "position": 8,
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 56,
+          "time": "+87.247s",
+          "points": 4
+        },
+        {
+          "position": 9,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 2
+        },
+        {
+          "position": 10,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 1
+        },
+        {
+          "position": 11,
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 55,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 45,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 32,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 9,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:32.064"
+      }
+    },
+    "resultsSprint": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "George Russell",
+          "team": "mer",
+          "photo": "/pilots/russell.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "photo": "/pilots/leclerc.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "photo": "/pilots/hamilton.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 19,
+          "time": "33:38.998",
+          "points": 8
+        },
+        {
+          "position": 2,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 19,
+          "time": "+0.674s",
+          "points": 7
+        },
+        {
+          "position": 3,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 19,
+          "time": "+2.554s",
+          "points": 6
+        },
+        {
+          "position": 4,
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 19,
+          "time": "+4.433s",
+          "points": 5
+        },
+        {
+          "position": 5,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 19,
+          "time": "+5.688s",
+          "points": 4
+        },
+        {
+          "position": 6,
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 19,
+          "time": "+6.809s",
+          "points": 3
+        },
+        {
+          "position": 7,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 19,
+          "time": "+10.900s",
+          "points": 2
+        },
+        {
+          "position": 8,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 19,
+          "time": "+11.271s",
+          "points": 1
+        },
+        {
+          "position": 9,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 19,
+          "time": "+11.619s",
+          "points": 0
+        },
+        {
+          "position": 10,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 19,
+          "time": "+13.887s",
+          "points": 0
+        },
+        {
+          "position": 11,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 19,
+          "time": "+14.780s",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 19,
+          "time": "+15.753s",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 19,
+          "time": "+15.858s",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 19,
+          "time": "+16.393s",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 19,
+          "time": "+16.430s",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 19,
+          "time": "+20.014s",
+          "points": 0
+        },
+        {
+          "position": 17,
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 19,
+          "time": "+21.599s",
+          "points": 0
+        },
+        {
+          "position": 18,
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 19,
+          "time": "+21.971s",
+          "points": 0
+        },
+        {
+          "position": 19,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 19,
+          "time": "+28.241s",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 12,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 12,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 11,
+          "time": "DNF",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:32.064"
+      }
+    }
   },
   {
     "id": 3,
@@ -154,7 +835,234 @@
         "time": "02:00"
       }
     ],
-    "sprint": false
+    "sprint": false,
+    "results": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "photo": "/pilots/kimi.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "photo": "/pilots/piastri.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "photo": "/pilots/leclerc.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 53,
+          "time": "1:28:03.403",
+          "points": 25
+        },
+        {
+          "position": 2,
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 53,
+          "time": "+13.722s",
+          "points": 18
+        },
+        {
+          "position": 3,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 53,
+          "time": "+15.270s",
+          "points": 15
+        },
+        {
+          "position": 4,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 53,
+          "time": "+15.754s",
+          "points": 12
+        },
+        {
+          "position": 5,
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 53,
+          "time": "+23.479s",
+          "points": 10
+        },
+        {
+          "position": 6,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 53,
+          "time": "+25.037s",
+          "points": 8
+        },
+        {
+          "position": 7,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 53,
+          "time": "+32.340s",
+          "points": 6
+        },
+        {
+          "position": 8,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 53,
+          "time": "+32.677s",
+          "points": 4
+        },
+        {
+          "position": 9,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 53,
+          "time": "+50.180s",
+          "points": 2
+        },
+        {
+          "position": 10,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 53,
+          "time": "+51.216s",
+          "points": 1
+        },
+        {
+          "position": 11,
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 53,
+          "time": "+52.280s",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 53,
+          "time": "+56.154s",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 53,
+          "time": "+59.078s",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 53,
+          "time": "+59.848s",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 53,
+          "time": "+65.008s",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 53,
+          "time": "+65.773s",
+          "points": 0
+        },
+        {
+          "position": 17,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 53,
+          "time": "+92.453s",
+          "points": 0
+        },
+        {
+          "position": 18,
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 52,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 19,
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 52,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 20,
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 51,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 30,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 20,
+          "time": "DNF",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:28.778"
+      }
+    }
   },
   {
     "id": 4,
@@ -261,10 +1169,10 @@
   {
     "id": 6,
     "name": "Gran Premio de Miami",
-    "weekend": ["2026-04-24", "2026-04-25", "2026-04-26"],
+    "weekend": ["2026-05-01", "2026-05-02", "2026-05-03"],
     "hashtag": "#MiamiGP",
-    "initDay": "2026-04-24",
-    "finishDay": "2026-04-26",
+    "initDay": "2026-05-01",
+    "finishDay": "2026-05-03",
     "track2D": "/tracks-2d/Miami.avif",
     "image": "/tracks/Miami.webp",
     "infoTrack": {
@@ -279,35 +1187,489 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-04-24",
+        "date": "2026-05-01",
         "time": "18:30"
       },
       {
         "name": "Clasificación Sprint",
-        "date": "2026-04-24",
+        "date": "2026-05-01",
         "time": "22:30"
       }
     ],
     "saturday": [
       {
         "name": "Carrera Sprint",
-        "date": "2026-04-25",
+        "date": "2026-05-02",
         "time": "16:00"
       },
       {
         "name": "Clasificación Gran Premio",
-        "date": "2026-04-25",
+        "date": "2026-05-02",
         "time": "20:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-04-26",
+        "date": "2026-05-03",
         "time": "20:00"
       }
     ],
-    "sprint": true
+    "sprint": true,
+    "results": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "photo": "/pilots/kimi.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "photo": "/pilots/verstappen.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "photo": "/pilots/piastri.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 57,
+          "time": "1:33:19.273",
+          "points": 25
+        },
+        {
+          "position": 2,
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 57,
+          "time": "+3.264s",
+          "points": 18
+        },
+        {
+          "position": 3,
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 57,
+          "time": "+27.092s",
+          "points": 15
+        },
+        {
+          "position": 4,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 57,
+          "time": "+43.051s",
+          "points": 12
+        },
+        {
+          "position": 5,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 57,
+          "time": "+48.949s",
+          "points": 10
+        },
+        {
+          "position": 6,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 57,
+          "time": "+53.753s",
+          "points": 8
+        },
+        {
+          "position": 7,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 57,
+          "time": "+61.871s",
+          "points": 6
+        },
+        {
+          "position": 8,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 57,
+          "time": "+64.245s",
+          "points": 4
+        },
+        {
+          "position": 9,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 57,
+          "time": "+82.072s",
+          "points": 2
+        },
+        {
+          "position": 10,
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 57,
+          "time": "+90.972s",
+          "points": 1
+        },
+        {
+          "position": 11,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 17,
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 56,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 18,
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 55,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 7,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 6,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 4,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 4,
+          "time": "DNF",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:27.798"
+      }
+    },
+    "resultsSprint": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "photo": "/pilots/verstappen.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "photo": "/pilots/piastri.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "photo": "/pilots/leclerc.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 19,
+          "time": "29:15.045",
+          "points": 8
+        },
+        {
+          "position": 2,
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 19,
+          "time": "+3.766s",
+          "points": 7
+        },
+        {
+          "position": 3,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 19,
+          "time": "+6.251s",
+          "points": 6
+        },
+        {
+          "position": 4,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 19,
+          "time": "+12.951s",
+          "points": 5
+        },
+        {
+          "position": 5,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 19,
+          "time": "+13.639s",
+          "points": 4
+        },
+        {
+          "position": 6,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 19,
+          "time": "+13.777s",
+          "points": 3
+        },
+        {
+          "position": 7,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 19,
+          "time": "+21.665s",
+          "points": 2
+        },
+        {
+          "position": 8,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 19,
+          "time": "+30.525s",
+          "points": 1
+        },
+        {
+          "position": 9,
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 19,
+          "time": "+35.346s",
+          "points": 0
+        },
+        {
+          "position": 10,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 19,
+          "time": "+36.970s",
+          "points": 0
+        },
+        {
+          "position": 11,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 19,
+          "time": "+56.972s",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 19,
+          "time": "+57.365s",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 19,
+          "time": "+58.504s",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 19,
+          "time": "+59.358s",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 19,
+          "time": "+76.067s",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 19,
+          "time": "+76.691s",
+          "points": 0
+        },
+        {
+          "position": 17,
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 19,
+          "time": "+77.626s",
+          "points": 0
+        },
+        {
+          "position": 18,
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 19,
+          "time": "+88.173s",
+          "points": 0
+        },
+        {
+          "position": 19,
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 19,
+          "time": "+89.597s",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        },
+        {
+          "position": "DQ",
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 0,
+          "time": "DSQ",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:27.798"
+      }
+    }
   },
   {
     "id": 7,
@@ -358,15 +1720,469 @@
         "time": "17:00"
       }
     ],
-    "sprint": true
+    "sprint": true,
+    "results": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "photo": "/pilots/kimi.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "photo": "/pilots/hamilton.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "photo": "/pilots/default.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 68,
+          "time": "1:28:15.758",
+          "points": 25
+        },
+        {
+          "position": 2,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 68,
+          "time": "+10.768s",
+          "points": 18
+        },
+        {
+          "position": 3,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 68,
+          "time": "+11.276s",
+          "points": 15
+        },
+        {
+          "position": 4,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 68,
+          "time": "+44.151s",
+          "points": 12
+        },
+        {
+          "position": 5,
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 67,
+          "time": "+1 lap",
+          "points": 10
+        },
+        {
+          "position": 6,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 67,
+          "time": "+1 lap",
+          "points": 8
+        },
+        {
+          "position": 7,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 67,
+          "time": "+1 lap",
+          "points": 6
+        },
+        {
+          "position": 8,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 67,
+          "time": "+1 lap",
+          "points": 4
+        },
+        {
+          "position": 9,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 67,
+          "time": "+1 lap",
+          "points": 2
+        },
+        {
+          "position": 10,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 67,
+          "time": "+1 lap",
+          "points": 1
+        },
+        {
+          "position": 11,
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 66,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 66,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 66,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 66,
+          "time": "+2 laps",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 64,
+          "time": "+4 laps",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 64,
+          "time": "+4 laps",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 39,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 38,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 29,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 23,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 11,
+          "time": "DNF",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 0,
+          "time": "DNS",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "George Russell",
+        "team": "Mercedes",
+        "time": "1:12.578"
+      }
+    },
+    "resultsSprint": {
+      "podium": [
+        {
+          "position": 1,
+          "driver": "George Russell",
+          "team": "mer",
+          "photo": "/pilots/russell.avif"
+        },
+        {
+          "position": 2,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "photo": "/pilots/verstappen.avif"
+        },
+        {
+          "position": 3,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "photo": "/pilots/kimi.avif"
+        }
+      ],
+      "leaderBoard": [
+        {
+          "position": 1,
+          "number": 63,
+          "driver": "George Russell",
+          "team": "mer",
+          "laps": 23,
+          "time": "28:50.951",
+          "points": 8
+        },
+        {
+          "position": 2,
+          "number": 1,
+          "driver": "Lando Norris",
+          "team": "mcl",
+          "laps": 23,
+          "time": "+1.272s",
+          "points": 7
+        },
+        {
+          "position": 3,
+          "number": 12,
+          "driver": "Kimi Antonelli",
+          "team": "mer",
+          "laps": 23,
+          "time": "+1.843s",
+          "points": 6
+        },
+        {
+          "position": 4,
+          "number": 81,
+          "driver": "Oscar Piastri",
+          "team": "mcl",
+          "laps": 23,
+          "time": "+9.797s",
+          "points": 5
+        },
+        {
+          "position": 5,
+          "number": 16,
+          "driver": "Charles Leclerc",
+          "team": "fer",
+          "laps": 23,
+          "time": "+9.929s",
+          "points": 4
+        },
+        {
+          "position": 6,
+          "number": 44,
+          "driver": "Lewis Hamilton",
+          "team": "fer",
+          "laps": 23,
+          "time": "+10.545s",
+          "points": 3
+        },
+        {
+          "position": 7,
+          "number": 3,
+          "driver": "Max Verstappen",
+          "team": "redb",
+          "laps": 23,
+          "time": "+15.935s",
+          "points": 2
+        },
+        {
+          "position": 8,
+          "number": 41,
+          "driver": "Arvid Lindblad",
+          "team": "rb",
+          "laps": 23,
+          "time": "+29.710s",
+          "points": 1
+        },
+        {
+          "position": 9,
+          "number": 43,
+          "driver": "Franco Colapinto",
+          "team": "alp",
+          "laps": 23,
+          "time": "+31.621s",
+          "points": 0
+        },
+        {
+          "position": 10,
+          "number": 55,
+          "driver": "Carlos Sainz",
+          "team": "will",
+          "laps": 23,
+          "time": "+36.793s",
+          "points": 0
+        },
+        {
+          "position": 11,
+          "number": 30,
+          "driver": "Liam Lawson",
+          "team": "rb",
+          "laps": 23,
+          "time": "+61.344s",
+          "points": 0
+        },
+        {
+          "position": 12,
+          "number": 5,
+          "driver": "Gabriel Bortoleto",
+          "team": "audi",
+          "laps": 23,
+          "time": "+61.814s",
+          "points": 0
+        },
+        {
+          "position": 13,
+          "number": 31,
+          "driver": "Esteban Ocon",
+          "team": "haas",
+          "laps": 23,
+          "time": "+64.209s",
+          "points": 0
+        },
+        {
+          "position": 14,
+          "number": 11,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "laps": 23,
+          "time": "+70.402s",
+          "points": 0
+        },
+        {
+          "position": 15,
+          "number": 27,
+          "driver": "Nico Hulkenberg",
+          "team": "audi",
+          "laps": 23,
+          "time": "+72.158s",
+          "points": 0
+        },
+        {
+          "position": 16,
+          "number": 18,
+          "driver": "Lance Stroll",
+          "team": "ast",
+          "laps": 22,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 17,
+          "number": 77,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "laps": 22,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 18,
+          "number": 87,
+          "driver": "Oliver Bearman",
+          "team": "haas",
+          "laps": 22,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 19,
+          "number": 23,
+          "driver": "Alexander Albon",
+          "team": "will",
+          "laps": 22,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 20,
+          "number": 10,
+          "driver": "Pierre Gasly",
+          "team": "alp",
+          "laps": 22,
+          "time": "+1 lap",
+          "points": 0
+        },
+        {
+          "position": 21,
+          "number": 6,
+          "driver": "Isack Hadjar",
+          "team": "redb",
+          "laps": 20,
+          "time": "+3 laps",
+          "points": 0
+        },
+        {
+          "position": "NC",
+          "number": 14,
+          "driver": "Fernando Alonso",
+          "team": "ast",
+          "laps": 15,
+          "time": "DNF",
+          "points": 0
+        }
+      ],
+      "polePosition": {
+        "driver": "George Russell",
+        "team": "Mercedes",
+        "time": "1:12.578"
+      }
+    }
   },
   {
     "id": 8,
     "name": "Gran Premio de Mónaco",
-    "weekend": ["2026-05-22", "2026-05-23", "2026-05-24"],
+    "weekend": ["2026-06-05", "2026-06-06", "2026-06-07"],
     "hashtag": "#MonacoGP",
-    "initDay": "2026-05-22",
-    "finishDay": "2026-05-24",
+    "initDay": "2026-06-05",
+    "finishDay": "2026-06-07",
     "track2D": "/tracks-2d/Monaco.avif",
     "image": "/tracks/Monaco.webp",
     "infoTrack": {
@@ -381,43 +2197,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-05-22",
-        "time": "11:30"
+        "date": "2026-06-05",
+        "time": "08:30"
       },
       {
         "name": "Práctica 2",
-        "date": "2026-05-22",
-        "time": "15:00"
+        "date": "2026-06-05",
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
-        "date": "2026-05-23",
-        "time": "10:30"
+        "date": "2026-06-06",
+        "time": "07:30"
       },
       {
         "name": "Clasificación",
-        "date": "2026-05-23",
-        "time": "14:00"
+        "date": "2026-06-06",
+        "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-05-24",
-        "time": "13:00"
+        "date": "2026-06-07",
+        "time": "10:00"
       }
     ],
     "sprint": false
   },
   {
     "id": 9,
-    "name": "Gran Premio de España",
-    "weekend": ["2026-06-05", "2026-06-06", "2026-06-07"],
+    "name": "Gran Premio de Barcelona",
+    "weekend": ["2026-06-12", "2026-06-13", "2026-06-14"],
     "hashtag": "#SpanishGP",
-    "initDay": "2026-06-05",
-    "finishDay": "2026-06-07",
+    "initDay": "2026-06-12",
+    "finishDay": "2026-06-14",
     "track2D": "/tracks-2d/Espana.avif",
     "image": "/tracks/Espana.webp",
     "infoTrack": {
@@ -432,94 +2248,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-06-05",
-        "time": "11:30"
+        "date": "2026-06-12",
+        "time": "08:30"
       },
       {
         "name": "Práctica 2",
-        "date": "2026-06-05",
-        "time": "15:00"
+        "date": "2026-06-12",
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
-        "date": "2026-06-06",
-        "time": "10:30"
+        "date": "2026-06-13",
+        "time": "07:30"
       },
       {
         "name": "Clasificación",
-        "date": "2026-06-06",
-        "time": "14:00"
+        "date": "2026-06-13",
+        "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-06-07",
-        "time": "13:00"
+        "date": "2026-06-14",
+        "time": "10:00"
       }
     ],
     "sprint": false
   },
   {
     "id": 10,
-    "name": "Gran Premio de Canadá",
-    "weekend": ["2026-06-19", "2026-06-20", "2026-06-21"],
-    "hashtag": "#CanadianGP",
-    "initDay": "2026-06-19",
-    "finishDay": "2026-06-21",
-    "track2D": "/tracks-2d/Canada.avif",
-    "image": "/tracks/Canada.webp",
-    "infoTrack": {
-      "name": "Circuit Gilles Villeneuve",
-      "location": "Montreal, Canadá",
-      "length": "4.361 km",
-      "laps": "70",
-      "distance": "305.270 km",
-      "curves": "14",
-      "lapRecord": "1:13.078 - Valtteri Bottas (2019)"
-    },
-    "friday": [
-      {
-        "name": "Práctica 1",
-        "date": "2026-06-19",
-        "time": "17:30"
-      },
-      {
-        "name": "Práctica 2",
-        "date": "2026-06-19",
-        "time": "21:00"
-      }
-    ],
-    "saturday": [
-      {
-        "name": "Práctica 3",
-        "date": "2026-06-20",
-        "time": "16:30"
-      },
-      {
-        "name": "Clasificación",
-        "date": "2026-06-20",
-        "time": "20:00"
-      }
-    ],
-    "sunday": [
-      {
-        "name": "Gran Premio",
-        "date": "2026-06-21",
-        "time": "18:00"
-      }
-    ],
-    "sprint": false
-  },
-  {
-    "id": 11,
     "name": "Gran Premio de Austria",
-    "weekend": ["2026-07-03", "2026-07-04", "2026-07-05"],
+    "weekend": ["2026-06-26", "2026-06-27", "2026-06-28"],
     "hashtag": "#AustrianGP",
-    "initDay": "2026-07-03",
-    "finishDay": "2026-07-05",
+    "initDay": "2026-06-26",
+    "finishDay": "2026-06-28",
     "track2D": "/tracks-2d/Austria.avif",
     "image": "/tracks/Austria.webp",
     "infoTrack": {
@@ -534,43 +2299,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-07-03",
-        "time": "11:30"
+        "date": "2026-06-26",
+        "time": "08:30"
       },
       {
-        "name": "Clasificación Sprint",
-        "date": "2026-07-03",
-        "time": "15:30"
+        "name": "Práctica 2",
+        "date": "2026-06-26",
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
-        "name": "Carrera Sprint",
-        "date": "2026-07-04",
-        "time": "10:00"
+        "name": "Práctica 3",
+        "date": "2026-06-27",
+        "time": "07:30"
       },
       {
-        "name": "Clasificación Gran Premio",
-        "date": "2026-07-04",
-        "time": "14:00"
+        "name": "Clasificación",
+        "date": "2026-06-27",
+        "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-07-05",
-        "time": "13:00"
+        "date": "2026-06-28",
+        "time": "10:00"
       }
     ],
-    "sprint": true
+    "sprint": false
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Gran Premio de Gran Bretaña",
-    "weekend": ["2026-07-17", "2026-07-18", "2026-07-19"],
+    "weekend": ["2026-07-03", "2026-07-04", "2026-07-05"],
     "hashtag": "#BritishGP",
-    "initDay": "2026-07-17",
-    "finishDay": "2026-07-19",
+    "initDay": "2026-07-03",
+    "finishDay": "2026-07-05",
     "track2D": "/tracks-2d/Silverstone.avif",
     "image": "/tracks/Silverstone.webp",
     "infoTrack": {
@@ -585,94 +2350,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-07-17",
+        "date": "2026-07-03",
+        "time": "08:30"
+      },
+      {
+        "name": "Clasificación Sprint",
+        "date": "2026-07-03",
         "time": "12:30"
-      },
-      {
-        "name": "Práctica 2",
-        "date": "2026-07-17",
-        "time": "16:00"
       }
     ],
     "saturday": [
       {
-        "name": "Práctica 3",
-        "date": "2026-07-18",
-        "time": "11:30"
+        "name": "Carrera Sprint",
+        "date": "2026-07-04",
+        "time": "08:00"
       },
       {
-        "name": "Clasificación",
-        "date": "2026-07-18",
-        "time": "15:00"
+        "name": "Clasificación Gran Premio",
+        "date": "2026-07-04",
+        "time": "12:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-07-19",
-        "time": "14:00"
+        "date": "2026-07-05",
+        "time": "11:00"
       }
     ],
-    "sprint": false
+    "sprint": true
   },
   {
-    "id": 13,
-    "name": "Gran Premio de Hungría",
-    "weekend": ["2026-07-31", "2026-08-01", "2026-08-02"],
-    "hashtag": "#HungarianGP",
-    "initDay": "2026-07-31",
-    "finishDay": "2026-08-02",
-    "track2D": "/tracks-2d/Hungria.avif",
-    "image": "/tracks/Hungary.webp",
-    "infoTrack": {
-      "name": "Hungaroring",
-      "location": "Budapest, Hungría",
-      "length": "4.381 km",
-      "laps": "70",
-      "distance": "306.630 km",
-      "curves": "14",
-      "lapRecord": "1:16.627 - Lewis Hamilton (2020)"
-    },
-    "friday": [
-      {
-        "name": "Práctica 1",
-        "date": "2026-07-31",
-        "time": "11:30"
-      },
-      {
-        "name": "Práctica 2",
-        "date": "2026-07-31",
-        "time": "15:00"
-      }
-    ],
-    "saturday": [
-      {
-        "name": "Práctica 3",
-        "date": "2026-08-01",
-        "time": "10:30"
-      },
-      {
-        "name": "Clasificación",
-        "date": "2026-08-01",
-        "time": "14:00"
-      }
-    ],
-    "sunday": [
-      {
-        "name": "Gran Premio",
-        "date": "2026-08-02",
-        "time": "13:00"
-      }
-    ],
-    "sprint": false
-  },
-  {
-    "id": 14,
+    "id": 12,
     "name": "Gran Premio de Bélgica",
-    "weekend": ["2026-08-14", "2026-08-15", "2026-08-16"],
+    "weekend": ["2026-07-17", "2026-07-18", "2026-07-19"],
     "hashtag": "#BelgianGP",
-    "initDay": "2026-08-14",
-    "finishDay": "2026-08-16",
+    "initDay": "2026-07-17",
+    "finishDay": "2026-07-19",
     "track2D": "/tracks-2d/Belgica.png",
     "image": "/tracks/Belgium.webp",
     "infoTrack": {
@@ -687,43 +2401,94 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-08-14",
-        "time": "11:30"
+        "date": "2026-07-17",
+        "time": "07:30"
       },
       {
-        "name": "Clasificación Sprint",
-        "date": "2026-08-14",
-        "time": "15:30"
+        "name": "Práctica 2",
+        "date": "2026-07-17",
+        "time": "11:00"
       }
     ],
     "saturday": [
       {
-        "name": "Carrera Sprint",
-        "date": "2026-08-15",
-        "time": "10:00"
+        "name": "Práctica 3",
+        "date": "2026-07-18",
+        "time": "07:30"
       },
       {
-        "name": "Clasificación Gran Premio",
-        "date": "2026-08-15",
-        "time": "14:00"
+        "name": "Clasificación",
+        "date": "2026-07-18",
+        "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-08-16",
-        "time": "13:00"
+        "date": "2026-07-19",
+        "time": "10:00"
       }
     ],
-    "sprint": true
+    "sprint": false
   },
   {
-    "id": 15,
+    "id": 13,
+    "name": "Gran Premio de Hungría",
+    "weekend": ["2026-07-24", "2026-07-25", "2026-07-28"],
+    "hashtag": "#HungarianGP",
+    "initDay": "2026-07-24",
+    "finishDay": "2026-07-28",
+    "track2D": "/tracks-2d/Hungria.avif",
+    "image": "/tracks/Hungary.webp",
+    "infoTrack": {
+      "name": "Hungaroring",
+      "location": "Budapest, Hungría",
+      "length": "4.381 km",
+      "laps": "70",
+      "distance": "306.630 km",
+      "curves": "14",
+      "lapRecord": "1:16.627 - Lewis Hamilton (2020)"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
+        "date": "2026-07-24",
+        "time": "08:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-07-24",
+        "time": "11:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-07-25",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-07-25",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-07-28",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 14,
     "name": "Gran Premio de Países Bajos",
-    "weekend": ["2026-08-28", "2026-08-29", "2026-08-30"],
+    "weekend": ["2026-08-21", "2026-08-22", "2026-08-23"],
     "hashtag": "#DutchGP",
-    "initDay": "2026-08-28",
-    "finishDay": "2026-08-30",
+    "initDay": "2026-08-21",
+    "finishDay": "2026-08-23",
     "track2D": "/tracks-2d/Holanda.avif",
     "image": "/tracks/Netherlands.webp",
     "infoTrack": {
@@ -738,43 +2503,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-08-28",
-        "time": "10:30"
+        "date": "2026-08-21",
+        "time": "07:30"
       },
       {
-        "name": "Práctica 2",
-        "date": "2026-08-28",
-        "time": "14:00"
+        "name": "Clasificación Sprint",
+        "date": "2026-08-21",
+        "time": "11:30"
       }
     ],
     "saturday": [
       {
-        "name": "Práctica 3",
-        "date": "2026-08-29",
-        "time": "09:30"
+        "name": "Carrera Sprint",
+        "date": "2026-08-22",
+        "time": "07:00"
       },
       {
-        "name": "Clasificación",
-        "date": "2026-08-29",
-        "time": "13:00"
+        "name": "Clasificación Gran Premio",
+        "date": "2026-08-22",
+        "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-08-30",
-        "time": "13:00"
+        "date": "2026-08-23",
+        "time": "10:00"
       }
     ],
-    "sprint": false
+    "sprint": true
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Gran Premio de Italia",
-    "weekend": ["2026-09-11", "2026-09-12", "2026-09-13"],
+    "weekend": ["2026-09-04", "2026-09-05", "2026-09-06"],
     "hashtag": "#ItalianGP",
-    "initDay": "2026-09-11",
-    "finishDay": "2026-09-13",
+    "initDay": "2026-09-04",
+    "finishDay": "2026-09-06",
     "track2D": "/tracks-2d/Monza.avif",
     "image": "/tracks/Monza.webp",
     "infoTrack": {
@@ -789,32 +2554,83 @@
     "friday": [
       {
         "name": "Práctica 1",
+        "date": "2026-09-04",
+        "time": "08:30"
+      },
+      {
+        "name": "Práctica 2",
+        "date": "2026-09-04",
+        "time": "12:00"
+      }
+    ],
+    "saturday": [
+      {
+        "name": "Práctica 3",
+        "date": "2026-09-05",
+        "time": "07:30"
+      },
+      {
+        "name": "Clasificación",
+        "date": "2026-09-05",
+        "time": "11:00"
+      }
+    ],
+    "sunday": [
+      {
+        "name": "Gran Premio",
+        "date": "2026-09-06",
+        "time": "10:00"
+      }
+    ],
+    "sprint": false
+  },
+  {
+    "id": 16,
+    "name": "Gran Premio de España",
+    "weekend": ["2026-09-11", "2026-09-12", "2026-09-13"],
+    "hashtag": "#SpanishGP",
+    "initDay": "2026-09-11",
+    "finishDay": "2026-09-13",
+    "track2D": "/tracks-2d/Madrid.avif",
+    "image": "/tracks/Azerbaijan.webp",
+    "infoTrack": {
+      "name": "Madring Circuit",
+      "location": "Madrid, España",
+      "length": "5.416 km",
+      "laps": "57",
+      "distance": "308.524 km",
+      "curves": "22",
+      "lapRecord": "No hay récord de vuelta - Circuito nuevo"
+    },
+    "friday": [
+      {
+        "name": "Práctica 1",
         "date": "2026-09-11",
-        "time": "11:30"
+        "time": "08:30"
       },
       {
         "name": "Práctica 2",
         "date": "2026-09-11",
-        "time": "15:00"
+        "time": "12:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
         "date": "2026-09-12",
-        "time": "10:30"
+        "time": "07:30"
       },
       {
         "name": "Clasificación",
         "date": "2026-09-12",
-        "time": "14:00"
+        "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
         "date": "2026-09-13",
-        "time": "13:00"
+        "time": "10:00"
       }
     ],
     "sprint": false
@@ -822,10 +2638,10 @@
   {
     "id": 17,
     "name": "Gran Premio de Azerbaiyán",
-    "weekend": ["2026-09-25", "2026-09-26", "2026-09-27"],
+    "weekend": ["2026-09-24", "2026-09-25", "2026-09-26"],
     "hashtag": "#AzerbaijanGP",
-    "initDay": "2026-09-25",
-    "finishDay": "2026-09-27",
+    "initDay": "2026-09-24",
+    "finishDay": "2026-09-26",
     "track2D": "/tracks-2d/Baku.avif",
     "image": "/tracks/Azerbaijan.webp",
     "infoTrack": {
@@ -840,32 +2656,32 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-09-25",
-        "time": "09:30"
+        "date": "2026-09-24",
+        "time": "05:30"
       },
       {
         "name": "Práctica 2",
-        "date": "2026-09-25",
-        "time": "13:00"
+        "date": "2026-09-24",
+        "time": "09:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
-        "date": "2026-09-26",
-        "time": "08:30"
+        "date": "2026-09-25",
+        "time": "06:30"
       },
       {
         "name": "Clasificación",
-        "date": "2026-09-26",
-        "time": "12:00"
+        "date": "2026-09-25",
+        "time": "10:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-09-27",
-        "time": "11:00"
+        "date": "2026-09-26",
+        "time": "08:00"
       }
     ],
     "sprint": false
@@ -892,34 +2708,34 @@
       {
         "name": "Práctica 1",
         "date": "2026-10-09",
-        "time": "11:30"
+        "time": "06:30"
       },
       {
-        "name": "Práctica 2",
+        "name": "Clasificación Sprint",
         "date": "2026-10-09",
-        "time": "15:00"
+        "time": "10:30"
       }
     ],
     "saturday": [
       {
-        "name": "Práctica 3",
+        "name": "Carrera Sprint",
         "date": "2026-10-10",
-        "time": "11:30"
+        "time": "06:00"
       },
       {
-        "name": "Clasificación",
+        "name": "Clasificación Gran Premio",
         "date": "2026-10-10",
-        "time": "15:00"
+        "time": "10:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
         "date": "2026-10-11",
-        "time": "14:00"
+        "time": "09:00"
       }
     ],
-    "sprint": false
+    "sprint": true
   },
   {
     "id": 19,
@@ -943,42 +2759,42 @@
       {
         "name": "Práctica 1",
         "date": "2026-10-23",
-        "time": "18:30"
+        "time": "14:30"
       },
       {
-        "name": "Clasificación Sprint",
+        "name": "Práctica 2",
         "date": "2026-10-23",
-        "time": "22:30"
+        "time": "18:00"
       }
     ],
     "saturday": [
       {
-        "name": "Carrera Sprint",
+        "name": "Práctica 3",
         "date": "2026-10-24",
-        "time": "18:00"
+        "time": "15:30"
       },
       {
-        "name": "Clasificación Gran Premio",
+        "name": "Clasificación",
         "date": "2026-10-24",
-        "time": "22:00"
+        "time": "19:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
         "date": "2026-10-25",
-        "time": "19:00"
+        "time": "13:00"
       }
     ],
-    "sprint": true
+    "sprint": false
   },
   {
     "id": 20,
     "name": "Gran Premio de México",
-    "weekend": ["2026-11-06", "2026-11-07", "2026-11-08"],
+    "weekend": ["2026-10-30", "2026-10-31", "2026-11-01"],
     "hashtag": "#MexicoGP",
-    "initDay": "2026-11-06",
-    "finishDay": "2026-11-08",
+    "initDay": "2026-10-30",
+    "finishDay": "2026-11-01",
     "track2D": "/tracks-2d/Mexico.avif",
     "image": "/tracks/Mexico.webp",
     "infoTrack": {
@@ -993,32 +2809,32 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-11-06",
-        "time": "18:30"
+        "date": "2026-10-30",
+        "time": "15:30"
       },
       {
         "name": "Práctica 2",
-        "date": "2026-11-06",
-        "time": "22:00"
+        "date": "2026-10-30",
+        "time": "19:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
-        "date": "2026-11-07",
-        "time": "17:30"
+        "date": "2026-10-31",
+        "time": "14:30"
       },
       {
         "name": "Clasificación",
-        "date": "2026-11-07",
-        "time": "21:00"
+        "date": "2026-10-31",
+        "time": "18:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-11-08",
-        "time": "20:00"
+        "date": "2026-11-01",
+        "time": "11:00"
       }
     ],
     "sprint": false
@@ -1026,10 +2842,10 @@
   {
     "id": 21,
     "name": "Gran Premio de Brasil",
-    "weekend": ["2026-11-20", "2026-11-21", "2026-11-22"],
+    "weekend": ["2026-11-06", "2026-11-07", "2026-11-08"],
     "hashtag": "#BrazilGP",
-    "initDay": "2026-11-20",
-    "finishDay": "2026-11-22",
+    "initDay": "2026-11-06",
+    "finishDay": "2026-11-08",
     "track2D": "/tracks-2d/Brasil.avif",
     "image": "/tracks/Brazil.webp",
     "infoTrack": {
@@ -1044,43 +2860,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-11-20",
-        "time": "14:30"
+        "date": "2026-11-06",
+        "time": "11:30"
       },
       {
-        "name": "Clasificación Sprint",
-        "date": "2026-11-20",
-        "time": "18:30"
+        "name": "Práctica 2",
+        "date": "2026-11-06",
+        "time": "15:00"
       }
     ],
     "saturday": [
       {
-        "name": "Carrera Sprint",
-        "date": "2026-11-21",
-        "time": "14:00"
+        "name": "Práctica 3",
+        "date": "2026-11-07",
+        "time": "11:30"
       },
       {
-        "name": "Clasificación Gran Premio",
-        "date": "2026-11-21",
-        "time": "18:00"
+        "name": "Clasificación",
+        "date": "2026-11-07",
+        "time": "15:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-11-22",
-        "time": "16:00"
+        "date": "2026-11-08",
+        "time": "14:00"
       }
     ],
-    "sprint": true
+    "sprint": false
   },
   {
     "id": 22,
     "name": "Gran Premio de Las Vegas",
-    "weekend": ["2026-12-04", "2026-12-05", "2026-12-06"],
+    "weekend": ["2026-11-19", "2026-11-20", "2026-11-21"],
     "hashtag": "#LasVegasGP",
-    "initDay": "2026-12-04",
-    "finishDay": "2026-12-06",
+    "initDay": "2026-11-19",
+    "finishDay": "2026-11-21",
     "track2D": "/tracks-2d/LasVegas.avif",
     "image": "/tracks/LasVegas.webp",
     "infoTrack": {
@@ -1095,32 +2911,32 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-12-04",
-        "time": "03:30"
+        "date": "2026-11-19",
+        "time": "23:30"
       },
       {
         "name": "Práctica 2",
-        "date": "2026-12-04",
-        "time": "07:00"
+        "date": "2026-11-19",
+        "time": "03:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
-        "date": "2026-12-05",
-        "time": "03:30"
+        "date": "2026-11-20",
+        "time": "23:30"
       },
       {
         "name": "Clasificación",
-        "date": "2026-12-05",
-        "time": "07:00"
+        "date": "2026-11-20",
+        "time": "03:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-12-06",
-        "time": "07:00"
+        "date": "2026-11-21",
+        "time": "01:00"
       }
     ],
     "sprint": false
@@ -1128,10 +2944,10 @@
   {
     "id": 23,
     "name": "Gran Premio de Catar",
-    "weekend": ["2026-12-11", "2026-12-12", "2026-12-13"],
+    "weekend": ["2026-11-27", "2026-11-28", "2026-11-29"],
     "hashtag": "#QatarGP",
-    "initDay": "2026-12-11",
-    "finishDay": "2026-12-13",
+    "initDay": "2026-11-27",
+    "finishDay": "2026-11-29",
     "track2D": "/tracks-2d/Qatar.avif",
     "image": "/tracks/Qatar.webp",
     "infoTrack": {
@@ -1146,43 +2962,43 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-12-11",
-        "time": "12:30"
+        "date": "2026-11-27",
+        "time": "10:30"
       },
       {
-        "name": "Clasificación Sprint",
-        "date": "2026-12-11",
-        "time": "16:30"
+        "name": "Práctica 2",
+        "date": "2026-11-27",
+        "time": "14:00"
       }
     ],
     "saturday": [
       {
-        "name": "Carrera Sprint",
-        "date": "2026-12-12",
-        "time": "13:00"
+        "name": "Práctica 3",
+        "date": "2026-11-28",
+        "time": "11:30"
       },
       {
-        "name": "Clasificación Gran Premio",
-        "date": "2026-12-12",
-        "time": "17:00"
+        "name": "Clasificación",
+        "date": "2026-11-28",
+        "time": "15:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-12-13",
-        "time": "16:00"
+        "date": "2026-11-29",
+        "time": "13:00"
       }
     ],
-    "sprint": true
+    "sprint": false
   },
   {
     "id": 24,
     "name": "Gran Premio de Abu Dabi",
-    "weekend": ["2026-12-18", "2026-12-19", "2026-12-20"],
+    "weekend": ["2026-12-04", "2026-12-05", "2026-12-06"],
     "hashtag": "#AbuDhabiGP",
-    "initDay": "2026-12-18",
-    "finishDay": "2026-12-20",
+    "initDay": "2026-12-04",
+    "finishDay": "2026-12-06",
     "track2D": "/tracks-2d/AbuDhabi.avif",
     "image": "/tracks/AbuDhabi.webp",
     "infoTrack": {
@@ -1197,31 +3013,31 @@
     "friday": [
       {
         "name": "Práctica 1",
-        "date": "2026-12-18",
+        "date": "2026-12-04",
         "time": "06:30"
       },
       {
         "name": "Práctica 2",
-        "date": "2026-12-18",
+        "date": "2026-12-04",
         "time": "10:00"
       }
     ],
     "saturday": [
       {
         "name": "Práctica 3",
-        "date": "2026-12-19",
+        "date": "2026-12-05",
         "time": "07:30"
       },
       {
         "name": "Clasificación",
-        "date": "2026-12-19",
+        "date": "2026-12-05",
         "time": "11:00"
       }
     ],
     "sunday": [
       {
         "name": "Gran Premio",
-        "date": "2026-12-20",
+        "date": "2026-12-06",
         "time": "10:00"
       }
     ],

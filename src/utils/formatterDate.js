@@ -1,18 +1,18 @@
 export const formaterDate = (date) => {
   // date = ["2025-04-04", "2025-04-05", "2025-04-06"]
 
-  const formattedDates = date.map((date) => {
-    const d = new Date(date);
-    return d.getDate() + 1; // Obtiene el día del mes
+  const formattedDates = date.map((d) => {
+    return parseInt(d.split("-")[2], 10);
   });
 
-  const month = new Date(date[0]).toLocaleDateString("es-ES", {
+  const [year, month, day] = date[0].split("-").map(Number);
+  const monthName = new Date(year, month - 1, day).toLocaleDateString("es-ES", {
     month: "long",
   });
 
   const result = `${formattedDates
     .slice(0, -1)
-    .join(", ")} y ${formattedDates.slice(-1)} de ${month}`;
+    .join(", ")} y ${formattedDates.slice(-1)} de ${monthName}`;
 
   return result;
 };
