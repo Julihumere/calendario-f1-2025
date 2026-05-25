@@ -170,7 +170,8 @@ export default function Admin() {
           driver: row.driver || row.Driver || row.Piloto || "",
           team: row.team || row.Team || row.Equipo || "",
           laps: row.laps ?? row.Laps ?? row.Vueltas ?? 0,
-          time: row.time || row.Time || row.Tiempo || row["Time / Retired"] || "",
+          time:
+            row.time || row.Time || row.Tiempo || row["Time / Retired"] || "",
           points: row.points ?? row.Points ?? row.Puntos ?? row["Pts."] ?? 0,
         }));
 
