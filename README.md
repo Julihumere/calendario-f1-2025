@@ -6,8 +6,8 @@ Bienvenido a la aplicación **F1 2025 - Calendario y Horarios**, donde podrás c
 
 - 📅 **Calendario completo de la temporada 2025**.
 - ⏰ **Horarios de transmisión para Argentina**.
-- 🏎️ **Detalles de cada circuito** (longitud, curvas, velocidad promedio, etc.).
-- 🏆 **Resultados del campeonato de pilotos y constructores** (próximamente).
+- 🏎️ **Detalles de cada circuito**
+- 🏆 **Resultados del campeonato de pilotos y constructores**
 
 ## Instalación
 
@@ -32,7 +32,7 @@ npm start
 1. Abre la aplicación y navega por el calendario de la F1 2025.
 2. Consulta los horarios de transmisión en Argentina para cada Gran Premio.
 3. Revisa la información detallada de cada circuito.
-4. Próximamente: Sigue la evolución del campeonato con los resultados actualizados.
+4. Sigue la evolución del campeonato con los resultados actualizados.
 
 ## Licencia
 
